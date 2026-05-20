@@ -94,6 +94,23 @@
   featuredRank: 5
   published: true
 
+- title: The Great Pearl Wave
+  slug: the-great-pearl-wave
+  artistReference: Katsushika Hokusai
+  sourceWork: The Great Wave off Kanagawa
+  yearOrPeriod: c. 1831 ukiyo-e translation
+  era: Tidal Print Archive
+  categories:
+    - Ukiyo-e Currents
+    - Maritime Labor
+  image: /images/artworks/the-great-pearl-wave.png
+  imageAlt: A Hokusai-like ukiyo-e print of shrimp-folk sailors in reef boats beneath a towering blue wave, with a distant pearl-volcano on the horizon.
+  summary: A disciplined tidal print where wave, boat, labor, and sacred horizon carry shrimp-folk maritime culture into ukiyo-e form.
+  description: A Masterpiece Tier accession opening the Tidal Print Archive, notable for its clear wave hierarchy, restrained palette, and inevitable integration of shrimp-folk sailors into the famous offshore crisis.
+  featured: true
+  featuredRank: 9
+  published: true
+
 - title: Shrimp with a Pearl Earring
   slug: shrimp-with-a-pearl-earring
   artistReference: Johannes Vermeer
@@ -321,6 +338,22 @@
   featuredRank: 7
   published: true
 
+- title: Water Lilies of the Reef Garden
+  slug: water-lilies-of-the-reef-garden
+  artistReference: Claude Monet
+  sourceWork: Water Lilies series
+  yearOrPeriod: Early 20th Century Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Garden Reflections
+    - Impressionist Ponds
+  image: /images/artworks/water-lilies-of-the-reef-garden.png
+  imageAlt: A Monet-like shrimp-folk reef garden pond with water lilies, soft reflections, an arched bridge, and subtle shrimp-folk figures in loose brushwork.
+  summary: A luminous pond study where shrimp-folk garden culture is felt through reflection, bridge, lily, and broken color.
+  description: A Gallery Tier Impressionist accession, deliberately quiet in its shrimp-folk presence so that atmosphere, paint surface, and designed reef-garden space remain the primary subject.
+  featured: false
+  published: true
+
 - title: The Reef Watch
   slug: the-reef-watch
   artistReference: Rembrandt van Rijn
@@ -336,4 +369,37 @@
   description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, preserving the crowded civic staging and dramatic illumination of the source while giving every figure coherent shell-world anatomy.
   featured: true
   featuredRank: 6
+  published: true
+
+- title: Four Divas of the Current
+  slug: four-divas-of-the-current
+  artistReference: Andy Warhol
+  sourceWork: Celebrity silkscreen portrait grids
+  yearOrPeriod: 1960s Pop Art translation
+  era: Pop Art Aquarium
+  categories:
+    - Silkscreen Icons
+    - Fame & Repetition
+  image: /images/artworks/four-divas-of-the-current.png
+  imageAlt: A four-panel Pop Art silkscreen grid repeating a glamorous shrimp-folk diva portrait in bright magenta, blue, yellow, and green colorways.
+  summary: A crisp postwar image-system study where celebrity, shell surface, and mechanical repetition become reef-world spectacle.
+  description: A Gallery Tier Pop Art accession acquired to broaden the museum's postwar holdings, strong for its frontal icon structure, clean quadrant logic, and refusal of easy food-packaging parody.
+  featured: false
+  published: true
+
+- title: Wanderer Above the Fog Sea
+  slug: wanderer-above-the-fog-sea
+  artistReference: Caspar David Friedrich
+  sourceWork: Wanderer above the Sea of Fog
+  yearOrPeriod: c. 1818 Romantic translation
+  era: Romantic Abyss
+  categories:
+    - Sublime Seascapes
+    - Solitary Contemplation
+  image: /images/artworks/wanderer-above-the-fog-sea.png
+  imageAlt: A Friedrich-like Romantic painting of a cloaked shrimp-folk figure seen from behind on a black reef cliff above a vast misty ocean.
+  summary: A sublime seascape where the lone shrimp-folk back figure turns oceanic scale into metaphysical inwardness.
+  description: A Masterpiece Tier accession for the new Romantic Abyss wing, preserving Friedrich's back-view solitude while replacing alpine fog with the shrimp-folk civilization's infinite, rock-strewn sea.
+  featured: true
+  featuredRank: 10
   published: true
