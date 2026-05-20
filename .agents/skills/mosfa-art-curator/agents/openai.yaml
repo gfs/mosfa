@@ -1,0 +1,7 @@
+interface:
+  display_name: "MOSFA Art Curator"
+  short_description: "Curate shrimp-folk museum artworks"
+  default_prompt: "Use $mosfa-art-curator to develop, evaluate, or accession a Museum of Shrimp-Folk Art artwork."
+
+policy:
+  allow_implicit_invocation: true
