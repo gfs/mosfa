@@ -91,6 +91,23 @@
   summary: A mythic arrival scene translating Renaissance grace into shell-born shrimp-folk anatomy and ritual coastal atmosphere.
   description: A Masterpiece Tier accession for the Crustacean Renaissance Wing, preserving the iconic shell, shoreline, attendants, and balanced stillness while making the central body fully crustacean rather than decorative.
   featured: true
+  featuredRank: 5
+  published: true
+
+- title: Shrimp with a Pearl Earring
+  slug: shrimp-with-a-pearl-earring
+  artistReference: Johannes Vermeer
+  sourceWork: Girl with a Pearl Earring
+  yearOrPeriod: c. 1665 Dutch Golden Age translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Dutch Golden Age Portraiture
+    - Chiaroscuro Ceremonies
+  image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
+  imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
+  summary: An intimate Dutch Golden Age portrait where shell, gaze, cloth, and pearl resolve into a single quiet moment.
+  description: A Masterpiece Tier portrait accession, preserving Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
+  featured: true
   featuredRank: 4
   published: true
 
@@ -284,7 +301,7 @@
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
   description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
   featured: true
-  featuredRank: 7
+  featuredRank: 8
   published: true
 
 - title: Starry Reef
@@ -301,7 +318,7 @@
   summary: A luminous reef nocturne where van Gogh's spiral sky becomes a cosmic current above a small shell village.
   description: A Masterpiece Tier accession for its immediate readability, rich brushwork, and graceful shrimp-folk integration, especially in the figures watching the sky from the reef foreground.
   featured: true
-  featuredRank: 6
+  featuredRank: 7
   published: true
 
 - title: The Reef Watch
@@ -318,5 +335,5 @@
   summary: A civic guard scene where Baroque theatrical light turns shrimp-folk armor, rank, and ceremony into public myth.
   description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, preserving the crowded civic staging and dramatic illumination of the source while giving every figure coherent shell-world anatomy.
   featured: true
-  featuredRank: 5
+  featuredRank: 6
   published: true
