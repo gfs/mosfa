@@ -76,3 +76,246 @@
   description: A Masterpiece Tier candidate for the Abstract Currents wing, notable for its restraint, axial clarity, and inevitable symbolic integration.
   featured: false
   published: true
+
+- title: Birth of the Pearl Current
+  slug: birth-of-pearl-current
+  artistReference: Sandro Botticelli
+  sourceWork: The Birth of Venus
+  yearOrPeriod: c. 1485 Renaissance translation
+  era: Crustacean Renaissance Wing
+  categories:
+    - Sacred & Mythic Currents
+    - Renaissance Translations
+  image: /images/artworks/birth-of-pearl-current.png
+  imageAlt: A shrimp-folk reinterpretation of Botticelli's Birth of Venus with a central figure standing in a shell as robed attendants gather at the shore.
+  summary: A mythic arrival scene translating Renaissance grace into shell-born shrimp-folk anatomy and ritual coastal atmosphere.
+  description: A Masterpiece Tier accession for the Crustacean Renaissance Wing, preserving the iconic shell, shoreline, attendants, and balanced stillness while making the central body fully crustacean rather than decorative.
+  featured: true
+  featuredRank: 4
+  published: true
+
+- title: First Touch of the Current
+  slug: first-touch-of-the-current
+  artistReference: Michelangelo Buonarroti
+  sourceWork: The Creation of Adam
+  yearOrPeriod: c. 1512 High Renaissance translation
+  era: Crustacean Renaissance Wing
+  categories:
+    - Sacred & Mythic Currents
+    - Creation Myths
+  image: /images/artworks/first-touch-of-the-current.png
+  imageAlt: A shrimp-folk reinterpretation of Michelangelo's Creation of Adam with two clawed figures reaching toward each other across an open field.
+  summary: A sacred origin image where the famous almost-touch becomes a charged meeting of claw, antenna, and divine current.
+  description: A faithful compositional translation of Michelangelo's fresco into shrimp-folk theology, maintaining the suspended gap, opposing bodies, and mythic pressure of the original gesture.
+  featured: false
+  published: true
+
+- title: Glory to the Deep Fleet
+  slug: glory-to-the-deep-fleet
+  artistReference: Soviet socialist propaganda
+  sourceWork: Constructivist naval and fleet-mobilization posters
+  yearOrPeriod: Interwar socialist realism and agitprop
+  era: Modernist Tank
+  categories:
+    - Socialist Propaganda
+    - Deep Fleet Posters
+  image: /images/artworks/glory-to-the-deep-fleet.png
+  imageAlt: A Soviet-style shrimp-folk naval propaganda poster with a decorated officer, red fleet banner, submarines, and marching sailors.
+  summary: A deep-sea fleet poster turning civic order, militarized ceremony, and abyssal expansion into one monumental image.
+  description: A Gallery Tier accession from the reef-state poster archive, notable for its strong diagonal banners, disciplined officer figure, and dense submarine worldbuilding beneath the slogans.
+  featured: false
+  published: true
+
+- title: Heroes of the Abyssal Fleet
+  slug: heroes-of-the-abyssal-fleet
+  artistReference: Soviet socialist futurism
+  sourceWork: Cosmonaut, heroic labor, and space-race propaganda posters
+  yearOrPeriod: Mid-20th Century socialist futurism
+  era: Modernist Tank
+  categories:
+    - Socialist Propaganda
+    - Abyssal Space Program
+  image: /images/artworks/heroes-of-the-abyssal-fleet.png
+  imageAlt: A retro Soviet-style poster of a shrimp-folk cosmonaut in a pressure suit raising a claw beside a rocket, red banners, and a massed crowd.
+  summary: A heroic futurist poster fusing oceanic pressure, space-race optimism, and collective civic spectacle.
+  description: This accession extends reef-state modernism upward and downward at once, treating cosmic ambition and deep-water endurance as parallel expressions of the same civic myth.
+  featured: false
+  published: true
+
+- title: Forward to the Red Current
+  slug: forward-to-the-red-current
+  artistReference: Soviet socialist industrial poster tradition
+  sourceWork: Labor, shipyard, and collective production propaganda posters
+  yearOrPeriod: Early to mid-20th Century industrial modernism
+  era: Modernist Tank
+  categories:
+    - Socialist Propaganda
+    - Labor & Industry
+  image: /images/artworks/forward-to-the-red-current.png
+  imageAlt: A red industrial propaganda poster showing a shrimp-folk worker raising a claw amid factories, ships, submarines, banners, and marching workers.
+  summary: A labor-myth image where shipyards, banners, and the raised claw become the grammar of collective reef industry.
+  description: A forceful Gallery Tier poster with strong red geometry and clear mass movement, accepted for its persuasive period language and cohesive industrial setting.
+  featured: false
+  published: true
+
+- title: Relativity of the Crustaceans
+  slug: relativity-of-the-crustaceans
+  artistReference: M.C. Escher
+  sourceWork: Relativity and tessellation studies
+  yearOrPeriod: 1950s mathematical modernism
+  era: Modernist Tank
+  categories:
+    - Impossible Architectures
+    - Graphic Currents
+  image: /images/artworks/relativity-of-the-crustaceans.png
+  imageAlt: A black-and-white Escher-like shrimp-folk scene where tessellated forms spiral into impossible stairways and architectural spaces.
+  summary: A dense recursive print where shrimp-folk bodies migrate from tessellation into impossible civic architecture.
+  description: A strong Gallery Tier graphic work, accepted for its disciplined black-and-white structure, repeating crustacean forms, and coherent transition from pattern into inhabited architecture.
+  featured: false
+  published: true
+
+- title: Procession of the Tall Carriers
+  slug: procession-of-the-tall-carriers
+  artistReference: Salvador Dali
+  sourceWork: The Elephants and surrealist processional landscapes
+  yearOrPeriod: Mid-20th Century Surrealism
+  era: Surrealist Depths
+  categories:
+    - Surrealist Processions
+    - Monumental Shells
+  image: /images/artworks/procession-of-the-tall-carriers.png
+  imageAlt: A surreal landscape of giant shrimp-like carriers on impossibly long legs bearing towers, statues, and small architectures across a luminous plain.
+  summary: A dream procession of stilt-legged shell carriers bearing civic monuments through a desert of suspended scale.
+  description: A Surrealist Depths accession that translates Dali's attenuated monument-bearers into reef anatomy, keeping the impossible legs, vast sky, and ceremonial unease intact.
+  featured: false
+  published: true
+
+- title: Shrimp un Chien Andalou Study
+  slug: shrimp-un-chien-andalou-study
+  artistReference: Luis Bunuel and Salvador Dali
+  sourceWork: Un Chien Andalou
+  yearOrPeriod: 1930s Surrealist film study
+  era: Surrealist Depths
+  categories:
+    - Surrealist Film
+    - Meta Surrealist Commentary
+  image: /images/artworks/shrimp-un-chien-andalou-study.png
+  imageAlt: A sepia curatorial study plate showing a shrimp-folk face in close-up as a razor crosses its compound eye, with explanatory museum notes at left.
+  summary: A process-plate accession preserving a severe surrealist film translation with its own curatorial rationale embedded beside it.
+  description: Kept as an intentional meta-surrealist object rather than a clean still, this work folds the prompt, critique, and museum logic into the image itself, making the act of curatorial explanation part of the disturbance.
+  featured: false
+  published: true
+
+- title: "Shrimp Pool No. 1: My Shell, My Problem"
+  slug: shrimp-pool-no-1
+  artistReference: Late 20th-century antihero comics
+  sourceWork: Irreverent antihero comic cover traditions
+  yearOrPeriod: Contemporary mass-culture remix
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Comic Covers
+    - Coral City
+  image: /images/artworks/shrimp-pool-no-1.png
+  imageAlt: A chaotic underwater comic cover for Shrimp Pool showing an armored red shrimp-folk antihero leaping through neon Coral City.
+  summary: A deliberately abrasive comic-cover parody that turns shell armor, city spectacle, and self-aware excess into its subject.
+  description: A Gallery Tier mass-culture accession, strongest as a study in visual noise, cover typography, and shrimp-folk antihero exaggeration rather than as restrained canon painting.
+  featured: false
+  published: true
+
+- title: The Spider-Shrimp No. 1
+  slug: spider-shrimp-no-1
+  artistReference: Silver Age superhero comics
+  sourceWork: Web-swinging superhero cover traditions
+  yearOrPeriod: 1960s comic-book cover homage
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Comic Covers
+    - Coral City
+  image: /images/artworks/spider-shrimp-no-1.png
+  imageAlt: A vintage comic cover for The Spider-Shrimp showing a red-and-blue shrimp-folk hero swinging through Coral City toward an electric eel villain.
+  summary: A bright Silver Age-style cover translating acrobatic urban heroics into buoyant reef-city motion.
+  description: Accepted as a Comic & Mass Culture Pavilion homage, this cover succeeds through legible action, dense city lighting, and playful conversion of web-swinging movement into underwater current physics.
+  featured: false
+  published: true
+
+- title: Bat-Shrimp No. 1
+  slug: bat-shrimp-no-1
+  artistReference: Nocturnal pulp superhero comics
+  sourceWork: Gothic detective and vigilante cover traditions
+  yearOrPeriod: Mid-century pulp comic homage
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Comic Covers
+    - Coral City
+  image: /images/artworks/bat-shrimp-no-1.png
+  imageAlt: A dark pulp comic cover for Bat-Shrimp showing a caped shrimp-folk vigilante crouched above an underwater city at night.
+  summary: A nocturnal reef-city cover where detective myth, cape silhouette, and shell anatomy merge into one shadow image.
+  description: "This mass-culture accession is strongest in atmosphere: the title typography, moonlit signal, wet city towers, and crouched clawed figure make the shrimp-folk vigilante archetype immediately readable."
+  featured: false
+  published: true
+
+- title: Super Shrimp No. 1
+  slug: super-shrimp-no-1
+  artistReference: Golden and Silver Age superhero comics
+  sourceWork: Patriotic superhero origin covers
+  yearOrPeriod: Mid-century comic-book cover homage
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Comic Covers
+    - Coral City
+  image: /images/artworks/super-shrimp-no-1.png
+  imageAlt: A bright vintage comic cover for Super Shrimp showing a caped shrimp-folk hero lifting a submarine above Coral City.
+  summary: A bold origin-cover homage built around a single heroic lift, primary colors, and reef-city spectacle.
+  description: "A Gallery Tier comic accession that works because its composition is cleaner than the surrounding action: the lifted submarine, red cape, and startled civic crowd all reinforce the central heroic silhouette."
+  featured: false
+  published: true
+
+- title: Action Current No. 1
+  slug: action-current-no-1
+  artistReference: Jackson Pollock
+  sourceWork: Action painting and drip abstraction
+  yearOrPeriod: Late 1940s-1950s Abstract Expressionism
+  era: Abstract Currents
+  categories:
+    - Action Painting
+    - Non-Humanoid Abstraction
+  image: /images/artworks/action-current-no-1.png
+  imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
+  summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
+  description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
+  featured: false
+  published: true
+
+- title: Starry Reef
+  slug: starry-reef
+  artistReference: Vincent van Gogh
+  sourceWork: The Starry Night
+  yearOrPeriod: 1889 Post-Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Post-Impressionist Nocturnes
+    - Reef Villages
+  image: /images/artworks/starry-reef.png
+  imageAlt: A shrimp-folk reinterpretation of The Starry Night with swirling blue sky, glowing stars, reef-like cypress forms, and a village beside water.
+  summary: A luminous reef nocturne where van Gogh's spiral sky becomes a cosmic current above a small shell village.
+  description: A Masterpiece Tier accession for its immediate readability, rich brushwork, and graceful shrimp-folk integration, especially in the figures watching the sky from the reef foreground.
+  featured: true
+  featuredRank: 6
+  published: true
+
+- title: The Reef Watch
+  slug: the-reef-watch
+  artistReference: Rembrandt van Rijn
+  sourceWork: The Night Watch
+  yearOrPeriod: 1642 Baroque civic portrait translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Civic Guard Portraiture
+    - Chiaroscuro Ceremonies
+  image: /images/artworks/the-reef-watch.png
+  imageAlt: A Rembrandt-like shrimp-folk civic guard portrait with richly dressed central figures, banners, spears, helmets, and dramatic golden light.
+  summary: A civic guard scene where Baroque theatrical light turns shrimp-folk armor, rank, and ceremony into public myth.
+  description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, preserving the crowded civic staging and dramatic illumination of the source while giving every figure coherent shell-world anatomy.
+  featured: true
+  featuredRank: 5
+  published: true
