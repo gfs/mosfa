@@ -1,0 +1,33 @@
+---
+import type { ArtworkEntry } from '../lib/artworks';
+import { withBase } from '../lib/paths';
+
+interface Props {
+	artwork: ArtworkEntry;
+}
+
+const { artwork } = Astro.props;
+---
+
+<article class="artwork-card">
+	<a href={withBase(`/artworks/${artwork.slug}/`)}>
+		<img
+			src={withBase(artwork.image)}
+			alt={artwork.imageAlt}
+			width="1200"
+			height="1200"
+			loading="lazy"
+		/>
+	</a>
+	<div class="artwork-card-body">
+		<h3>
+			<a href={withBase(`/artworks/${artwork.slug}/`)}>
+				{artwork.title}
+			</a>
+		</h3>
+		<p class="artwork-meta">
+			{artwork.artistReference} · {artwork.era}
+		</p>
+		<p>{artwork.summary}</p>
+	</div>
+</article>

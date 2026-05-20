@@ -1,0 +1,18 @@
+---
+import type { ArtworkEntry } from '../lib/artworks';
+import ArtworkCard from './ArtworkCard.astro';
+
+interface Props {
+	artworks: ArtworkEntry[];
+}
+
+const { artworks } = Astro.props;
+---
+
+<div class="artwork-grid">
+	{
+		artworks.map((artwork) => (
+			<ArtworkCard artwork={artwork} />
+		))
+	}
+</div>

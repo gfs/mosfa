@@ -1,0 +1,37 @@
+---
+import type { ArtworkEntry } from '../../lib/artworks';
+import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+import { groupByCategory, slugifyTaxonomy } from '../../lib/taxonomy';
+
+export async function getStaticPaths() {
+	const artworks = await getPublishedArtworks();
+	const grouped = groupByCategory(artworks);
+	return grouped.map(([label, groupedArtworks]) => ({
+		params: { category: slugifyTaxonomy(label) },
+		props: { categoryLabel: label, artworks: groupedArtworks },
+	}));
+}
+
+interface Props {
+	categoryLabel: string;
+	artworks: ArtworkEntry[];
+}
+
+const { categoryLabel, artworks } = Astro.props;
+---
+
+<BaseLayout
+	title={`${categoryLabel} | MOSFA`}
+	description={`Browse artworks in the ${categoryLabel} category.`}
+>
+	<section>
+		<h2>{categoryLabel}</h2>
+		<p class="lede">
+			{artworks.length} curated {artworks.length === 1 ? 'work' : 'works'} in this
+			category.
+		</p>
+		<ArtworkGrid artworks={artworks} />
+	</section>
+</BaseLayout>

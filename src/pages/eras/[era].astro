@@ -1,0 +1,37 @@
+---
+import type { ArtworkEntry } from '../../lib/artworks';
+import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+import { groupByEra, slugifyTaxonomy } from '../../lib/taxonomy';
+
+export async function getStaticPaths() {
+	const artworks = await getPublishedArtworks();
+	const grouped = groupByEra(artworks);
+	return grouped.map(([label, groupedArtworks]) => ({
+		params: { era: slugifyTaxonomy(label) },
+		props: { eraLabel: label, artworks: groupedArtworks },
+	}));
+}
+
+interface Props {
+	eraLabel: string;
+	artworks: ArtworkEntry[];
+}
+
+const { eraLabel, artworks } = Astro.props;
+---
+
+<BaseLayout
+	title={`${eraLabel} | MOSFA`}
+	description={`Browse artworks in the ${eraLabel} era.`}
+>
+	<section>
+		<h2>{eraLabel}</h2>
+		<p class="lede">
+			{artworks.length} curated {artworks.length === 1 ? 'work' : 'works'} in this
+			era.
+		</p>
+		<ArtworkGrid artworks={artworks} />
+	</section>
+</BaseLayout>

@@ -1,0 +1,66 @@
+---
+import type { ArtworkEntry } from '../../lib/artworks';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+import { slugifyTaxonomy } from '../../lib/taxonomy';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+	const artworks = await getPublishedArtworks();
+	return artworks.map((artwork) => ({
+		params: { slug: artwork.slug },
+		props: { artwork },
+	}));
+}
+
+interface Props {
+	artwork: ArtworkEntry;
+}
+
+const { artwork } = Astro.props;
+---
+
+<BaseLayout
+	title={`${artwork.title} | MOSFA`}
+	description={artwork.summary}
+>
+	<article class="artwork-detail">
+		<figure>
+			<img
+				src={withBase(artwork.image)}
+				alt={artwork.imageAlt}
+				width="1200"
+				height="1200"
+			/>
+			<figcaption>{artwork.summary}</figcaption>
+		</figure>
+		<div>
+			<h2>{artwork.title}</h2>
+			<p class="lede">{artwork.description}</p>
+			<ul class="detail-meta">
+				<li><strong>Artist reference:</strong> {artwork.artistReference}</li>
+				<li><strong>Source influence:</strong> {artwork.sourceWork}</li>
+				<li><strong>Period:</strong> {artwork.yearOrPeriod}</li>
+				<li>
+					<strong>Era:</strong>
+					<a href={withBase(`/eras/${slugifyTaxonomy(artwork.era)}/`)}>
+						{artwork.era}
+					</a>
+				</li>
+				<li>
+					<strong>Categories:</strong>
+					{
+						artwork.categories.map((category, index) => (
+							<>
+								{index > 0 && ', '}
+								<a href={withBase(`/categories/${slugifyTaxonomy(category)}/`)}>
+									{category}
+								</a>
+							</>
+						))
+					}
+				</li>
+			</ul>
+		</div>
+	</article>
+</BaseLayout>

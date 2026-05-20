@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArtworkGrid from '../components/ArtworkGrid.astro';
+import { getFeaturedArtworks, getPublishedArtworks } from '../lib/artworks';
+import { groupByCategory, groupByEra, slugifyTaxonomy } from '../lib/taxonomy';
+import { withBase } from '../lib/paths';
+
+const artworks = await getPublishedArtworks();
+const featured = getFeaturedArtworks(artworks).slice(0, 6);
+const eraGroups = groupByEra(artworks);
+const categoryGroups = groupByCategory(artworks);
+---
+
+<BaseLayout
+	title="MOSFA — Museum of Shrimp-Folk Art"
+	description="A curated digital museum of shrimp-folk art, with featured works, eras, and category collections."
+>
+	<section>
+		<h2>Welcome to MOSFA</h2>
+		<p class="lede">
+			The Museum of Shrimp-Folk Art curates visual culture from a fully realized
+			shrimp-folk civilization. This first release highlights foundational works
+			while the full collection archive is being prepared.
+		</p>
+	</section>
+
+	<section aria-labelledby="featured-heading">
+		<h2 id="featured-heading">Featured pieces</h2>
+		<ArtworkGrid artworks={featured} />
+	</section>
+
+	<section aria-labelledby="era-heading">
+		<h2 id="era-heading">Browse by era</h2>
+		<ul class="tax-list">
+			{
+				eraGroups.map(([label, groupedArtworks]) => (
+					<li>
+						<a href={withBase(`/eras/${slugifyTaxonomy(label)}/`)}>
+							<strong>{label}</strong>
+							<span>{groupedArtworks.length} pieces</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
+	<section aria-labelledby="category-heading">
+		<h2 id="category-heading">Browse by category</h2>
+		<ul class="tax-list">
+			{
+				categoryGroups.map(([label, groupedArtworks]) => (
+					<li>
+						<a href={withBase(`/categories/${slugifyTaxonomy(label)}/`)}>
+							<strong>{label}</strong>
+							<span>{groupedArtworks.length} pieces</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</BaseLayout>

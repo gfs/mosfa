@@ -1,0 +1,78 @@
+- title: Kandinsky Shrimp Composition
+  slug: kandinsky-shrimp-composition
+  artistReference: Wassily Kandinsky
+  sourceWork: Abstract composition studies
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+  image: /images/artworks/Kandinsky-Shrimp.png
+  imageAlt: An abstract shrimp-folk composition inspired by Kandinsky with bold geometric forms and layered colors.
+  summary: A dynamic abstraction where shrimp-folk motifs emerge through geometry, rhythm, and color tension.
+  description: An exploration of motion and structure translated into shrimp-folk visual language.
+  featured: true
+  featuredRank: 1
+  published: true
+
+- title: Klee Shrimp Study
+  slug: klee-shrimp-study
+  artistReference: Paul Klee
+  sourceWork: Symbolic modernist studies
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+    - Surrealist Depths
+  image: /images/artworks/Klee-Shrimp.png
+  imageAlt: A whimsical shrimp-folk composition inspired by Klee with symbolic linework and playful color blocks.
+  summary: A poetic reinterpretation balancing childlike symbols with deliberate formal structure.
+  description: A compact visual poem that blends symbolic drawing and shrimp-folk iconography.
+  featured: true
+  featuredRank: 2
+  published: true
+
+- title: Mondrian Shrimp Grid
+  slug: mondrian-shrimp-grid
+  artistReference: Piet Mondrian
+  sourceWork: Neoplastic grid compositions
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+  image: /images/artworks/Mondrian.png
+  imageAlt: A shrimp-folk reinterpretation of a Mondrian-style grid with primary colors and bold black lines.
+  summary: A strict geometric composition where shrimp-folk worldbuilding appears through proportion and rhythm.
+  description: An austere grid transformed into crustacean modernism through subtle thematic cues.
+  featured: true
+  featuredRank: 3
+  published: true
+
+- title: Current Migration
+  slug: kandinsky-current-migration
+  artistReference: Wassily Kandinsky
+  sourceWork: Lyrical abstraction and musical composition studies
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+  image: /images/artworks/kandinsky-current-migration.png
+  imageAlt: A kinetic Kandinsky-like shrimp-folk abstraction with a sweeping diagonal current, segmented shell bands, antenna lines, and coral-blue geometry.
+  summary: A propulsive abstract work where migration, ritual rhythm, and shrimp-folk anatomy resolve into one sweeping current.
+  description: A Gallery Tier accession with strong kinetic identity, accepted as a dynamic counterpoint to the wing's more restrained geometric works.
+  featured: false
+  published: true
+
+- title: Signal Tower Composition
+  slug: kandinsky-signal-tower
+  artistReference: Wassily Kandinsky
+  sourceWork: Lyrical abstraction and spiritual geometry
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+  image: /images/artworks/kandinsky-signal-tower.png
+  imageAlt: A restrained Kandinsky-like shrimp-folk abstraction with stacked circles, black axial lines, claw crescents, and a blue fan form.
+  summary: A ceremonial abstraction translating shrimp-folk civic order into balanced spiritual geometry.
+  description: A Masterpiece Tier candidate for the Abstract Currents wing, notable for its restraint, axial clarity, and inevitable symbolic integration.
+  featured: false
+  published: true

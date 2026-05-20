@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+import { groupByEra, slugifyTaxonomy } from '../../lib/taxonomy';
+import { withBase } from '../../lib/paths';
+
+const artworks = await getPublishedArtworks();
+const eras = groupByEra(artworks);
+---
+
+<BaseLayout
+	title="Eras | MOSFA"
+	description="Browse the MOSFA collection grouped by era."
+>
+	<section>
+		<h2>Eras</h2>
+		<ul class="tax-list">
+			{
+				eras.map(([label, groupedArtworks]) => (
+					<li>
+						<a href={withBase(`/eras/${slugifyTaxonomy(label)}/`)}>
+							<strong>{label}</strong>
+							<span>{groupedArtworks.length} pieces</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</BaseLayout>

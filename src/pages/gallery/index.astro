@@ -1,0 +1,21 @@
+---
+import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+
+const artworks = await getPublishedArtworks();
+---
+
+<BaseLayout
+	title="Gallery | MOSFA"
+	description="Browse the current curated gallery from the Museum of Shrimp-Folk Art."
+>
+	<section>
+		<h2>Gallery</h2>
+		<p class="lede">
+			Every published work currently in the collection. New pieces and full
+			generation history will be added over time.
+		</p>
+		<ArtworkGrid artworks={artworks} />
+	</section>
+</BaseLayout>
