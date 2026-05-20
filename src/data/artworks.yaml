@@ -283,7 +283,8 @@
   imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
   description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
-  featured: false
+  featured: true
+  featuredRank: 7
   published: true
 
 - title: Starry Reef

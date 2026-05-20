@@ -1,12 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArtworkGrid from '../components/ArtworkGrid.astro';
+import ExhibitionViewCard from '../components/ExhibitionViewCard.astro';
 import { getFeaturedArtworks, getPublishedArtworks } from '../lib/artworks';
+import { getExhibitionViews } from '../lib/exhibitionViews';
 import { groupByCategory, groupByEra, slugifyTaxonomy } from '../lib/taxonomy';
 import { withBase } from '../lib/paths';
 
 const artworks = await getPublishedArtworks();
-const featured = getFeaturedArtworks(artworks).slice(0, 6);
+const featured = getFeaturedArtworks(artworks);
+const exhibitionViews = getExhibitionViews();
 const eraGroups = groupByEra(artworks);
 const categoryGroups = groupByCategory(artworks);
 ---
@@ -18,9 +21,9 @@ const categoryGroups = groupByCategory(artworks);
 	<section class="intro-section">
 		<h2>Welcome to MOSFA</h2>
 		<p class="lede">
-			The Museum of Shrimp-Folk Art preserves the visual record of shrimp-folk
-			civilization: its sacred images, civic emblems, studio experiments, and
-			modernist breakthroughs.
+			The Museum of Shrimp-Folk Art preserves sacred images, civic emblems,
+			studio experiments, poster rooms, and modernist breakthroughs from across
+			shrimp-folk civilization.
 		</p>
 		<p>
 			Across the collection, exoskeletal gesture, antennae linework, shell
@@ -34,62 +37,15 @@ const categoryGroups = groupByCategory(artworks);
 		<ArtworkGrid artworks={featured} />
 	</section>
 
-	<section aria-labelledby="canon-heading">
-		<h2 id="canon-heading">Collection principles</h2>
-		<div class="copy-grid">
-			<div>
-				<h3>Body and gesture</h3>
-				<p>
-					Shrimp-folk are upright, expressive, intelligent beings with
-					exoskeletal bodies, segmented limbs, antennae, expressive eyes, and
-					clawed or hybrid manipulator hands. Their anatomy shapes gesture,
-					silhouette, ceremony, craft, and social life.
-				</p>
-			</div>
-			<div>
-				<h3>Reef-city memory</h3>
-				<p>
-					The collection holds devotional panels, civic abstractions, theatrical
-					scenes, salon studies, and experimental works shaped by mythology,
-					philosophy, sacred architecture, and communal memory.
-				</p>
-			</div>
-			<div>
-				<h3>Formal integrity</h3>
-				<p>
-					MOSFA favors works with clear composition, legible light, purposeful
-					style, and emotional pressure. Ornament is welcomed when it serves the
-					piece; clutter is not.
-				</p>
-			</div>
-			<div>
-				<h3>Disciplined transformation</h3>
-				<p>
-					Some wings permit abstraction, distortion, and symbolic anatomy. Such
-					departures belong in the collection only when they sharpen the work's
-					force and deepen its place in shrimp-folk visual culture.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section aria-labelledby="wings-heading">
-		<h2 id="wings-heading">Collection wings</h2>
+	<section aria-labelledby="exhibition-heading">
+		<h2 id="exhibition-heading">Exhibition views</h2>
 		<p class="lede">
-			The museum is organized as a living art history, from devotional and
-			dramatic traditions to modernist experiments in rhythm, geometry, and
-			symbolic anatomy.
+			Rooms from the museum where individual works, posters, tools, and civic
+			images gather into larger histories.
 		</p>
-		<ul class="wing-list" aria-label="MOSFA collection wings">
-			<li>Crustacean Renaissance Wing</li>
-			<li>Baroque &amp; Dramatic Realism</li>
-			<li>Impressionist Reef</li>
-			<li>Modernist Tank</li>
-			<li>Surrealist Depths</li>
-			<li>Pop Art Aquarium</li>
-			<li>Abstract Currents</li>
-			<li>Comic &amp; Mass Culture Pavilion</li>
-		</ul>
+		<div class="exhibition-grid">
+			{exhibitionViews.map((view) => <ExhibitionViewCard view={view} />)}
+		</div>
 	</section>
 
 	<section aria-labelledby="era-heading">
