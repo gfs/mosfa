@@ -13,20 +13,83 @@ const categoryGroups = groupByCategory(artworks);
 
 <BaseLayout
 	title="MOSFA — Museum of Shrimp-Folk Art"
-	description="A curated digital museum of shrimp-folk art, with featured works, eras, and category collections."
+	description="A curated digital museum preserving the visual culture, artistic movements, and canon of shrimp-folk civilization."
 >
-	<section>
+	<section class="intro-section">
 		<h2>Welcome to MOSFA</h2>
 		<p class="lede">
-			The Museum of Shrimp-Folk Art curates visual culture from a fully realized
-			shrimp-folk civilization. This first release highlights foundational works
-			while the full collection archive is being prepared.
+			The Museum of Shrimp-Folk Art preserves the visual record of shrimp-folk
+			civilization: its sacred images, civic emblems, studio experiments, and
+			modernist breakthroughs.
+		</p>
+		<p>
+			Across the collection, exoskeletal gesture, antennae linework, shell
+			architecture, reef-city memory, and ritual form move through one continuous
+			art history.
 		</p>
 	</section>
 
 	<section aria-labelledby="featured-heading">
 		<h2 id="featured-heading">Featured pieces</h2>
 		<ArtworkGrid artworks={featured} />
+	</section>
+
+	<section aria-labelledby="canon-heading">
+		<h2 id="canon-heading">Collection principles</h2>
+		<div class="copy-grid">
+			<div>
+				<h3>Body and gesture</h3>
+				<p>
+					Shrimp-folk are upright, expressive, intelligent beings with
+					exoskeletal bodies, segmented limbs, antennae, expressive eyes, and
+					clawed or hybrid manipulator hands. Their anatomy shapes gesture,
+					silhouette, ceremony, craft, and social life.
+				</p>
+			</div>
+			<div>
+				<h3>Reef-city memory</h3>
+				<p>
+					The collection holds devotional panels, civic abstractions, theatrical
+					scenes, salon studies, and experimental works shaped by mythology,
+					philosophy, sacred architecture, and communal memory.
+				</p>
+			</div>
+			<div>
+				<h3>Formal integrity</h3>
+				<p>
+					MOSFA favors works with clear composition, legible light, purposeful
+					style, and emotional pressure. Ornament is welcomed when it serves the
+					piece; clutter is not.
+				</p>
+			</div>
+			<div>
+				<h3>Disciplined transformation</h3>
+				<p>
+					Some wings permit abstraction, distortion, and symbolic anatomy. Such
+					departures belong in the collection only when they sharpen the work's
+					force and deepen its place in shrimp-folk visual culture.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section aria-labelledby="wings-heading">
+		<h2 id="wings-heading">Collection wings</h2>
+		<p class="lede">
+			The museum is organized as a living art history, from devotional and
+			dramatic traditions to modernist experiments in rhythm, geometry, and
+			symbolic anatomy.
+		</p>
+		<ul class="wing-list" aria-label="MOSFA collection wings">
+			<li>Crustacean Renaissance Wing</li>
+			<li>Baroque &amp; Dramatic Realism</li>
+			<li>Impressionist Reef</li>
+			<li>Modernist Tank</li>
+			<li>Surrealist Depths</li>
+			<li>Pop Art Aquarium</li>
+			<li>Abstract Currents</li>
+			<li>Comic &amp; Mass Culture Pavilion</li>
+		</ul>
 	</section>
 
 	<section aria-labelledby="era-heading">
