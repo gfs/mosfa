@@ -1,0 +1,44 @@
+---
+import type { ExhibitionViewEntry } from '../../lib/exhibitionViews';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getExhibitionViews } from '../../lib/exhibitionViews';
+import { slugifyTaxonomy } from '../../lib/taxonomy';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+	return getExhibitionViews().map((view) => ({
+		params: { slug: view.slug },
+		props: { view },
+	}));
+}
+
+interface Props {
+	view: ExhibitionViewEntry;
+}
+
+const { view } = Astro.props;
+---
+
+<BaseLayout title={`${view.title} | MOSFA`} description={view.summary}>
+	<article class="exhibition-detail">
+		<figure>
+			<img src={withBase(view.image)} alt={view.imageAlt} width="1536" height="1024" />
+			<figcaption>{view.summary}</figcaption>
+		</figure>
+		<div>
+			<h2>{view.title}</h2>
+			<p class="lede">{view.description}</p>
+			<ul class="detail-meta">
+				<li>
+					<strong>Era:</strong>
+					<a href={withBase(`/eras/${slugifyTaxonomy(view.era)}/`)}>
+						{view.era}
+					</a>
+				</li>
+				<li>
+					<strong>Rooms:</strong> {view.categories.join(', ')}
+				</li>
+			</ul>
+		</div>
+	</article>
+</BaseLayout>

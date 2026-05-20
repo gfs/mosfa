@@ -1,0 +1,31 @@
+---
+import type { ExhibitionViewEntry } from '../lib/exhibitionViews';
+import { withBase } from '../lib/paths';
+
+interface Props {
+	view: ExhibitionViewEntry;
+}
+
+const { view } = Astro.props;
+---
+
+<article class="exhibition-card">
+	<a href={withBase(`/exhibitions/${view.slug}/`)}>
+		<img
+			src={withBase(view.image)}
+			alt={view.imageAlt}
+			width="1536"
+			height="1024"
+			loading="lazy"
+		/>
+	</a>
+	<div class="exhibition-card-body">
+		<h3>
+			<a href={withBase(`/exhibitions/${view.slug}/`)}>
+				{view.title}
+			</a>
+		</h3>
+		<p class="artwork-meta">{view.era}</p>
+		<p>{view.summary}</p>
+	</div>
+</article>

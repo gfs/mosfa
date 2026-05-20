@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ExhibitionViewCard from '../../components/ExhibitionViewCard.astro';
+import { getExhibitionViews } from '../../lib/exhibitionViews';
+
+const views = getExhibitionViews();
+---
+
+<BaseLayout
+	title="Exhibition Views | MOSFA"
+	description="Installation views from MOSFA galleries and collection rooms."
+>
+	<section>
+		<h2>Exhibition Views</h2>
+		<p class="lede">
+			Selected rooms from the museum: survey walls, poster galleries, and
+			collection spaces where individual works gather into larger histories.
+		</p>
+		<div class="exhibition-grid">
+			{views.map((view) => <ExhibitionViewCard view={view} />)}
+		</div>
+	</section>
+</BaseLayout>

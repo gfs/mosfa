@@ -2,7 +2,9 @@
 import type { ArtworkEntry } from '../../lib/artworks';
 import ArtworkGrid from '../../components/ArtworkGrid.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ExhibitionViewCard from '../../components/ExhibitionViewCard.astro';
 import { getPublishedArtworks } from '../../lib/artworks';
+import { getExhibitionViewsForEra } from '../../lib/exhibitionViews';
 import { groupByEra, slugifyTaxonomy } from '../../lib/taxonomy';
 
 export async function getStaticPaths() {
@@ -20,6 +22,7 @@ interface Props {
 }
 
 const { eraLabel, artworks } = Astro.props;
+const exhibitionViews = getExhibitionViewsForEra(eraLabel);
 ---
 
 <BaseLayout
@@ -34,4 +37,18 @@ const { eraLabel, artworks } = Astro.props;
 		</p>
 		<ArtworkGrid artworks={artworks} />
 	</section>
+
+	{
+		exhibitionViews.length > 0 && (
+			<section aria-labelledby="exhibition-heading">
+				<h2 id="exhibition-heading">Exhibition Views</h2>
+				<p class="lede">
+					Rooms and survey walls connected to this part of the collection.
+				</p>
+				<div class="exhibition-grid">
+					{exhibitionViews.map((view) => <ExhibitionViewCard view={view} />)}
+				</div>
+			</section>
+		)
+	}
 </BaseLayout>
