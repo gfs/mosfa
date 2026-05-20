@@ -18,8 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      SITE_URL: ${{ vars.SITE_URL || 'https://gfs.github.io' }}
-      BASE_PATH: ${{ vars.BASE_PATH || '/mosfa' }}
+      SITE_URL: ${{ vars.SITE_URL || 'https://mosfa.art' }}
+      BASE_PATH: ${{ vars.BASE_PATH || '/' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

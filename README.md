@@ -55,11 +55,11 @@ The workflow lives at `.github/workflows/deploy.yml` and runs on pushes to `main
 
 Default repository variables:
 
-- `SITE_URL` defaults to `https://gfs.github.io`
-- `BASE_PATH` defaults to `/mosfa`
+- `SITE_URL` defaults to `https://mosfa.art`
+- `BASE_PATH` defaults to `/`
 
-If you move to a custom domain:
+If you move back to a repo subpath deployment:
 
 1. Set `SITE_URL` to your domain (for example `https://mosfa.net`).
-2. Set `BASE_PATH` to `/`.
+2. Set `BASE_PATH` to the repo path (for example `/mosfa`).
 3. Add `public/CNAME` with your domain value (for example `mosfa.net`).
