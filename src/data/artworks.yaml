@@ -650,6 +650,102 @@
   featured: false
   published: true
 
+- title: Crown of the Brine Regent
+  slug: crown-of-the-brine-regent
+  artistReference: Ancient shrimp-folk court regalia tradition
+  sourceWork: Dynastic shell crowns and coronation ornaments
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Ceremonial Relics
+    - Court Regalia
+  image: artworks/crown-of-the-brine-regent.png
+  imageAlt: A shell-gold royal crown with pearl nodes, antenna-like arcs, coral prongs, salt crystals, and worn ceremonial hinges.
+  summary: A coronation object where shell-gold, pearl nodes, and antenna forms make sovereignty feel engineered for shrimp-folk anatomy.
+  description: "A Masterpiece Tier candidate for the ancient wing, designed as the living counterpart to the Pearl Mask of the Salt King: less funerary, more civic, and charged with the physical mechanics of rule."
+  featured: false
+  published: true
+
+- title: Current Harp of the Lower Reef
+  slug: current-harp-of-the-lower-reef
+  artistReference: Ancient shrimp-folk liturgical instrument tradition
+  sourceWork: Temple music instruments and current-resonance devices
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Ceremonial Relics
+    - Temple Sculpture
+  image: artworks/current-harp-of-the-lower-reef.png
+  imageAlt: A ceremonial shell harp with coral ribs, pearl tuning beads, tide-glyph incisions, and a dark mineral-polished base.
+  summary: A ritual instrument that turns water movement, temple acoustics, and shell craft into a credible ancient music culture.
+  description: A Gallery Tier accession that expands the civilization beyond visual ritual into sound, suggesting processions, mourning rites, and civic ceremonies animated by current-responsive instruments.
+  featured: false
+  published: true
+
+- title: Molting Ledger of the Seven Currents
+  slug: molting-ledger-of-the-seven-currents
+  artistReference: Ancient shrimp-folk archival shell-book tradition
+  sourceWork: Lineage ledgers, molt records, and reef-house archives
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Proto-Writing & Shell Tablets
+    - Ceremonial Relics
+  image: artworks/molting-ledger-of-the-seven-currents.png
+  imageAlt: A hinged shell ledger with translucent molt membranes, pearl seals, tide glyphs, and blue-green mineral staining.
+  summary: A shell-book archive where lineage, molting cycles, and civic memory become one intimate bureaucratic object.
+  description: A high-value Gallery Tier candidate because it makes shrimp-folk biology part of state recordkeeping without reducing it to novelty, turning exuviae, seals, and tide notation into material history.
+  featured: false
+  published: true
+
+- title: Divers' Oath Standard
+  slug: divers-oath-standard
+  artistReference: Ancient shrimp-folk guild and maritime labor tradition
+  sourceWork: Pearl diver guild standards and oath objects
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Labor & Industry
+    - Ceremonial Relics
+  image: artworks/divers-oath-standard.png
+  imageAlt: A reef-guild standard with a weighted coral pole, pearl-knot cords, carved claw emblems, and a storm-darkened kelp-fiber banner.
+  summary: A guild standard that gives pearl labor its own ceremony, oath system, and public visual identity.
+  description: A strong Gallery Tier candidate for worldbuilding, linking the elite pearl culture of royal objects to the divers, guild laws, and dangerous maritime labor that sustained it.
+  featured: false
+  published: true
+
+- title: Cradle Shell of the Moon Pool
+  slug: cradle-shell-of-the-moon-pool
+  artistReference: Ancient shrimp-folk domestic ritual tradition
+  sourceWork: Protective nursery objects and lunar tide charms
+  yearOrPeriod: Ancient pre-dynastic to early dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Domestic Ritual Objects
+    - Ceremonial Relics
+  image: artworks/cradle-shell-of-the-moon-pool.png
+  imageAlt: A small polished cradle shell with moon-pool glyphs, pearl rattles, protective coral teeth, and softened hand-worn edges.
+  summary: A domestic ritual object where infancy, lunar tide belief, and protective shell craft enter the ancient collection.
+  description: A quiet Gallery Tier candidate that broadens the wing away from kings and temples, making ordinary family life visible through a believable protective object shaped by repeated handling.
+  featured: false
+  published: true
+
+- title: Tide Physician's Pearl Cupping Kit
+  slug: tide-physicians-pearl-cupping-kit
+  artistReference: Ancient shrimp-folk medical instrument tradition
+  sourceWork: Reef-healing kits, surgical tools, and diagnostic vessels
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Medical Instruments
+    - Ceremonial Relics
+  image: artworks/tide-physicians-pearl-cupping-kit.png
+  imageAlt: A fitted mother-of-pearl medical case with tiny shell cups, coral lancets, tide-mark measuring cords, and mineral-stained compartments.
+  summary: A physician's kit that gives ancient shrimp-folk culture a practiced medicine of tides, shell pressure, and ritual care.
+  description: A Gallery Tier candidate that adds scientific and bodily knowledge to the collection, grounding the civilization in repair, diagnosis, and the specialized tools of professional healers.
+  featured: false
+  published: true
+
 - title: The Garden of Tidal Delights
   slug: the-garden-of-tidal-delights
   artistReference: Hieronymus Bosch
@@ -676,7 +772,7 @@
   categories:
     - Sacred & Mythic Currents
     - Renaissance Translations
-  image: /images/artworks/supper-of-the-first-tide.png
+  image: artworks/supper-of-the-first-tide.png
   imageAlt: A Leonardo-like shrimp-folk Last Supper scene with thirteen robed figures seated at a long table in a perspectival refectory.
   summary: A solemn refectory image where Leonardo's table, vanishing point, and grouped disciples become a founding meal of shrimp-folk sacred history.
   description: A Masterpiece Tier candidate for the Crustacean Renaissance Wing, preserving the source's long table, central stillness, four apostolic groupings, and measured architectural perspective while translating every figure into coherent shrimp-folk anatomy.
