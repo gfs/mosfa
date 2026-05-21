@@ -111,6 +111,22 @@
   featuredRank: 9
   published: true
 
+- title: Rain on the Reef Bridge
+  slug: rain-on-the-reef-bridge
+  artistReference: Utagawa Hiroshige
+  sourceWork: Edo-period rain and bridge prints
+  yearOrPeriod: Mid-19th Century ukiyo-e translation
+  era: Tidal Print Archive
+  categories:
+    - Ukiyo-e Currents
+    - Rain & Bridge Prints
+  image: /images/artworks/rain-on-the-reef-bridge.png
+  imageAlt: A Hiroshige-like woodblock print of shrimp-folk pedestrians crossing a curved bridge with umbrellas during rain above a reef garden canal.
+  summary: A quiet rain print where bridge, lantern, umbrella, and canal reflection give the Tidal Print Archive a contemplative register.
+  description: "A Gallery Tier accession from the Tidal Print Archive, acquired as a necessary counterweight to the drama of The Great Pearl Wave. Its strength is atmospheric discipline: diagonal rain, measured pedestrian rhythm, and shrimp-folk anatomy absorbed into the manners of the print."
+  featured: false
+  published: true
+
 - title: Shrimp with a Pearl Earring
   slug: shrimp-with-a-pearl-earring
   artistReference: Johannes Vermeer
@@ -304,6 +320,54 @@
   featured: false
   published: true
 
+- title: Stand Watch for the Reef
+  slug: stand-watch-for-the-reef
+  artistReference: Reef War II recruitment poster archive
+  sourceWork: Naval service and coastal defense recruitment posters
+  yearOrPeriod: 1940s wartime poster culture
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Reef Defense Recruitment
+  image: /images/artworks/stand-watch-for-the-reef.png
+  imageAlt: A 1940s-style shrimp-folk naval recruitment poster with a uniformed signal officer raising a claw above submarines, reef boats, searchlights, and coral fortifications.
+  summary: A heroic recruitment image where raised claw, signal flags, submarines, and coral rampart organize reef defense into one public call.
+  description: A Gallery Tier Reef War II accession, selected for its clean poster hierarchy and strong civic silhouette. It establishes the archive's recruitment branch without relying on readable slogans or real-world national symbols.
+  featured: false
+  published: true
+
+- title: Pearl Bonds for the Home Reef
+  slug: pearl-bonds-for-the-home-reef
+  artistReference: Reef War II home-front poster archive
+  sourceWork: War bond and savings campaign posters
+  yearOrPeriod: 1940s wartime poster culture
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Home Reef Front
+  image: /images/artworks/pearl-bonds-for-the-home-reef.png
+  imageAlt: A 1940s-style shrimp-folk war bonds poster showing a civilian family and civic treasurer gathered around a glowing pearl beneath patrol craft and protective netting.
+  summary: A home-front bond poster where the glowing pearl becomes a civic promise held between family, treasury, convoy, and reef.
+  description: A Gallery Tier accession that softens the war archive through sacrifice rather than spectacle. The composition is strongest in its central pearl-light and semicircle of civilians, making mass finance feel ritualized within shrimp-folk civic life.
+  featured: false
+  published: true
+
+- title: Blackout over the Home Reef
+  slug: blackout-over-the-home-reef
+  artistReference: Reef War II civil defense poster archive
+  sourceWork: Blackout, air raid, and home defense posters
+  yearOrPeriod: 1940s wartime poster culture
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Civil Defense
+  image: /images/artworks/blackout-over-the-home-reef.png
+  imageAlt: A dark 1940s-style shrimp-folk civil defense poster showing a helmeted warden shielding a lantern above a blackout reef city crossed by searchlights.
+  summary: A nocturnal civil-defense poster where the act of dimming a lantern becomes a public image of vigilance.
+  description: A Masterpiece Tier candidate within the Reef War II archive, notable for its restraint, severe silhouette, and disciplined use of searchlight diagonals over the home reef.
+  featured: false
+  published: true
+
 - title: Action Current No. 1
   slug: action-current-no-1
   artistReference: Jackson Pollock
@@ -384,6 +448,70 @@
   imageAlt: A four-panel Pop Art silkscreen grid repeating a glamorous shrimp-folk diva portrait in bright magenta, blue, yellow, and green colorways.
   summary: A crisp postwar image-system study where celebrity, shell surface, and mechanical repetition become reef-world spectacle.
   description: A Gallery Tier Pop Art accession acquired to broaden the museum's postwar holdings, strong for its frontal icon structure, clean quadrant logic, and refusal of easy food-packaging parody.
+  featured: false
+  published: true
+
+- title: Coral Tear Panel
+  slug: coral-tear-panel
+  artistReference: Roy Lichtenstein and 1960s comic Pop Art
+  sourceWork: Ben-Day dot melodrama panels
+  yearOrPeriod: 1960s Pop Art translation
+  era: Pop Art Aquarium
+  categories:
+    - Ben-Day Melodrama
+    - Comic-Panel Icons
+  image: /images/artworks/coral-tear-panel.png
+  imageAlt: A Lichtenstein-like Pop Art close-up of a glamorous shrimp-folk figure with bold black lines, Ben-Day dots, pearl jewelry, and a single tear.
+  summary: A tight comic-panel translation where melodrama, shell surface, and mechanical dot structure become one Pop Art portrait.
+  description: A Gallery Tier accession that expands the Pop Art Aquarium beyond celebrity repetition, preserving the cropped emotional charge and commercial-print discipline of 1960s comic painting while keeping the sitter fully within shrimp-folk anatomy.
+  featured: false
+  published: true
+
+- title: Pearl Commodity Stack
+  slug: pearl-commodity-stack
+  artistReference: Pop Art product display and supermarket sculpture
+  sourceWork: Screenprinted commodity-box installations
+  yearOrPeriod: 1960s Pop Art translation
+  era: Pop Art Aquarium
+  categories:
+    - Product Culture
+    - Screenprint Commodities
+  image: /images/artworks/pearl-commodity-stack.png
+  imageAlt: A Pop Art installation of stacked shrimp-folk commodity boxes with red, blue, yellow, black, and white screenprinted shell and claw graphics.
+  summary: A reef-world commodity display where packaging, repetition, and civic symbols turn consumer abundance into a clean Pop Art wall.
+  description: This accession gives the wing a product-culture anchor without leaning on food parody, using repeated boxes, abstract glyphs, shell medallions, and small shopper silhouettes to translate mass consumption into shrimp-folk civic life.
+  featured: false
+  published: true
+
+- title: Current Target Icon
+  slug: current-target-icon
+  artistReference: Mid-century Pop Art symbol painting
+  sourceWork: Target, flag, and mass-symbol icon studies
+  yearOrPeriod: 1950s-1960s Pop Art translation
+  era: Pop Art Aquarium
+  categories:
+    - Mass Symbols
+    - Civic Icons
+  image: /images/artworks/current-target-icon.png
+  imageAlt: A hard-edge Pop Art target painting with red, blue, white, and black tide bands, pearl rings, shell icons, antenna lines, and claw-shaped marks.
+  summary: A civic-symbol painting where target, flag, pearl, and current signs are reorganized into a shrimp-folk language of public icons.
+  description: A restrained Pop Art accession that shifts the aquarium from celebrity and commodity into symbol systems, using hard-edge geometry and waxy painted texture to make reef civic emblems feel mechanically reproduced and ritualized at once.
+  featured: false
+  published: true
+
+- title: Ten Shell Signals
+  slug: ten-shell-signals
+  artistReference: 1960s Pop Art silkscreen icon grids
+  sourceWork: Repeated shell-icon panel studies
+  yearOrPeriod: 1960s Pop Art translation
+  era: Pop Art Aquarium
+  categories:
+    - Silkscreen Icons
+    - Mass Symbols
+  image: /images/artworks/ten-shell-signals.png
+  imageAlt: A tall Pop Art silkscreen grid of ten repeated shell medallions in bright pink, turquoise, yellow, orange, cream, and navy panels with antenna and tide marks.
+  summary: A vertical shell-icon grid where repetition, colorway, and civic signal marks turn reef ornament into mass-media language.
+  description: "Developed from the Pop Art Aquarium installation wall, this standalone accession preserves the side panel's strongest idea: shell motifs treated as mechanically repeated public icons rather than natural specimens or decoration."
   featured: false
   published: true
 
