@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import type { ExhibitionViewEntry } from '../lib/exhibitionViews';
+import { getImageAsset } from '../lib/images';
 import { withBase } from '../lib/paths';
 
 interface Props {
@@ -7,15 +9,14 @@ interface Props {
 }
 
 const { view } = Astro.props;
+const image = getImageAsset(view.image);
 ---
 
 <article class="exhibition-card">
 	<a href={withBase(`/exhibitions/${view.slug}/`)}>
-		<img
-			src={withBase(view.image)}
+		<Image
+			src={image}
 			alt={view.imageAlt}
-			width="1536"
-			height="1024"
 			loading="lazy"
 		/>
 	</a>

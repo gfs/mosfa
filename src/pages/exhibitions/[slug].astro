@@ -1,7 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import type { ExhibitionViewEntry } from '../../lib/exhibitionViews';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getExhibitionViews } from '../../lib/exhibitionViews';
+import { getImageAsset } from '../../lib/images';
 import { slugifyTaxonomy } from '../../lib/taxonomy';
 import { withBase } from '../../lib/paths';
 
@@ -17,12 +19,13 @@ interface Props {
 }
 
 const { view } = Astro.props;
+const image = getImageAsset(view.image);
 ---
 
 <BaseLayout title={`${view.title} | MOSFA`} description={view.summary}>
 	<article class="exhibition-detail">
 		<figure>
-			<img src={withBase(view.image)} alt={view.imageAlt} width="1536" height="1024" />
+			<Image src={image} alt={view.imageAlt} />
 			<figcaption>{view.summary}</figcaption>
 		</figure>
 		<div>

@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo.png';
 import { withBase } from '../lib/paths';
 import '../styles/global.css';
 
@@ -48,7 +50,7 @@ const socialImageUrl = Astro.site
 			<div class="shell">
 				<h1 class="site-title">
 					<a class="brand-lockup" href={withBase('/')}>
-						<img src={withBase('/logo.png')} alt="" width="920" height="328" />
+						<Image src={logo} alt="" />
 						<span class="visually-hidden">Museum of Shrimp-Folk Art</span>
 					</a>
 				</h1>
