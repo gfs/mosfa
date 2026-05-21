@@ -1167,8 +1167,9 @@
   imageAlt: A glazed shell-tile reef-city transit mural with shrimp-folk commuters, signal-keepers, coral station arches, and black current routes.
   summary: A monumental public mural where civic movement, antenna navigation, and reef infrastructure become one disciplined route system.
   description: "A Masterpiece Tier candidate from the Glass Current Civic Tileworks, notable for making transit law and shrimp-folk anatomy inseparable: antenna arcs, claw-held route tablets, and shell-tile passages all participate in the composition's civic order."
+  internal_comment: "Requires rework - the dark tile path impossibly floats in mid aid over a doorway and crosses over one of the figures in the top left quadrant of the image while in the top right of the image a similar tile path dissapears at random behind another figure. "
   featured: false
-  published: true
+  published: false
 
 - title: Quiet Molt Memorial
   slug: quiet-molt-memorial
