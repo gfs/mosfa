@@ -21,14 +21,15 @@ Use this skill for requests involving:
 ## Core Workflow
 
 1. Load `references/canon.md` for shrimp-folk anatomy, civilization rules, tone, and artistic fidelity.
-2. Identify the task phase:
+2. Load `references/worldbuilding.md` when a task touches MOSFA as an institution, New Atlantis, civic geography, gallery architecture, public-facing copy, or environmental context.
+3. Identify the task phase:
    - **Generation Director**: develop a concept and image prompt before generation.
    - **Curator / Accession Reviewer**: evaluate an existing concept or image for acceptance.
    - **Registrar**: write or revise metadata for the website collection.
-3. For generation work, load `references/prompt-template.md`.
-4. For curation or quality decisions, load `references/rubric.md`.
-5. For wing, era, or category placement, load `references/wings.md`.
-6. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
+4. For generation work, load `references/prompt-template.md`.
+5. For curation or quality decisions, load `references/rubric.md`.
+6. For wing, era, or category placement, load `references/wings.md`.
+7. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
 
 ## Operating Principles
 

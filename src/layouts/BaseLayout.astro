@@ -57,6 +57,7 @@ const socialImageUrl = Astro.site
 				<nav aria-label="Primary">
 					<ul class="site-nav">
 						<li><a href={withBase('/')}>Home</a></li>
+						<li><a href={withBase('/about/')}>About</a></li>
 						<li><a href={withBase('/gallery/')}>Gallery</a></li>
 						<li><a href={withBase('/exhibitions/')}>Exhibitions</a></li>
 						<li><a href={withBase('/eras/')}>Eras</a></li>
@@ -72,6 +73,9 @@ const socialImageUrl = Astro.site
 			<p>
 				© {new Date().getFullYear()} Museum of Shrimp-Folk Art · Curating
 				the visual culture of shrimp-folk civilization.
+			</p>
+			<p>
+				<a href={withBase('/about/')}>11 West Current Drive · Central Reef District · New Atlantis, NA 10024</a>
 			</p>
 		</footer>
 	</body>

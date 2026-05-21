@@ -125,6 +125,59 @@ h2 {
 	max-width: 78ch;
 }
 
+.about-page {
+	display: grid;
+	gap: 1.25rem;
+	align-items: start;
+}
+
+.about-copy p:not(.lede) {
+	max-width: 72ch;
+}
+
+.about-image {
+	margin: 0;
+}
+
+.about-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	border: 1px solid var(--border);
+	border-radius: 0.75rem;
+	background: #ede5d8;
+}
+
+.about-image figcaption {
+	margin-top: 0.45rem;
+	color: var(--ink-soft);
+	font-size: 0.9rem;
+}
+
+.fact-list {
+	margin: 0;
+	display: grid;
+	gap: 0.75rem;
+}
+
+.fact-list div {
+	display: grid;
+	gap: 0.15rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.fact-list dt {
+	font-weight: 700;
+}
+
+.fact-list dd {
+	margin: 0;
+	color: var(--ink-soft);
+}
+
 .tax-list {
 	list-style: none;
 	padding: 0;
@@ -245,6 +298,10 @@ h2 {
 }
 
 @media (min-width: 880px) {
+	.about-page {
+		grid-template-columns: 0.85fr 1.15fr;
+	}
+
 	.artwork-detail,
 	.exhibition-detail {
 		grid-template-columns: 1.1fr 0.9fr;
