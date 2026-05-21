@@ -63,6 +63,14 @@ Write a detailed image-generation prompt that includes:
 - Mood and atmosphere.
 - Negative constraints: no humans, no food joke, no shrimp pasted onto human bodies.
 
+For physical cultural objects and archaeological accessions:
+
+- Prompt them as real museum objects first: single focal artifact, conservation lighting, plinth or archival support, and inspectable material construction.
+- Specify how the object fits shrimp-folk anatomy or civic use instead of relying on decorative shrimp motifs.
+- Prefer abstract tide, claw, molt, pearl, knot, and current notation over repeated literal shrimp drawings unless figural imagery is curatorially necessary.
+- Guard against human-object defaults by naming the construction logic that makes the object non-human: antenna clearance, claw-friendly grips, shell hinges, current-resistant textiles, exoskeleton care, or water-current acoustics.
+- Avoid fantasy treasure, magical glow, souvenir styling, and generic human ceremonial forms.
+
 ## Prompt Output Template
 
 ```markdown

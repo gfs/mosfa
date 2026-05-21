@@ -664,7 +664,7 @@
   summary: A coronation object where shell-gold, pearl nodes, and antenna forms make sovereignty feel engineered for shrimp-folk anatomy.
   description: "A Masterpiece Tier candidate for the ancient wing, designed as the living counterpart to the Pearl Mask of the Salt King: less funerary, more civic, and charged with the physical mechanics of rule."
   featured: false
-  published: false
+  published: true
 
 - title: Current Harp of the Lower Reef
   slug: current-harp-of-the-lower-reef
@@ -680,7 +680,7 @@
   summary: A ritual instrument that turns water movement, temple acoustics, and shell craft into a credible ancient music culture.
   description: A Gallery Tier accession that expands the civilization beyond visual ritual into sound, suggesting processions, mourning rites, and civic ceremonies animated by current-responsive instruments.
   featured: false
-  published: false
+  published: true
 
 - title: Molting Ledger of the Seven Currents
   slug: molting-ledger-of-the-seven-currents
@@ -696,7 +696,7 @@
   summary: A shell-book archive where lineage, molting cycles, and civic memory become one intimate bureaucratic object.
   description: A high-value Gallery Tier candidate because it makes shrimp-folk biology part of state recordkeeping without reducing it to novelty, turning exuviae, seals, and tide notation into material history.
   featured: false
-  published: false
+  published: true
 
 - title: Divers' Oath Standard
   slug: divers-oath-standard
@@ -712,7 +712,7 @@
   summary: A guild standard that gives pearl labor its own ceremony, oath system, and public visual identity.
   description: A strong Gallery Tier candidate for worldbuilding, linking the elite pearl culture of royal objects to the divers, guild laws, and dangerous maritime labor that sustained it.
   featured: false
-  published: false
+  published: true
 
 - title: Cradle Shell of the Moon Pool
   slug: cradle-shell-of-the-moon-pool
@@ -728,7 +728,7 @@
   summary: A domestic ritual object where infancy, lunar tide belief, and protective shell craft enter the ancient collection.
   description: A quiet Gallery Tier candidate that broadens the wing away from kings and temples, making ordinary family life visible through a believable protective object shaped by repeated handling.
   featured: false
-  published: false
+  published: true
 
 - title: Tide Physician's Pearl Cupping Kit
   slug: tide-physicians-pearl-cupping-kit
@@ -744,7 +744,7 @@
   summary: A physician's kit that gives ancient shrimp-folk culture a practiced medicine of tides, shell pressure, and ritual care.
   description: A Gallery Tier candidate that adds scientific and bodily knowledge to the collection, grounding the civilization in repair, diagnosis, and the specialized tools of professional healers.
   featured: false
-  published: false
+  published: true
 
 - title: The Garden of Tidal Delights
   slug: the-garden-of-tidal-delights
