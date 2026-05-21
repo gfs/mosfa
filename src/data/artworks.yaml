@@ -682,3 +682,186 @@
   description: A poised three-quarter shrimp-folk sitter framed by a distant tidal landscape, preserving the source painting's quiet tension, soft atmospheric perspective, and iconic ambiguity.
   featured: false
   published: true
+
+- title: Calling of the Pearl Diver
+  slug: calling-of-the-pearl-diver
+  artistReference: Caravaggio
+  sourceWork: The Calling of Saint Matthew
+  yearOrPeriod: c. 1600 Baroque translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Chiaroscuro Ceremonies
+    - Sacred & Mythic Currents
+  image: /images/artworks/calling-of-the-pearl-diver.png
+  imageAlt: A Caravaggio-like shrimp-folk tavern scene where a radiant caller points toward a seated pearl diver in dramatic golden light.
+  summary: A tenebrist calling scene where pearl labor, sacred summons, and claw gesture converge in one charged Baroque moment.
+  description: A Masterpiece Tier candidate for the Baroque wing, accepted for its disciplined darkness, clear selection gesture, and unusually inevitable translation of Caravaggio's table drama into shrimp-folk civic religion.
+  featured: false
+  published: true
+
+- title: Judith and the Eel Tyrant
+  slug: judith-and-the-eel-tyrant
+  artistReference: Artemisia Gentileschi
+  sourceWork: Judith and Holofernes
+  yearOrPeriod: Early 17th Century Baroque translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Chiaroscuro Ceremonies
+    - Sacred & Mythic Currents
+  image: /images/artworks/judith-and-the-eel-tyrant.png
+  imageAlt: A dramatic Baroque scene of two armored shrimp-folk women subduing a crowned eel tyrant in a dark palace chamber.
+  summary: A reef-state resistance image where Baroque force, shell armor, and moral violence become a serious political ritual.
+  description: A Gallery Tier Baroque accession, forceful in composition and light, with enough symbolic distance from gore to keep the scene within MOSFA's civic-mythic register.
+  featured: false
+  published: true
+
+- title: Anatomy Lesson of the Molting Shell
+  slug: anatomy-lesson-of-the-molting-shell
+  artistReference: Rembrandt van Rijn
+  sourceWork: Anatomy lesson and civic guild portrait traditions
+  yearOrPeriod: 17th Century Dutch Golden Age translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Chiaroscuro Ceremonies
+    - Portraiture
+  image: /images/artworks/anatomy-lesson-of-the-molting-shell.png
+  imageAlt: A Rembrandt-like shrimp-folk group portrait where scholars gather around an empty molted shell under warm lamplight.
+  summary: A civic anatomy lesson where molting becomes science, memory, and public knowledge rather than spectacle.
+  description: A Gallery Tier accession that broadens the Baroque wing beyond devotion and guard portraiture, using the shed shell as a culturally specific subject for learned shrimp-folk institutions.
+  featured: false
+  published: true
+
+- title: Harbor Light at Low Tide
+  slug: harbor-light-at-low-tide
+  artistReference: Claude Monet and Eugene Boudin
+  sourceWork: Impressionist harbor and marine light studies
+  yearOrPeriod: Late 19th Century Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Garden & Village Studies
+  image: /images/artworks/harbor-light-at-low-tide.png
+  imageAlt: An Impressionist reef harbor with shrimp-folk workers, shell boats, coral quays, wet tidal channels, and pale morning light.
+  summary: A marine light study where working harbor, shallow water, and reef village architecture dissolve into broken color.
+  description: A Gallery Tier Impressionist accession, valuable because it gives the wing a public harbor register rather than limiting reef light to gardens and nocturnes.
+  featured: false
+  published: true
+
+- title: Tidal Leisure at Coral Shore
+  slug: tidal-leisure-at-coral-shore
+  artistReference: Pierre-Auguste Renoir and Berthe Morisot
+  sourceWork: Impressionist outdoor leisure scenes
+  yearOrPeriod: Late 19th Century Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Garden & Village Studies
+  image: /images/artworks/tidal-leisure-at-coral-shore.png
+  imageAlt: A sunlit Impressionist coral shore where shrimp-folk families and friends gather under shell parasols beside shallow tidal pools.
+  summary: A soft social painting where reef leisure, shell parasols, and dappled waterlight become a lived Impressionist culture.
+  description: A Gallery Tier accession for its social warmth and painterly atmosphere, expanding the Impressionist Reef beyond solitary spectacle into everyday communal life.
+  featured: false
+  published: true
+
+- title: Lantern Cafe of the Upper Reef
+  slug: lantern-cafe-of-the-upper-reef
+  artistReference: Vincent van Gogh
+  sourceWork: Night cafe and post-Impressionist interior studies
+  yearOrPeriod: Late 19th Century Post-Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Garden & Village Studies
+  image: /images/artworks/lantern-cafe-of-the-upper-reef.png
+  imageAlt: A Van Gogh-like night cafe scene with shrimp-folk patrons, pearl lanterns, cobalt reef shadows, and thick swirling brushwork.
+  summary: A nocturnal social interior where lanterns, music, and blue current shadows turn reef village life into post-Impressionist emotion.
+  description: A strong Gallery Tier accession, notable for making the wing's village culture feel inhabited while preserving expressive color and brushwork as the central subject.
+  featured: false
+  published: true
+
+- title: Sunday in the Reef with George
+  slug: sunday-in-the-reef-with-george
+  artistReference: Georges Seurat
+  sourceWork: A Sunday Afternoon on the Island of La Grande Jatte
+  yearOrPeriod: 1880s Neo-Impressionist translation
+  era: Impressionist Reef
+  categories:
+    - Garden & Village Studies
+  image: /images/artworks/sunday-in-the-reef-with-george.png
+  imageAlt: A pointillist reef island panorama with shrimp-folk citizens at leisure under parasols beside boats, coral grass, and bright water.
+  summary: A pointillist civic leisure scene where ordered dots, shell-island space, and reef society settle into ceremonial calm.
+  description: A Gallery Tier Neo-Impressionist accession, accepted for its disciplined social rhythm and for giving the Impressionist Reef a formal counterpoint to loose brushwork.
+  featured: false
+  published: true
+
+- title: Raft of the Broken Carapace
+  slug: raft-of-the-broken-carapace
+  artistReference: Theodore Gericault
+  sourceWork: The Raft of the Medusa
+  yearOrPeriod: 1819 Romantic translation
+  era: Romantic Abyss
+  categories:
+    - Sublime Seascapes
+  image: /images/artworks/raft-of-the-broken-carapace.png
+  imageAlt: A dark Romantic sea catastrophe with shrimp-folk survivors arranged on a broken carapace raft beneath storm clouds.
+  summary: A catastrophic survival image where shell bodies, storm sea, and distant rescue light turn Romantic despair into reef history.
+  description: A Masterpiece Tier candidate for Romantic Abyss, preserving Gericault's pyramidal urgency while making the raft, bodies, and maritime tragedy culturally native to shrimp-folk civilization.
+  featured: false
+  published: true
+
+- title: Turner Storm over the Pearl Shoals
+  slug: turner-storm-over-the-pearl-shoals
+  artistReference: J. M. W. Turner
+  sourceWork: Late Romantic storm and seascape studies
+  yearOrPeriod: Early to mid-19th Century Romantic translation
+  era: Romantic Abyss
+  categories:
+    - Sublime Seascapes
+  image: /images/artworks/turner-storm-over-the-pearl-shoals.png
+  imageAlt: A Turner-like near-abstract storm seascape with a small reef boat nearly swallowed by luminous waves, spray, and cloud.
+  summary: A storm painting where the shrimp-folk presence nearly vanishes inside weather, light, and abyssal force.
+  description: A Gallery Tier Romantic accession, accepted precisely because it lets atmosphere dominate; the work gives the wing elemental terror without turning every sublime scene into a figure tableau.
+  featured: false
+  published: true
+
+- title: Moonrise over the Drowned Temple
+  slug: moonrise-over-the-drowned-temple
+  artistReference: Caspar David Friedrich
+  sourceWork: Romantic ruin, moonrise, and pilgrimage compositions
+  yearOrPeriod: Early 19th Century Romantic translation
+  era: Romantic Abyss
+  categories:
+    - Sublime Seascapes
+  image: /images/artworks/moonrise-over-the-drowned-temple.png
+  imageAlt: A moonlit Romantic seascape where two cloaked shrimp-folk pilgrims face a ruined reef temple half-submerged in mist.
+  summary: A moonlit ruin where pilgrimage, drowned architecture, and vast water create a quiet theology of loss.
+  description: A Gallery Tier accession that deepens Romantic Abyss through stillness rather than disaster, extending the wing's solitude into sacred ruin and long historical memory.
+  featured: false
+  published: true
+
+- title: The Molting Room
+  slug: the-molting-room
+  artistReference: Surrealist dream realism
+  sourceWork: Shell-memory and identity studies
+  yearOrPeriod: Mid-20th Century Surrealist translation
+  era: Surrealist Depths
+  categories:
+    - Surrealist Depths
+  image: /images/artworks/the-molting-room.png
+  imageAlt: A surreal interior where shrimp-folk figures confront hanging empty shells, pearl mirrors, impossible doors, and tidal pools.
+  summary: A definitive shell-memory dream where molting becomes identity, reflection, and the uneasy archive of the self.
+  description: A Masterpiece Tier candidate for Surrealist Depths, notable for finding a native shrimp-folk philosophy rather than merely importing human surrealist motifs.
+  featured: false
+  published: true
+
+- title: A Reef Has No Floor
+  slug: a-reef-has-no-floor
+  artistReference: Surrealist impossible architecture
+  sourceWork: Dream architecture and spatial paradox studies
+  yearOrPeriod: Mid-20th Century Surrealist translation
+  era: Surrealist Depths
+  categories:
+    - Surrealist Depths
+  image: /images/artworks/a-reef-has-no-floor.png
+  imageAlt: A surreal reef city where shrimp-folk citizens move through coral stairways, arches, windows, and plazas arranged in impossible gravity.
+  summary: A calm impossible city where reef civic life continues after architecture has forgotten which way is down.
+  description: A strong Gallery Tier accession, bridging surrealism and the museum's future Escher ambitions while remaining culturally grounded in shell architecture and ordinary shrimp-folk movement.
+  featured: false
+  published: true

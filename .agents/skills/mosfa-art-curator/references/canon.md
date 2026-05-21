@@ -21,6 +21,7 @@ Shrimp-folk are:
 - Bipedal, upright humanoids.
 - Fully integrated crustacean beings, never shrimp pasted onto human bodies.
 - Anatomically coherent, with exoskeletons, segmented limbs, antennae, and expressive eyes.
+- Given a clear antenna structure: two primary antennae are the normal settled form; four may work as an intentional paired variant, but one-antenna figures and tangled many-whisker clusters read as anatomical drift.
 - Equipped primarily with clawed or hybrid manipulator hands.
 - Allowed limited finger-like articulation when needed for expression, gesture, or composition.
 - Emotionally expressive, intelligent, and culturally complex.
