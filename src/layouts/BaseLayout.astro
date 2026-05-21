@@ -5,12 +5,17 @@ import '../styles/global.css';
 interface Props {
 	title: string;
 	description: string;
+	socialImage?: string;
+	socialImageAlt?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, socialImage = '/logo.png', socialImageAlt = 'Museum of Shrimp-Folk Art logo' } = Astro.props;
 const canonicalUrl = Astro.site
 	? new URL(Astro.url.pathname, Astro.site).toString()
 	: Astro.url.toString();
+const socialImageUrl = Astro.site
+	? new URL(socialImage, Astro.site).toString()
+	: new URL(socialImage, Astro.url).toString();
 ---
 
 <!doctype html>
@@ -29,9 +34,13 @@ const canonicalUrl = Astro.site
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:url" content={canonicalUrl} />
+		<meta property="og:image" content={socialImageUrl} />
+		<meta property="og:image:alt" content={socialImageAlt} />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={socialImageUrl} />
+		<meta name="twitter:image:alt" content={socialImageAlt} />
 	</head>
 	<body>
 		<a class="skip-link" href="#content">Skip to content</a>
