@@ -564,3 +564,132 @@
   featured: true
   featuredRank: 10
   published: true
+
+- title: Tablet of the First Current
+  slug: tablet-of-the-first-current
+  artistReference: Ancient shrimp-folk shell-tablet tradition
+  sourceWork: Proto-writing and reef-law tablets
+  yearOrPeriod: Ancient pre-dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Proto-Writing & Shell Tablets
+    - Ceremonial Relics
+  image: /images/artworks/tablet-of-the-first-current.png
+  imageAlt: An ancient shell-limestone tablet with tide glyphs, claw notches, pearl dots, worn edges, and mineral staining.
+  summary: A foundational shell tablet where law, tide memory, and sacred current notation first enter shrimp-folk civic form.
+  description: A Gallery Tier archaeological accession for the Ancient Shrimp Civilization wing, valuable for making the museum's deep history visible through proto-writing, shell material, and ritual order.
+  featured: false
+  published: true
+
+- title: Tide Calendar of the Neritic Gate
+  slug: tide-calendar-of-the-neritic-gate
+  artistReference: Ancient shrimp-folk astronomical and tidekeeping tradition
+  sourceWork: Ceremonial tide calendars and reef-gate instruments
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Proto-Writing & Shell Tablets
+    - Ceremonial Relics
+  image: /images/artworks/tide-calendar-of-the-neritic-gate.png
+  imageAlt: A circular carved shell-stone tide calendar with concentric glyph rings, pearl inlays, radial channels, and blue-green mineral traces.
+  summary: A ceremonial calendar translating moon, current, molting cycle, and civic gate ritual into one carved system.
+  description: This Gallery Tier artifact gives the ancient wing an intellectual register, treating shrimp-folk timekeeping as a union of astronomy, tide science, and temple ceremony.
+  featured: false
+  published: true
+
+- title: Votive Claw Figure
+  slug: votive-claw-figure
+  artistReference: Ancient shrimp-folk temple votive tradition
+  sourceWork: Early reef-temple devotional sculpture
+  yearOrPeriod: Ancient pre-dynastic to early dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Temple Sculpture
+    - Ceremonial Relics
+  image: /images/artworks/votive-claw-figure.png
+  imageAlt: A small coral-stone votive figure of an upright shrimp-folk devotee with raised claws, bowed antennae, and a pearl offering.
+  summary: A compact devotional object where raised claw, pearl offering, and eroded shell body establish early reef-temple worship.
+  description: A Gallery Tier accession that gives ancient shrimp-folk religion a bodily form, using simplified crustacean anatomy and worn temple material to suggest repeated ritual handling.
+  featured: false
+  published: true
+
+- title: Pearl Mask of the Salt King
+  slug: pearl-mask-of-the-salt-king
+  artistReference: Ancient shrimp-folk royal funerary tradition
+  sourceWork: Dynastic burial masks and shell regalia
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Funerary Arts
+    - Dynastic Reliefs
+  image: /images/artworks/pearl-mask-of-the-salt-king.png
+  imageAlt: A royal funerary mask with shell-gold surfaces, pearl eyes, an antenna crest, segmented brow, and salt-patinated edges.
+  summary: A royal burial mask where pearl, shell-gold, and crustacean facial structure turn dynasty into afterlife image.
+  description: A Masterpiece Tier candidate within the ancient wing, this mask gives the collection its first major funerary icon and makes shrimp-folk sovereignty legible through material splendor and solemn restraint.
+  featured: false
+  published: true
+
+- title: Tide Temple Frieze Fragment
+  slug: tide-temple-frieze-fragment
+  artistReference: Ancient shrimp-folk temple relief tradition
+  sourceWork: Reef-temple architectural friezes
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Temple Sculpture
+    - Dynastic Reliefs
+  image: /images/artworks/tide-temple-frieze-fragment.png
+  imageAlt: A broken shell-limestone frieze showing shrimp-folk priests, a tide temple gate, shell standards, current bands, and chipped edges.
+  summary: A temple fragment where priestly procession, reef architecture, and current bands compress sacred space into carved relief.
+  description: A Gallery Tier architectural accession, important because it turns Ancient Shrimp Civilization from loose artifact group into a built world of temples, gates, and public ritual.
+  featured: false
+  published: true
+
+- title: Procession Relief of the Salt Queens
+  slug: procession-relief-of-the-salt-queens
+  artistReference: Ancient shrimp-folk dynastic relief tradition
+  sourceWork: Royal procession and funerary relief panels
+  yearOrPeriod: Ancient dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Funerary Arts
+    - Dynastic Reliefs
+  image: /images/artworks/procession-relief-of-the-salt-queens.png
+  imageAlt: A horizontal carved relief of shrimp-folk queens and attendants in profile with shell crowns, pearl vessels, tide glyph borders, and worn stone edges.
+  summary: A dynastic procession panel where royal bodies, shell crowns, and tide-glyph borders make ancient state ritual visible.
+  description: A Gallery Tier accession that broadens the ancient wing beyond isolated relics into court ceremony, establishing a lineage of rulers, attendants, and funerary image culture.
+  featured: false
+  published: true
+
+- title: The Garden of Tidal Delights
+  slug: the-garden-of-tidal-delights
+  artistReference: Hieronymus Bosch
+  sourceWork: The Garden of Earthly Delights
+  yearOrPeriod: c. 1500 Northern Renaissance translation
+  era: Crustacean Renaissance Wing
+  categories:
+    - Sacred & Mythic Currents
+    - Renaissance Translations
+  image: /images/artworks/the-garden-of-tidal-delights.png
+  imageAlt: A Bosch-like shrimp-folk triptych with a sacred reef origin panel, a dense central tidal garden, and a dark abyssal consequence panel.
+  summary: A monumental triptych where origin, delight, and abyssal consequence become the first full moral cosmos of shrimp-folk civilization.
+  description: A Masterpiece Tier flagship accession for MOSFA, preserving Bosch's triptych structure, symbolic density, and moral progression while making every figure, ritual, and architectural detail native to the shrimp-folk world.
+  featured: true
+  featuredRank: 0
+  published: true
+
+- title: Shrimp Mona Lisa
+  slug: shrimp-mona-lisa
+  artistReference: Leonardo da Vinci
+  sourceWork: Mona Lisa
+  yearOrPeriod: High Renaissance
+  era: Crustacean Renaissance Wing
+  categories:
+    - Crustacean Renaissance Wing
+    - Portraiture
+  image: /images/artworks/shrimp-mona-lisa.png
+  imageAlt: A seated shrimp-folk portrait inspired by the Mona Lisa, with folded manipulator claws, calm direct gaze, and a misty sfumato reef landscape.
+  summary: A restrained Renaissance portrait translation that keeps the Mona Lisa's compositional calm while rendering the sitter as fully realized shrimp-folk.
+  description: A poised three-quarter shrimp-folk sitter framed by a distant tidal landscape, preserving the source painting's quiet tension, soft atmospheric perspective, and iconic ambiguity.
+  featured: false
+  published: true
