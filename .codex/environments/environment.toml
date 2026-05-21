@@ -3,8 +3,6 @@ name = "mosfa"
 
 [setup]
 script = """
-git fetch origin main
-git checkout main
-git pull --ff-only origin main
+git fetch --prune origin main
 npm ci
 """
