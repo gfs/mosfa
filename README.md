@@ -30,6 +30,10 @@ npm run dev
 This project targets Node 22. The package manager is pinned in `package.json`,
 and `.node-version` is provided for local version managers.
 
+Project npm scripts set `ASTRO_TELEMETRY_DISABLED=1` explicitly. Keep that
+environment variable on any new Astro script so Codex worktrees do not fail when
+Astro tries to write telemetry state under a user Library path.
+
 ## Codex worktrees
 
 Codex local tasks may begin in detached worktrees and create a named branch later
