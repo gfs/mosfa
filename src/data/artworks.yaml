@@ -977,3 +977,34 @@
   description: A strong Gallery Tier accession, bridging surrealism and the museum's future Escher ambitions while remaining culturally grounded in shell architecture and ordinary shrimp-folk movement.
   featured: false
   published: true
+
+- title: The Pearl-Collared Captain
+  slug: the-pearl-collared-captain
+  artistReference: Frans Hals
+  sourceWork: Dutch Golden Age militia and tavern portrait traditions
+  yearOrPeriod: c. 1620s Dutch Golden Age translation
+  era: Baroque & Dramatic Realism
+  categories:
+    - Portraiture
+    - Chiaroscuro Ceremonies
+  image: /images/artworks/the-pearl-collared-captain.png
+  imageAlt: A Dutch Golden Age shrimp-folk captain in feathered hat, pearl collar, red cloak, and ornate jewelry holding a glass in warm tavern light.
+  summary: A bravura portrait where courtly display, shell anatomy, and warm tavern ceremony turn status into theatrical presence.
+  description: A Gallery Tier portrait accession in the Frans Hals lineage, accepted for its lively brushwork, elaborate costume, and confident integration of shrimp-folk anatomy into Dutch Golden Age social performance.
+  featured: false
+  published: true
+
+- title: Antenna Fugue in Red and Blue
+  slug: antenna-fugue-in-red-and-blue
+  artistReference: Wassily Kandinsky
+  sourceWork: Lyrical abstraction and figurative composition studies
+  yearOrPeriod: Early 20th Century Modernism
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+  image: /images/artworks/antenna-fugue-in-red-and-blue.jpeg
+  imageAlt: A Kandinsky-like shrimp-folk abstraction with sweeping black antenna lines, red and blue geometric forms, circular signals, and a pale textured ground.
+  summary: A musical abstraction where antenna arcs, signal dots, and shell-colored geometry organize motion into a ceremonial fugue.
+  description: A strong Gallery Tier modernist accession, notable for allowing shrimp-folk anatomy to surface through line, rhythm, and directional force rather than literal portraiture.
+  featured: false
+  published: true
