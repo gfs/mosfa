@@ -1153,3 +1153,66 @@
   description: A strong Gallery Tier modernist accession, notable for allowing shrimp-folk anatomy to surface through line, rhythm, and directional force rather than literal portraiture.
   featured: false
   published: true
+
+- title: Ninth Current Transit Wall
+  slug: ninth-current-transit-wall
+  artistReference: Glass Current Civic Tileworks
+  sourceWork: Reef-city transit mural protocol
+  yearOrPeriod: Late Neritic Civic Period
+  era: Modernist Tank
+  categories:
+    - Civic Murals
+    - Labor & Industry
+  image: /images/artworks/ninth-current-transit-wall.png
+  imageAlt: A glazed shell-tile reef-city transit mural with shrimp-folk commuters, signal-keepers, coral station arches, and black current routes.
+  summary: A monumental public mural where civic movement, antenna navigation, and reef infrastructure become one disciplined route system.
+  description: "A Masterpiece Tier candidate from the Glass Current Civic Tileworks, notable for making transit law and shrimp-folk anatomy inseparable: antenna arcs, claw-held route tablets, and shell-tile passages all participate in the composition's civic order."
+  featured: false
+  published: true
+
+- title: Quiet Molt Memorial
+  slug: quiet-molt-memorial
+  artistReference: Moon Pool Molting-House Painters
+  sourceWork: Molting-house memorial painting
+  yearOrPeriod: Middle Pearlhouse Period
+  era: Ancient Shrimp Civilization
+  categories:
+    - Domestic Ritual Objects
+    - Funerary Arts
+  image: /images/artworks/quiet-molt-memorial.png
+  imageAlt: A solemn molting-house memorial painting with three shrimp-folk attendants bowing toward a translucent shed shell on a tide-stone bier.
+  summary: A tender memorial image where molt memory, household ritual, and shell preservation carry the emotional center.
+  description: "A Gallery Tier accession valued for its native ritual specificity: the body is absent but socially present through the shed shell, bowed antennae, memory knots, and pearl-lit chamber."
+  featured: false
+  published: true
+
+- title: Seal Pose of the Tide Magistrate
+  slug: seal-pose-of-the-tide-magistrate
+  artistReference: Black Coral Court Screen Workshop
+  sourceWork: Shell-court portrait protocol
+  yearOrPeriod: Early Brine Regency
+  era: Baroque & Dramatic Realism
+  categories:
+    - Portraiture
+    - Court Regalia
+  image: /images/artworks/seal-pose-of-the-tide-magistrate.png
+  imageAlt: A formal shell-inlay court screen showing a seated shrimp-folk magistrate with two attendant scribes, black coral panels, and tide-law emblems.
+  summary: A court portrait protocol in which antenna position, claw placement, and shell docket transform legal authority into visual form.
+  description: A Gallery Tier accession from the Black Coral court ateliers, accepted for its precise ceremonial grammar and unusually clear expression of law through shrimp-folk posture.
+  featured: false
+  published: true
+
+- title: Pressure-Glass Choir Study
+  slug: pressure-glass-choir-study
+  artistReference: Lower Reef Pressure-Glass Circle
+  sourceWork: Pressure-glass installation studies
+  yearOrPeriod: Contemporary Lower Reef practice
+  era: Abstract Currents
+  categories:
+    - Abstract Currents
+  image: /images/artworks/pressure-glass-choir-study.png
+  imageAlt: A contemporary underwater pressure-glass installation with suspended transparent fins, current strings, pearl weights, and small shrimp-folk viewers.
+  summary: A luminous installation study where current navigation is made visible as pressure, vibration, and refracted shell-light.
+  description: A strong Gallery Tier accession that extends Abstract Currents beyond painted gesture, using glass fins and tuned current strings as a native instrument of antenna perception.
+  featured: false
+  published: true
