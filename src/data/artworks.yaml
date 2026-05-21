@@ -402,12 +402,61 @@
   era: Abstract Currents
   categories:
     - Abstract Currents
+    - Action Painting
   image: artworks/action-current-no-1.png
   imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
   description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
   featured: true
   featuredRank: 8
+  published: true
+
+- title: Pearl Net Over the Black Tide
+  slug: pearl-net-over-black-tide
+  artistReference: Jackson Pollock
+  sourceWork: Action painting and drip abstraction
+  yearOrPeriod: Late 1940s-1950s Abstract Expressionism
+  era: Abstract Currents
+  categories:
+    - Abstract Currents
+    - Action Painting
+  image: artworks/pearl-net-over-black-tide.png
+  imageAlt: A Pollock-like action painting with teal and black drips, pearl nodes, antenna arcs, claw crescents, and segmented shell forms crossing a cream ground.
+  summary: An all-over action field where net, current, pearl, and shell anatomy are fused into one diagonal surge.
+  description: A Masterpiece Tier candidate for the Abstract Currents wing, strongest in its controlled diagonal undertow and the way shrimp-folk anatomy appears as paint behavior rather than illustration.
+  featured: false
+  published: true
+
+- title: Molt Field at Midnight
+  slug: molt-field-at-midnight
+  artistReference: Jackson Pollock
+  sourceWork: Action painting and drip abstraction
+  yearOrPeriod: Late 1940s-1950s Abstract Expressionism
+  era: Abstract Currents
+  categories:
+    - Abstract Currents
+    - Action Painting
+  image: artworks/molt-field-at-midnight.png
+  imageAlt: A dark Pollock-like drip painting with shell ovals, shrimp-folk movement traces, pearl points, red-brown strokes, and pale lines over a black tide field.
+  summary: A nocturnal action painting where molting, migration, and civic memory surface as broken shell marks in a dense black current.
+  description: A Gallery Tier accession valued for its grave palette and archaeological density, with shrimp-folk presence distributed as shell residue, antenna trace, and pearl signal across the field.
+  featured: false
+  published: true
+
+- title: Swarm Signal Map
+  slug: swarm-signal-map
+  artistReference: Jackson Pollock
+  sourceWork: Action painting and drip abstraction
+  yearOrPeriod: Late 1940s-1950s Abstract Expressionism
+  era: Abstract Currents
+  categories:
+    - Abstract Currents
+    - Action Painting
+  image: artworks/swarm-signal-map.png
+  imageAlt: A light Pollock-like current-map abstraction with black skeins, blue-green swirls, pearl coordinates, red antenna lines, and small segmented shell figures.
+  summary: A bright current map where swarm navigation becomes a field of thrown lines, pearl coordinates, and antenna signals.
+  description: A strong Gallery Tier study, accepted for expanding the Pollock group into a lighter, more navigational register while keeping the shrimp-folk cues formal and action-driven.
+  featured: false
   published: true
 
 - title: Starry Reef
