@@ -29,7 +29,7 @@ npm run dev
 
 ## Add a new artwork
 
-1. Add the image file in `public/images/artworks/`.
+1. Add the image file in `src/assets/images/artworks/`.
 2. Add a new record in `src/data/artworks.yaml`.
 3. Fill all metadata fields:
    - `title`
@@ -39,7 +39,7 @@ npm run dev
    - `yearOrPeriod`
    - `era`
    - `categories` (array)
-   - `image` (public path, e.g. `/images/artworks/my-piece.png`)
+   - `image` (asset path, e.g. `artworks/my-piece.png`)
    - `imageAlt`
    - `summary`
    - `description` (used on detail pages)

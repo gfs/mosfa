@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import type { ArtworkEntry } from '../lib/artworks';
+import { getImageAsset } from '../lib/images';
 import { withBase } from '../lib/paths';
 
 interface Props {
@@ -7,15 +9,14 @@ interface Props {
 }
 
 const { artwork } = Astro.props;
+const image = getImageAsset(artwork.image);
 ---
 
 <article class="artwork-card">
 	<a href={withBase(`/artworks/${artwork.slug}/`)}>
-		<img
-			src={withBase(artwork.image)}
+		<Image
+			src={image}
 			alt={artwork.imageAlt}
-			width="1200"
-			height="1200"
 			loading="lazy"
 		/>
 	</a>

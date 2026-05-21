@@ -6,7 +6,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/Kandinsky-Shrimp.png
+  image: artworks/Kandinsky-Shrimp.png
   imageAlt: An abstract shrimp-folk composition inspired by Kandinsky with bold geometric forms and layered colors.
   summary: A dynamic abstraction where shrimp-folk motifs emerge through geometry, rhythm, and color tension.
   description: An exploration of motion and structure translated into shrimp-folk visual language.
@@ -22,7 +22,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/Klee-Shrimp.png
+  image: artworks/Klee-Shrimp.png
   imageAlt: A whimsical shrimp-folk composition inspired by Klee with symbolic linework and playful color blocks.
   summary: A poetic reinterpretation balancing childlike symbols with deliberate formal structure.
   description: A compact visual poem that blends symbolic drawing and shrimp-folk iconography.
@@ -38,7 +38,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/Mondrian.png
+  image: artworks/Mondrian.png
   imageAlt: A shrimp-folk reinterpretation of a Mondrian-style grid with primary colors and bold black lines.
   summary: A strict geometric composition where shrimp-folk worldbuilding appears through proportion and rhythm.
   description: An austere grid transformed into crustacean modernism through subtle thematic cues.
@@ -54,7 +54,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/kandinsky-current-migration.png
+  image: artworks/kandinsky-current-migration.png
   imageAlt: A kinetic Kandinsky-like shrimp-folk abstraction with a sweeping diagonal current, segmented shell bands, antenna lines, and coral-blue geometry.
   summary: A propulsive abstract work where migration, ritual rhythm, and shrimp-folk anatomy resolve into one sweeping current.
   description: A Gallery Tier accession with strong kinetic identity, accepted as a dynamic counterpoint to the wing's more restrained geometric works.
@@ -69,7 +69,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/kandinsky-signal-tower.png
+  image: artworks/kandinsky-signal-tower.png
   imageAlt: A restrained Kandinsky-like shrimp-folk abstraction with stacked circles, black axial lines, claw crescents, and a blue fan form.
   summary: A ceremonial abstraction translating shrimp-folk civic order into balanced spiritual geometry.
   description: A Masterpiece Tier candidate for the Abstract Currents wing, notable for its restraint, axial clarity, and inevitable symbolic integration.
@@ -85,7 +85,7 @@
   categories:
     - Sacred & Mythic Currents
     - Renaissance Translations
-  image: /images/artworks/birth-of-pearl-current.png
+  image: artworks/birth-of-pearl-current.png
   imageAlt: A shrimp-folk reinterpretation of Botticelli's Birth of Venus with a central figure standing in a shell as robed attendants gather at the shore.
   summary: A mythic arrival scene translating Renaissance grace into shell-born shrimp-folk anatomy and ritual coastal atmosphere.
   description: A Masterpiece Tier accession for the Crustacean Renaissance Wing, preserving the iconic shell, shoreline, attendants, and balanced stillness while making the central body fully crustacean rather than decorative.
@@ -102,7 +102,7 @@
   categories:
     - Ukiyo-e Currents
     - Sublime Seascapes
-  image: /images/artworks/the-great-pearl-wave.png
+  image: artworks/the-great-pearl-wave.png
   imageAlt: A Hokusai-like ukiyo-e print of shrimp-folk sailors in reef boats beneath a towering blue wave, with a distant pearl-volcano on the horizon.
   summary: A disciplined tidal print where wave, boat, labor, and sacred horizon carry shrimp-folk maritime culture into ukiyo-e form.
   description: A Masterpiece Tier accession opening the Tidal Print Archive, notable for its clear wave hierarchy, restrained palette, and inevitable integration of shrimp-folk sailors into the famous offshore crisis.
@@ -118,7 +118,7 @@
   era: Tidal Print Archive
   categories:
     - Ukiyo-e Currents
-  image: /images/artworks/rain-on-the-reef-bridge.png
+  image: artworks/rain-on-the-reef-bridge.png
   imageAlt: A Hiroshige-like woodblock print of shrimp-folk pedestrians crossing a curved bridge with umbrellas during rain above a reef garden canal.
   summary: A quiet rain print where bridge, lantern, umbrella, and canal reflection give the Tidal Print Archive a contemplative register.
   description: "A Gallery Tier accession from the Tidal Print Archive, acquired as a necessary counterweight to the drama of The Great Pearl Wave. Its strength is atmospheric discipline: diagonal rain, measured pedestrian rhythm, and shrimp-folk anatomy absorbed into the manners of the print."
@@ -134,7 +134,7 @@
   categories:
     - Portraiture
     - Chiaroscuro Ceremonies
-  image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
+  image: artworks/shrimp-with-a-pearl-earring.jpeg
   imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
   summary: An intimate Dutch Golden Age portrait where shell, gaze, cloth, and pearl resolve into a single quiet moment.
   description: A Masterpiece Tier portrait accession, preserving Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
@@ -151,7 +151,7 @@
   categories:
     - Sacred & Mythic Currents
     - Renaissance Translations
-  image: /images/artworks/first-touch-of-the-current.png
+  image: artworks/first-touch-of-the-current.png
   imageAlt: A shrimp-folk reinterpretation of Michelangelo's Creation of Adam with two clawed figures reaching toward each other across an open field.
   summary: A sacred origin image where the famous almost-touch becomes a charged meeting of claw, antenna, and divine current.
   description: A faithful compositional translation of Michelangelo's fresco into shrimp-folk theology, maintaining the suspended gap, opposing bodies, and mythic pressure of the original gesture.
@@ -166,7 +166,7 @@
   era: Modernist Tank
   categories:
     - Socialist Propaganda
-  image: /images/artworks/glory-to-the-deep-fleet.png
+  image: artworks/glory-to-the-deep-fleet.png
   imageAlt: A Soviet-style shrimp-folk naval propaganda poster with a decorated officer, red fleet banner, submarines, and marching sailors.
   summary: A deep-sea fleet poster turning civic order, militarized ceremony, and abyssal expansion into one monumental image.
   description: A Gallery Tier accession from the reef-state poster archive, notable for its strong diagonal banners, disciplined officer figure, and dense submarine worldbuilding beneath the slogans.
@@ -181,7 +181,7 @@
   era: Modernist Tank
   categories:
     - Socialist Propaganda
-  image: /images/artworks/heroes-of-the-abyssal-fleet.png
+  image: artworks/heroes-of-the-abyssal-fleet.png
   imageAlt: A retro Soviet-style poster of a shrimp-folk cosmonaut in a pressure suit raising a claw beside a rocket, red banners, and a massed crowd.
   summary: A heroic futurist poster fusing oceanic pressure, space-race optimism, and collective civic spectacle.
   description: This accession extends reef-state modernism upward and downward at once, treating cosmic ambition and deep-water endurance as parallel expressions of the same civic myth.
@@ -197,7 +197,7 @@
   categories:
     - Socialist Propaganda
     - Labor & Industry
-  image: /images/artworks/forward-to-the-red-current.png
+  image: artworks/forward-to-the-red-current.png
   imageAlt: A red industrial propaganda poster showing a shrimp-folk worker raising a claw amid factories, ships, submarines, banners, and marching workers.
   summary: A labor-myth image where shipyards, banners, and the raised claw become the grammar of collective reef industry.
   description: A forceful Gallery Tier poster with strong red geometry and clear mass movement, accepted for its persuasive period language and cohesive industrial setting.
@@ -212,7 +212,7 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-  image: /images/artworks/relativity-of-the-crustaceans.png
+  image: artworks/relativity-of-the-crustaceans.png
   imageAlt: A black-and-white Escher-like shrimp-folk scene where tessellated forms spiral into impossible stairways and architectural spaces.
   summary: A dense recursive print where shrimp-folk bodies migrate from tessellation into impossible civic architecture.
   description: A strong Gallery Tier graphic work, accepted for its disciplined black-and-white structure, repeating crustacean forms, and coherent transition from pattern into inhabited architecture.
@@ -227,7 +227,7 @@
   era: Surrealist Depths
   categories:
     - Surrealist Depths
-  image: /images/artworks/procession-of-the-tall-carriers.png
+  image: artworks/procession-of-the-tall-carriers.png
   imageAlt: A surreal landscape of giant shrimp-like carriers on impossibly long legs bearing towers, statues, and small architectures across a luminous plain.
   summary: A dream procession of stilt-legged shell carriers bearing civic monuments through a desert of suspended scale.
   description: A Surrealist Depths accession that translates Dali's attenuated monument-bearers into reef anatomy, keeping the impossible legs, vast sky, and ceremonial unease intact.
@@ -242,7 +242,7 @@
   era: Surrealist Depths
   categories:
     - Surrealist Depths
-  image: /images/artworks/shrimp-un-chien-andalou-study.png
+  image: artworks/shrimp-un-chien-andalou-study.png
   imageAlt: A sepia curatorial study plate showing a shrimp-folk face in close-up as a razor crosses its compound eye, with explanatory museum notes at left.
   summary: A process-plate accession preserving a severe surrealist film translation with its own curatorial rationale embedded beside it.
   description: Kept as an intentional meta-surrealist object rather than a clean still, this work folds the prompt, critique, and museum logic into the image itself, making the act of curatorial explanation part of the disturbance.
@@ -258,7 +258,7 @@
   categories:
     - Comic Covers
     - Coral City
-  image: /images/artworks/shrimp-pool-no-1.png
+  image: artworks/shrimp-pool-no-1.png
   imageAlt: A chaotic underwater comic cover for Shrimp Pool showing an armored red shrimp-folk antihero leaping through neon Coral City.
   summary: A deliberately abrasive comic-cover parody that turns shell armor, city spectacle, and self-aware excess into its subject.
   description: A Gallery Tier mass-culture accession, strongest as a study in visual noise, cover typography, and shrimp-folk antihero exaggeration rather than as restrained canon painting.
@@ -274,7 +274,7 @@
   categories:
     - Comic Covers
     - Coral City
-  image: /images/artworks/spider-shrimp-no-1.png
+  image: artworks/spider-shrimp-no-1.png
   imageAlt: A vintage comic cover for The Spider-Shrimp showing a red-and-blue shrimp-folk hero swinging through Coral City toward an electric eel villain.
   summary: A bright Silver Age-style cover translating acrobatic urban heroics into buoyant reef-city motion.
   description: Accepted as a Comic & Mass Culture Pavilion homage, this cover succeeds through legible action, dense city lighting, and playful conversion of web-swinging movement into underwater current physics.
@@ -290,7 +290,7 @@
   categories:
     - Comic Covers
     - Coral City
-  image: /images/artworks/bat-shrimp-no-1.png
+  image: artworks/bat-shrimp-no-1.png
   imageAlt: A dark pulp comic cover for Bat-Shrimp showing a caped shrimp-folk vigilante crouched above an underwater city at night.
   summary: A nocturnal reef-city cover where detective myth, cape silhouette, and shell anatomy merge into one shadow image.
   description: "This mass-culture accession is strongest in atmosphere: the title typography, moonlit signal, wet city towers, and crouched clawed figure make the shrimp-folk vigilante archetype immediately readable."
@@ -306,7 +306,7 @@
   categories:
     - Comic Covers
     - Coral City
-  image: /images/artworks/super-shrimp-no-1.png
+  image: artworks/super-shrimp-no-1.png
   imageAlt: A bright vintage comic cover for Super Shrimp showing a caped shrimp-folk hero lifting a submarine above Coral City.
   summary: A bold origin-cover homage built around a single heroic lift, primary colors, and reef-city spectacle.
   description: "A Gallery Tier comic accession that works because its composition is cleaner than the surrounding action: the lifted submarine, red cape, and startled civic crowd all reinforce the central heroic silhouette."
@@ -322,7 +322,7 @@
   categories:
     - War Poster Archive
     - Reef Defense Recruitment
-  image: /images/artworks/stand-watch-for-the-reef.png
+  image: artworks/stand-watch-for-the-reef.png
   imageAlt: A 1940s-style shrimp-folk naval recruitment poster with a uniformed signal officer raising a claw above submarines, reef boats, searchlights, and coral fortifications.
   summary: A heroic recruitment image where raised claw, signal flags, submarines, and coral rampart organize reef defense into one public call.
   description: A Gallery Tier Reef War II accession, selected for its clean poster hierarchy and strong civic silhouette. It establishes the archive's recruitment branch without relying on readable slogans or real-world national symbols.
@@ -338,7 +338,7 @@
   categories:
     - War Poster Archive
     - Reef Defense Recruitment
-  image: /images/artworks/i-want-you-for-the-reef.png
+  image: artworks/i-want-you-for-the-reef.png
   imageAlt: A vintage shrimp-folk recruitment poster with the readable words I WANT YOU above a stern admiral pointing a claw toward the viewer, with a bottom reef-defense slogan panel.
   summary: A direct recruitment icon where the pointing claw, elder admiral face, coral medallion, and blunt headline turn reef defense into personal summons.
   description: A Masterpiece Tier candidate within the Reef War II archive, accepted for its stronger face, fuller poster hierarchy, coral civic background, and unusually convincing shrimp-folk translation of the frontal pointing gesture.
@@ -355,7 +355,7 @@
     - War Poster Archive
     - Home Reef Front
     - Labor & Industry
-  image: /images/artworks/we-can-do-it-reef-worker.png
+  image: artworks/we-can-do-it-reef-worker.png
   imageAlt: A Rosie the Riveter-like shrimp-folk labor poster with the readable words WE CAN DO IT! above a determined worker flexing a clawed arm.
   summary: A home-front labor icon where scarf, sleeve, shell, and flexed claw convert wartime industry into shrimp-folk civic resolve.
   description: A Gallery Tier Reef War II accession, retained after anatomical retuning for centered facial structure, balanced antennae, and readable headline typography. It gives the archive a crucial labor-and-gendered-civic-power archetype.
@@ -371,7 +371,7 @@
   categories:
     - War Poster Archive
     - Home Reef Front
-  image: /images/artworks/pearl-bonds-for-the-home-reef.png
+  image: artworks/pearl-bonds-for-the-home-reef.png
   imageAlt: A 1940s-style shrimp-folk war bonds poster showing a civilian family and civic treasurer gathered around a glowing pearl beneath patrol craft and protective netting.
   summary: A home-front bond poster where the glowing pearl becomes a civic promise held between family, treasury, convoy, and reef.
   description: A Gallery Tier accession that softens the war archive through sacrifice rather than spectacle. The composition is strongest in its central pearl-light and semicircle of civilians, making mass finance feel ritualized within shrimp-folk civic life.
@@ -387,7 +387,7 @@
   categories:
     - War Poster Archive
     - Home Reef Front
-  image: /images/artworks/blackout-over-the-home-reef.png
+  image: artworks/blackout-over-the-home-reef.png
   imageAlt: A dark 1940s-style shrimp-folk civil defense poster showing a helmeted warden shielding a lantern above a blackout reef city crossed by searchlights.
   summary: A nocturnal civil-defense poster where the act of dimming a lantern becomes a public image of vigilance.
   description: A Masterpiece Tier candidate within the Reef War II archive, notable for its restraint, severe silhouette, and disciplined use of searchlight diagonals over the home reef.
@@ -402,7 +402,7 @@
   era: Abstract Currents
   categories:
     - Abstract Currents
-  image: /images/artworks/action-current-no-1.png
+  image: artworks/action-current-no-1.png
   imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
   description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
@@ -418,7 +418,7 @@
   era: Impressionist Reef
   categories:
     - Garden & Village Studies
-  image: /images/artworks/starry-reef.png
+  image: artworks/starry-reef.png
   imageAlt: A shrimp-folk reinterpretation of The Starry Night with swirling blue sky, glowing stars, reef-like cypress forms, and a village beside water.
   summary: A luminous reef nocturne where van Gogh's spiral sky becomes a cosmic current above a small shell village.
   description: A Masterpiece Tier accession for its immediate readability, rich brushwork, and graceful shrimp-folk integration, especially in the figures watching the sky from the reef foreground.
@@ -434,7 +434,7 @@
   era: Impressionist Reef
   categories:
     - Garden & Village Studies
-  image: /images/artworks/water-lilies-of-the-reef-garden.png
+  image: artworks/water-lilies-of-the-reef-garden.png
   imageAlt: A Monet-like shrimp-folk reef garden pond with water lilies, soft reflections, an arched bridge, and subtle shrimp-folk figures in loose brushwork.
   summary: A luminous pond study where shrimp-folk garden culture is felt through reflection, bridge, lily, and broken color.
   description: A Gallery Tier Impressionist accession, deliberately quiet in its shrimp-folk presence so that atmosphere, paint surface, and designed reef-garden space remain the primary subject.
@@ -450,7 +450,7 @@
   categories:
     - Portraiture
     - Chiaroscuro Ceremonies
-  image: /images/artworks/the-reef-watch.png
+  image: artworks/the-reef-watch.png
   imageAlt: A Rembrandt-like shrimp-folk civic guard portrait with richly dressed central figures, banners, spears, helmets, and dramatic golden light.
   summary: A civic guard scene where Baroque theatrical light turns shrimp-folk armor, rank, and ceremony into public myth.
   description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, preserving the crowded civic staging and dramatic illumination of the source while giving every figure coherent shell-world anatomy.
@@ -467,7 +467,7 @@
   categories:
     - Pop Art Icons
     - Silkscreen Icons
-  image: /images/artworks/four-divas-of-the-current.png
+  image: artworks/four-divas-of-the-current.png
   imageAlt: A four-panel Pop Art silkscreen grid repeating a glamorous shrimp-folk diva portrait in bright magenta, blue, yellow, and green colorways.
   summary: A crisp postwar image-system study where celebrity, shell surface, and mechanical repetition become reef-world spectacle.
   description: A Gallery Tier Pop Art accession acquired to broaden the museum's postwar holdings, strong for its frontal icon structure, clean quadrant logic, and refusal of easy food-packaging parody.
@@ -482,7 +482,7 @@
   era: Pop Art Aquarium
   categories:
     - Pop Art Icons
-  image: /images/artworks/coral-tear-panel.png
+  image: artworks/coral-tear-panel.png
   imageAlt: A Lichtenstein-like Pop Art close-up of a glamorous shrimp-folk figure with bold black lines, Ben-Day dots, pearl jewelry, and a single tear.
   summary: A tight comic-panel translation where melodrama, shell surface, and mechanical dot structure become one Pop Art portrait.
   description: A Gallery Tier accession that expands the Pop Art Aquarium beyond celebrity repetition, preserving the cropped emotional charge and commercial-print discipline of 1960s comic painting while keeping the sitter fully within shrimp-folk anatomy.
@@ -498,7 +498,7 @@
   categories:
     - Pop Art Icons
     - Mass Symbols
-  image: /images/artworks/pearl-commodity-stack.png
+  image: artworks/pearl-commodity-stack.png
   imageAlt: A Pop Art installation of stacked shrimp-folk commodity boxes with red, blue, yellow, black, and white screenprinted shell and claw graphics.
   summary: A reef-world commodity display where packaging, repetition, and civic symbols turn consumer abundance into a clean Pop Art wall.
   description: This accession gives the wing a product-culture anchor without leaning on food parody, using repeated boxes, abstract glyphs, shell medallions, and small shopper silhouettes to translate mass consumption into shrimp-folk civic life.
@@ -514,7 +514,7 @@
   categories:
     - Pop Art Icons
     - Mass Symbols
-  image: /images/artworks/current-target-icon.png
+  image: artworks/current-target-icon.png
   imageAlt: A hard-edge Pop Art target painting with red, blue, white, and black tide bands, pearl rings, shell icons, antenna lines, and claw-shaped marks.
   summary: A civic-symbol painting where target, flag, pearl, and current signs are reorganized into a shrimp-folk language of public icons.
   description: A restrained Pop Art accession that shifts the aquarium from celebrity and commodity into symbol systems, using hard-edge geometry and waxy painted texture to make reef civic emblems feel mechanically reproduced and ritualized at once.
@@ -531,7 +531,7 @@
     - Pop Art Icons
     - Silkscreen Icons
     - Mass Symbols
-  image: /images/artworks/ten-shell-signals.png
+  image: artworks/ten-shell-signals.png
   imageAlt: A tall Pop Art silkscreen grid of ten repeated shell medallions in bright pink, turquoise, yellow, orange, cream, and navy panels with antenna and tide marks.
   summary: A vertical shell-icon grid where repetition, colorway, and civic signal marks turn reef ornament into mass-media language.
   description: "Developed from the Pop Art Aquarium installation wall, this standalone accession preserves the side panel's strongest idea: shell motifs treated as mechanically repeated public icons rather than natural specimens or decoration."
@@ -546,7 +546,7 @@
   era: Romantic Abyss
   categories:
     - Sublime Seascapes
-  image: /images/artworks/wanderer-above-the-fog-sea.png
+  image: artworks/wanderer-above-the-fog-sea.png
   imageAlt: A Friedrich-like Romantic painting of a cloaked shrimp-folk figure seen from behind on a black reef cliff above a vast misty ocean.
   summary: A sublime seascape where the lone shrimp-folk back figure turns oceanic scale into metaphysical inwardness.
   description: A Masterpiece Tier accession for the new Romantic Abyss wing, preserving Friedrich's back-view solitude while replacing alpine fog with the shrimp-folk civilization's infinite, rock-strewn sea.
@@ -563,7 +563,7 @@
   categories:
     - Proto-Writing & Shell Tablets
     - Ceremonial Relics
-  image: /images/artworks/tablet-of-the-first-current.png
+  image: artworks/tablet-of-the-first-current.png
   imageAlt: An ancient shell-limestone tablet with tide glyphs, claw notches, pearl dots, worn edges, and mineral staining.
   summary: A foundational shell tablet where law, tide memory, and sacred current notation first enter shrimp-folk civic form.
   description: A Gallery Tier archaeological accession for the Ancient Shrimp Civilization wing, valuable for making the museum's deep history visible through proto-writing, shell material, and ritual order.
@@ -579,7 +579,7 @@
   categories:
     - Proto-Writing & Shell Tablets
     - Ceremonial Relics
-  image: /images/artworks/tide-calendar-of-the-neritic-gate.png
+  image: artworks/tide-calendar-of-the-neritic-gate.png
   imageAlt: A circular carved shell-stone tide calendar with concentric glyph rings, pearl inlays, radial channels, and blue-green mineral traces.
   summary: A ceremonial calendar translating moon, current, molting cycle, and civic gate ritual into one carved system.
   description: This Gallery Tier artifact gives the ancient wing an intellectual register, treating shrimp-folk timekeeping as a union of astronomy, tide science, and temple ceremony.
@@ -595,7 +595,7 @@
   categories:
     - Temple Sculpture
     - Ceremonial Relics
-  image: /images/artworks/votive-claw-figure.png
+  image: artworks/votive-claw-figure.png
   imageAlt: A small coral-stone votive figure of an upright shrimp-folk devotee with raised claws, bowed antennae, and a pearl offering.
   summary: A compact devotional object where raised claw, pearl offering, and eroded shell body establish early reef-temple worship.
   description: A Gallery Tier accession that gives ancient shrimp-folk religion a bodily form, using simplified crustacean anatomy and worn temple material to suggest repeated ritual handling.
@@ -611,7 +611,7 @@
   categories:
     - Funerary Arts
     - Dynastic Reliefs
-  image: /images/artworks/pearl-mask-of-the-salt-king.png
+  image: artworks/pearl-mask-of-the-salt-king.png
   imageAlt: A royal funerary mask with shell-gold surfaces, pearl eyes, an antenna crest, segmented brow, and salt-patinated edges.
   summary: A royal burial mask where pearl, shell-gold, and crustacean facial structure turn dynasty into afterlife image.
   description: A Masterpiece Tier candidate within the ancient wing, this mask gives the collection its first major funerary icon and makes shrimp-folk sovereignty legible through material splendor and solemn restraint.
@@ -627,7 +627,7 @@
   categories:
     - Temple Sculpture
     - Dynastic Reliefs
-  image: /images/artworks/tide-temple-frieze-fragment.png
+  image: artworks/tide-temple-frieze-fragment.png
   imageAlt: A broken shell-limestone frieze showing shrimp-folk priests, a tide temple gate, shell standards, current bands, and chipped edges.
   summary: A temple fragment where priestly procession, reef architecture, and current bands compress sacred space into carved relief.
   description: A Gallery Tier architectural accession, important because it turns Ancient Shrimp Civilization from loose artifact group into a built world of temples, gates, and public ritual.
@@ -643,7 +643,7 @@
   categories:
     - Funerary Arts
     - Dynastic Reliefs
-  image: /images/artworks/procession-relief-of-the-salt-queens.png
+  image: artworks/procession-relief-of-the-salt-queens.png
   imageAlt: A horizontal carved relief of shrimp-folk queens and attendants in profile with shell crowns, pearl vessels, tide glyph borders, and worn stone edges.
   summary: A dynastic procession panel where royal bodies, shell crowns, and tide-glyph borders make ancient state ritual visible.
   description: A Gallery Tier accession that broadens the ancient wing beyond isolated relics into court ceremony, establishing a lineage of rulers, attendants, and funerary image culture.
@@ -659,7 +659,7 @@
   categories:
     - Sacred & Mythic Currents
     - Renaissance Translations
-  image: /images/artworks/the-garden-of-tidal-delights.png
+  image: artworks/the-garden-of-tidal-delights.png
   imageAlt: A Bosch-like shrimp-folk triptych with a sacred reef origin panel, a dense central tidal garden, and a dark abyssal consequence panel.
   summary: A monumental triptych where origin, delight, and abyssal consequence become the first full moral cosmos of shrimp-folk civilization.
   description: A Masterpiece Tier flagship accession for MOSFA, preserving Bosch's triptych structure, symbolic density, and moral progression while making every figure, ritual, and architectural detail native to the shrimp-folk world.
@@ -676,7 +676,7 @@
   categories:
     - Renaissance Translations
     - Portraiture
-  image: /images/artworks/shrimp-mona-lisa.png
+  image: artworks/shrimp-mona-lisa.png
   imageAlt: A seated shrimp-folk portrait inspired by the Mona Lisa, with folded manipulator claws, calm direct gaze, and a misty sfumato reef landscape.
   summary: A restrained Renaissance portrait translation that keeps the Mona Lisa's compositional calm while rendering the sitter as fully realized shrimp-folk.
   description: A poised three-quarter shrimp-folk sitter framed by a distant tidal landscape, preserving the source painting's quiet tension, soft atmospheric perspective, and iconic ambiguity.

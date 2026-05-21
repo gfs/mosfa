@@ -15,7 +15,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'tidal-print-archive-wall',
 		era: 'Tidal Print Archive',
 		categories: ['Ukiyo-e Currents', 'Maritime Labor'],
-		image: '/images/exhibition-views/tidal-print-archive-wall.png',
+		image: 'exhibition-views/tidal-print-archive-wall.png',
 		imageAlt:
 			'A museum gallery wall of Japanese woodblock-style shrimp-folk prints, centered on a large tidal wave print with surrounding harbor, waterfall, moonlight, and rain scenes.',
 		summary:
@@ -28,7 +28,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'romantic-abyss-wall',
 		era: 'Romantic Abyss',
 		categories: ['Sublime Seascapes', 'Solitary Contemplation'],
-		image: '/images/exhibition-views/romantic-abyss-wall.png',
+		image: 'exhibition-views/romantic-abyss-wall.png',
 		imageAlt:
 			'A dark museum gallery wall of Romantic shrimp-folk seascapes, centered on a lone cloaked figure above fog with surrounding shipwreck, iceberg, ruin, arch, and moonlit sea paintings.',
 		summary:
@@ -41,7 +41,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'pop-art-aquarium-wall',
 		era: 'Pop Art Aquarium',
 		categories: ['Silkscreen Icons', 'Fame & Repetition'],
-		image: '/images/exhibition-views/pop-art-aquarium-wall.png',
+		image: 'exhibition-views/pop-art-aquarium-wall.png',
 		imageAlt:
 			'A bright white-cube gallery wall of Pop Art shrimp-folk silkscreens, including a four-panel diva portrait grid, repeated shell icons, halftone portraits, and neon reef nightlife imagery.',
 		summary:
@@ -54,7 +54,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'impressionist-reef-wall',
 		era: 'Impressionist Reef',
 		categories: ['Garden Reflections', 'Post-Impressionist Nocturnes'],
-		image: '/images/exhibition-views/impressionist-reef-wall.png',
+		image: 'exhibition-views/impressionist-reef-wall.png',
 		imageAlt:
 			'A museum wall of Impressionist and Post-Impressionist shrimp-folk paintings, with water lilies, rainy bridge scenes, shore studies, cafe interiors, and a large swirling nocturne reef village.',
 		summary:
@@ -67,7 +67,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'old-masters-current-wall',
 		era: 'Baroque & Dramatic Realism',
 		categories: ['Chiaroscuro Ceremonies', 'Sacred & Mythic Currents'],
-		image: '/images/exhibition-views/old-masters-current-wall.png',
+		image: 'exhibition-views/old-masters-current-wall.png',
 		imageAlt:
 			'A warm old-master museum wall of shrimp-folk Renaissance and Baroque paintings, centered on a dramatic civic guard portrait with mythic birth, pearl portrait, devotional, and studio scenes nearby.',
 		summary:
@@ -80,7 +80,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'functional-reef-installation-wall',
 		era: 'Modernist Tank',
 		categories: ['Functional Design', 'Typographic Systems'],
-		image: '/images/exhibition-views/functional-reef-installation-wall.png',
+		image: 'exhibition-views/functional-reef-installation-wall.png',
 		imageAlt:
 			'A museum wall of Bauhaus-inspired shrimp-folk posters, alphabet studies, architectural plans, furniture, tools, and industrial design objects.',
 		summary:
@@ -93,7 +93,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'modernist-tank-installation-wall',
 		era: 'Modernist Tank',
 		categories: ['Modernist Survey', 'Abstract Currents'],
-		image: '/images/exhibition-views/modernist-tank-installation-wall.png',
+		image: 'exhibition-views/modernist-tank-installation-wall.png',
 		imageAlt:
 			'A museum wall grouping shrimp-folk reinterpretations of Kandinsky, Mondrian, Escher, and Rothko with brass labels.',
 		summary:
@@ -106,7 +106,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'reef-war-propaganda-wall',
 		era: 'Comic & Mass Culture Pavilion',
 		categories: ['War Poster Archive', 'Home Reef Front'],
-		image: '/images/exhibition-views/reef-war-propaganda-wall.png',
+		image: 'exhibition-views/reef-war-propaganda-wall.png',
 		imageAlt:
 			'A museum installation wall of shrimp-folk wartime propaganda posters with recruitment, service, labor, bond, and defense themes.',
 		summary:
