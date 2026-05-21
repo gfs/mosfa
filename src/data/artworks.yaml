@@ -22,7 +22,6 @@
   era: Modernist Tank
   categories:
     - Abstract Currents
-    - Surrealist Depths
   image: /images/artworks/klee-shrimp.png
   imageAlt: A whimsical shrimp-folk composition inspired by Klee with symbolic linework and playful color blocks.
   summary: A poetic reinterpretation balancing childlike symbols with deliberate formal structure.
@@ -102,7 +101,7 @@
   era: Tidal Print Archive
   categories:
     - Ukiyo-e Currents
-    - Maritime Labor
+    - Sublime Seascapes
   image: /images/artworks/the-great-pearl-wave.png
   imageAlt: A Hokusai-like ukiyo-e print of shrimp-folk sailors in reef boats beneath a towering blue wave, with a distant pearl-volcano on the horizon.
   summary: A disciplined tidal print where wave, boat, labor, and sacred horizon carry shrimp-folk maritime culture into ukiyo-e form.
@@ -119,7 +118,6 @@
   era: Tidal Print Archive
   categories:
     - Ukiyo-e Currents
-    - Rain & Bridge Prints
   image: /images/artworks/rain-on-the-reef-bridge.png
   imageAlt: A Hiroshige-like woodblock print of shrimp-folk pedestrians crossing a curved bridge with umbrellas during rain above a reef garden canal.
   summary: A quiet rain print where bridge, lantern, umbrella, and canal reflection give the Tidal Print Archive a contemplative register.
@@ -134,7 +132,7 @@
   yearOrPeriod: c. 1665 Dutch Golden Age translation
   era: Baroque & Dramatic Realism
   categories:
-    - Dutch Golden Age Portraiture
+    - Portraiture
     - Chiaroscuro Ceremonies
   image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
   imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
@@ -152,7 +150,7 @@
   era: Crustacean Renaissance Wing
   categories:
     - Sacred & Mythic Currents
-    - Creation Myths
+    - Renaissance Translations
   image: /images/artworks/first-touch-of-the-current.png
   imageAlt: A shrimp-folk reinterpretation of Michelangelo's Creation of Adam with two clawed figures reaching toward each other across an open field.
   summary: A sacred origin image where the famous almost-touch becomes a charged meeting of claw, antenna, and divine current.
@@ -168,7 +166,6 @@
   era: Modernist Tank
   categories:
     - Socialist Propaganda
-    - Deep Fleet Posters
   image: /images/artworks/glory-to-the-deep-fleet.png
   imageAlt: A Soviet-style shrimp-folk naval propaganda poster with a decorated officer, red fleet banner, submarines, and marching sailors.
   summary: A deep-sea fleet poster turning civic order, militarized ceremony, and abyssal expansion into one monumental image.
@@ -184,7 +181,6 @@
   era: Modernist Tank
   categories:
     - Socialist Propaganda
-    - Abyssal Space Program
   image: /images/artworks/heroes-of-the-abyssal-fleet.png
   imageAlt: A retro Soviet-style poster of a shrimp-folk cosmonaut in a pressure suit raising a claw beside a rocket, red banners, and a massed crowd.
   summary: A heroic futurist poster fusing oceanic pressure, space-race optimism, and collective civic spectacle.
@@ -215,8 +211,7 @@
   yearOrPeriod: 1950s mathematical modernism
   era: Modernist Tank
   categories:
-    - Impossible Architectures
-    - Graphic Currents
+    - Abstract Currents
   image: /images/artworks/relativity-of-the-crustaceans.png
   imageAlt: A black-and-white Escher-like shrimp-folk scene where tessellated forms spiral into impossible stairways and architectural spaces.
   summary: A dense recursive print where shrimp-folk bodies migrate from tessellation into impossible civic architecture.
@@ -231,8 +226,7 @@
   yearOrPeriod: Mid-20th Century Surrealism
   era: Surrealist Depths
   categories:
-    - Surrealist Processions
-    - Monumental Shells
+    - Surrealist Depths
   image: /images/artworks/procession-of-the-tall-carriers.png
   imageAlt: A surreal landscape of giant shrimp-like carriers on impossibly long legs bearing towers, statues, and small architectures across a luminous plain.
   summary: A dream procession of stilt-legged shell carriers bearing civic monuments through a desert of suspended scale.
@@ -247,8 +241,7 @@
   yearOrPeriod: 1930s Surrealist film study
   era: Surrealist Depths
   categories:
-    - Surrealist Film
-    - Meta Surrealist Commentary
+    - Surrealist Depths
   image: /images/artworks/shrimp-un-chien-andalou-study.png
   imageAlt: A sepia curatorial study plate showing a shrimp-folk face in close-up as a razor crosses its compound eye, with explanatory museum notes at left.
   summary: A process-plate accession preserving a severe surrealist film translation with its own curatorial rationale embedded beside it.
@@ -393,7 +386,7 @@
   era: Comic & Mass Culture Pavilion
   categories:
     - War Poster Archive
-    - Civil Defense
+    - Home Reef Front
   image: /images/artworks/blackout-over-the-home-reef.png
   imageAlt: A dark 1940s-style shrimp-folk civil defense poster showing a helmeted warden shielding a lantern above a blackout reef city crossed by searchlights.
   summary: A nocturnal civil-defense poster where the act of dimming a lantern becomes a public image of vigilance.
@@ -408,8 +401,7 @@
   yearOrPeriod: Late 1940s-1950s Abstract Expressionism
   era: Abstract Currents
   categories:
-    - Action Painting
-    - Non-Humanoid Abstraction
+    - Abstract Currents
   image: /images/artworks/action-current-no-1.png
   imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
@@ -425,8 +417,7 @@
   yearOrPeriod: 1889 Post-Impressionist translation
   era: Impressionist Reef
   categories:
-    - Post-Impressionist Nocturnes
-    - Reef Villages
+    - Garden & Village Studies
   image: /images/artworks/starry-reef.png
   imageAlt: A shrimp-folk reinterpretation of The Starry Night with swirling blue sky, glowing stars, reef-like cypress forms, and a village beside water.
   summary: A luminous reef nocturne where van Gogh's spiral sky becomes a cosmic current above a small shell village.
@@ -442,8 +433,7 @@
   yearOrPeriod: Early 20th Century Impressionist translation
   era: Impressionist Reef
   categories:
-    - Garden Reflections
-    - Impressionist Ponds
+    - Garden & Village Studies
   image: /images/artworks/water-lilies-of-the-reef-garden.png
   imageAlt: A Monet-like shrimp-folk reef garden pond with water lilies, soft reflections, an arched bridge, and subtle shrimp-folk figures in loose brushwork.
   summary: A luminous pond study where shrimp-folk garden culture is felt through reflection, bridge, lily, and broken color.
@@ -458,7 +448,7 @@
   yearOrPeriod: 1642 Baroque civic portrait translation
   era: Baroque & Dramatic Realism
   categories:
-    - Civic Guard Portraiture
+    - Portraiture
     - Chiaroscuro Ceremonies
   image: /images/artworks/the-reef-watch.png
   imageAlt: A Rembrandt-like shrimp-folk civic guard portrait with richly dressed central figures, banners, spears, helmets, and dramatic golden light.
@@ -475,8 +465,8 @@
   yearOrPeriod: 1960s Pop Art translation
   era: Pop Art Aquarium
   categories:
+    - Pop Art Icons
     - Silkscreen Icons
-    - Fame & Repetition
   image: /images/artworks/four-divas-of-the-current.png
   imageAlt: A four-panel Pop Art silkscreen grid repeating a glamorous shrimp-folk diva portrait in bright magenta, blue, yellow, and green colorways.
   summary: A crisp postwar image-system study where celebrity, shell surface, and mechanical repetition become reef-world spectacle.
@@ -491,8 +481,7 @@
   yearOrPeriod: 1960s Pop Art translation
   era: Pop Art Aquarium
   categories:
-    - Ben-Day Melodrama
-    - Comic-Panel Icons
+    - Pop Art Icons
   image: /images/artworks/coral-tear-panel.png
   imageAlt: A Lichtenstein-like Pop Art close-up of a glamorous shrimp-folk figure with bold black lines, Ben-Day dots, pearl jewelry, and a single tear.
   summary: A tight comic-panel translation where melodrama, shell surface, and mechanical dot structure become one Pop Art portrait.
@@ -507,8 +496,8 @@
   yearOrPeriod: 1960s Pop Art translation
   era: Pop Art Aquarium
   categories:
-    - Product Culture
-    - Screenprint Commodities
+    - Pop Art Icons
+    - Mass Symbols
   image: /images/artworks/pearl-commodity-stack.png
   imageAlt: A Pop Art installation of stacked shrimp-folk commodity boxes with red, blue, yellow, black, and white screenprinted shell and claw graphics.
   summary: A reef-world commodity display where packaging, repetition, and civic symbols turn consumer abundance into a clean Pop Art wall.
@@ -523,8 +512,8 @@
   yearOrPeriod: 1950s-1960s Pop Art translation
   era: Pop Art Aquarium
   categories:
+    - Pop Art Icons
     - Mass Symbols
-    - Civic Icons
   image: /images/artworks/current-target-icon.png
   imageAlt: A hard-edge Pop Art target painting with red, blue, white, and black tide bands, pearl rings, shell icons, antenna lines, and claw-shaped marks.
   summary: A civic-symbol painting where target, flag, pearl, and current signs are reorganized into a shrimp-folk language of public icons.
@@ -539,6 +528,7 @@
   yearOrPeriod: 1960s Pop Art translation
   era: Pop Art Aquarium
   categories:
+    - Pop Art Icons
     - Silkscreen Icons
     - Mass Symbols
   image: /images/artworks/ten-shell-signals.png
@@ -556,7 +546,6 @@
   era: Romantic Abyss
   categories:
     - Sublime Seascapes
-    - Solitary Contemplation
   image: /images/artworks/wanderer-above-the-fog-sea.png
   imageAlt: A Friedrich-like Romantic painting of a cloaked shrimp-folk figure seen from behind on a black reef cliff above a vast misty ocean.
   summary: A sublime seascape where the lone shrimp-folk back figure turns oceanic scale into metaphysical inwardness.
@@ -685,7 +674,7 @@
   yearOrPeriod: High Renaissance
   era: Crustacean Renaissance Wing
   categories:
-    - Crustacean Renaissance Wing
+    - Renaissance Translations
     - Portraiture
   image: /images/artworks/shrimp-mona-lisa.png
   imageAlt: A seated shrimp-folk portrait inspired by the Mona Lisa, with folded manipulator claws, calm direct gaze, and a misty sfumato reef landscape.
