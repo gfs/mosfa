@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout
+	title="About the Museum | MOSFA"
+	description="About the Museum of Shrimp-Folk Art at 11 West Current Drive on Central Reef in New Atlantis."
+	socialImage="/images/museum/mosfa-exterior-new-atlantis.png"
+	socialImageAlt="The MOSFA building on Central Reef in New Atlantis."
+>
+	<section class="about-page">
+		<div class="about-copy">
+			<h2>About the Museum</h2>
+			<p class="lede">
+				MOSFA is the principal museum for shrimp-folk visual culture, housed at
+				11 West Current Drive on the western edge of Central Reef.
+			</p>
+			<p>
+				The collection brings temple fragments, civic portraiture, print rooms,
+				poster archives, design objects, modernist experiments, and contemporary
+				image culture into one public record of shrimp-folk art.
+			</p>
+			<p>
+				From its New Atlantis galleries, the museum preserves works shaped by
+				shell architecture, reef-city memory, ritual practice, public labor,
+				current systems, and the long study of form.
+			</p>
+		</div>
+		<figure class="about-image">
+			<img
+				src={withBase('/images/museum/mosfa-exterior-new-atlantis.png')}
+				alt="The MOSFA building on Central Reef in New Atlantis, with pale museum architecture, wet civic paving, reef gardens, and city towers beyond."
+			/>
+			<figcaption>
+				Museum of Shrimp-Folk Art, 11 West Current Drive, Central Reef District.
+			</figcaption>
+		</figure>
+	</section>
+
+	<section aria-labelledby="visit-heading">
+		<h2 id="visit-heading">Visit</h2>
+		<dl class="fact-list">
+			<div>
+				<dt>Address</dt>
+				<dd>11 West Current Drive, Central Reef District, New Atlantis, NA 10024</dd>
+			</div>
+			<div>
+				<dt>Setting</dt>
+				<dd>Western edge of Central Reef, adjacent to the tidal gardens and civic promenade.</dd>
+			</div>
+			<div>
+				<dt>Collection</dt>
+				<dd>Ancient, old-master, modernist, popular, and contemporary shrimp-folk art.</dd>
+			</div>
+		</dl>
+	</section>
+</BaseLayout>
