@@ -21,7 +21,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		summary:
 			'A solemn survey wall where solitary figures, wrecked coasts, ruins, and fog establish the Romantic Abyss as a full wing.',
 		description:
-			'Accepted as an exhibition view for its unusually coherent mood: the central back figure holds the room while the surrounding works identify future acquisition paths in ruin, wreck, ice, and moonlit horizon.',
+			'Within the Romantic Abyss gallery, the central wanderer fixes the room in a hush of fog and distance. Around that still figure, wrecked coasts, glacial passages, ruined stone, and moonlit water trace the wing\'s recurring meditation on awe, memory, and the outer tide.',
 	},
 	{
 		title: 'Pop Art Aquarium Wall',
@@ -34,7 +34,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		summary:
 			'A clean postwar installation where repetition, celebrity, halftone surface, and reef nightlife define Pop Art without food-package parody.',
 		description:
-			'The view is accepted because it makes the Pop Art Aquarium legible as a serious image culture rather than a gag wing. Several side works are strong acquisition leads, especially the shell-icon grid and nocturnal reef scene.',
+			'The Pop Art Aquarium gathers celebrity panels, shell icons, halftone portraits, and reef-night signage into the bright grammar of postwar display. Repetition turns public faces and everyday emblems into a shared civic current, equal parts spectacle, commerce, and devotion.',
 	},
 	{
 		title: 'Reef War II Poster Gallery',
@@ -47,7 +47,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		summary:
 			'An installation view of the home-front poster archive, where public images rallied reef defense, labor, service, and sacrifice.',
 		description:
-			'The Reef War II gallery gathers mass-produced civic posters into a single room, showing how wartime image culture moved between recruitment, bond drives, labor discipline, morale, and the defense of home reef.',
+			'The Reef War II gallery gathers civic posters from recruitment kiosks, bond windows, factory walls, fleet depots, and blackout stations. Seen together, they show how the home reef was instructed, persuaded, and steadied through images of labor, vigilance, service, and sacrifice.',
 	},
 ];
 
