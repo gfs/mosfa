@@ -30,6 +30,7 @@ Use this skill for requests involving:
 5. For curation or quality decisions, load `references/rubric.md`.
 6. For wing, era, or category placement, load `references/wings.md`.
 7. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
+8. When exploring uncertain visual directions, consider the contact-sheet workflow in `references/prompt-template.md` and evaluate variants with `references/rubric.md` before committing to a single image or accession path.
 
 
 ## Skill Evolution Meta-Instructions
@@ -51,6 +52,7 @@ When doing this:
 - Make shrimp-folk integration feel inevitable, not pasted on.
 - Critique weak concepts honestly before generation or accession.
 - Default to a curatorial development pass before image generation unless the user explicitly asks for immediate execution.
+- Use contact sheets for broad visual exploration when multiple compositions, installation views, material treatments, or exhibit-wall arrangements may be viable.
 - Separate generation from evaluation. The Generation Director may propose; the Curator may still reject, revise, or downgrade.
 - Avoid shallow novelty. The goal is a beautiful, intentional, stylistically convincing museum work.
 

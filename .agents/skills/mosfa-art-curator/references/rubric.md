@@ -83,3 +83,31 @@ Required revisions:
 Accession notes:
 [Suggested wing, categories, title, or metadata guidance if accepted.]
 ```
+
+## Contact-Sheet Review
+
+When reviewing a contact sheet, treat it as a scouting instrument rather than a finished accession. Compare variants against the same Masterpiece, Gallery, and Reject/Revise standards, but focus on selection and next-step direction.
+
+Prioritize variants that have:
+
+- The clearest focal structure at thumbnail and full size.
+- The strongest preservation of the source composition, movement, or exhibition premise.
+- Shrimp-folk integration that changes the logic of the image rather than decorating it.
+- The best balance of museum seriousness, visual specificity, and restraint.
+- The fewest generation liabilities: anatomy drift, muddled labels, clutter, human defaults, food associations, or joke tone.
+
+Use this concise structure:
+
+```markdown
+Best candidates:
+- Variant [number/position]: [why it should advance]
+
+Hold or study:
+- Variant [number/position]: [what works, what limits it]
+
+Reject:
+- Variant [number/position]: [specific failure]
+
+Recommended next step:
+[Refine one selected variant, regenerate a narrowed contact sheet, or abandon the direction.]
+```
