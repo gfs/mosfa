@@ -63,6 +63,26 @@ Write a detailed image-generation prompt that includes:
 - Mood and atmosphere.
 - Negative constraints: no humans, no food joke, no shrimp pasted onto human bodies.
 
+## Contact-Sheet Workflow
+
+Use contact sheets when the strongest direction is not yet obvious, or when a project benefits from comparing many plausible options before narrowing. This is especially useful for exhibition wall photographs, installation views, artifact studies, poster/key-art directions, and reinterpretations where composition, lighting, costume, or material finish could go several ways.
+
+For a contact sheet:
+
+- Ask for a coherent grid of distinct variants, usually 4, 6, 9, or 12 frames.
+- Keep the curatorial premise, canon constraints, and negative constraints stable across all frames.
+- Vary only the dimensions that matter: camera distance, crop, lighting, wall arrangement, artifact orientation, palette, pose, period styling, or degree of shrimp-folk cultural specificity.
+- Make each frame read as a serious candidate image, not a thumbnail collage, mood board, or random scatter of unrelated ideas.
+- Require consistent museum-grade finish across variants: legible focal subject, controlled lighting, no humans, no food framing, no joke tone.
+- If the contact sheet is for exhibition wall photography, treat each frame as a documentary installation photograph with real gallery spacing, labels, sightlines, wall scale, and visitor-free or carefully minimized views.
+- After review, select one to three promising variants for refinement or regeneration instead of accessioning directly from the exploratory sheet.
+
+Contact-sheet prompt pattern:
+
+```markdown
+Create a [4/6/9/12]-image contact sheet exploring distinct curatorially serious variants of [concept]. All frames must preserve [core source/composition/worldbuilding rule]. Vary [specific variables] while keeping [stable canon/style constraints]. Each frame should feel like a plausible finished MOSFA candidate, with museum-grade lighting, coherent shrimp-folk anatomy/culture, no humans, no food framing, and no comic novelty. Present as a clean grid of separate images for comparison.
+```
+
 For physical cultural objects and archaeological accessions:
 
 - Prompt them as real museum objects first: single focal artifact, conservation lighting, plinth or archival support, and inspectable material construction.
