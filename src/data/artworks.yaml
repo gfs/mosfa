@@ -336,6 +336,39 @@
   featured: false
   published: true
 
+- title: I Want You for the Reef
+  slug: i-want-you-for-the-reef
+  artistReference: James Montgomery Flagg and recruitment poster traditions
+  sourceWork: I Want You recruitment poster
+  yearOrPeriod: 1910s-1940s wartime poster translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Reef Defense Recruitment
+  image: /images/artworks/i-want-you-for-the-reef.png
+  imageAlt: A vintage shrimp-folk recruitment poster with the readable words I WANT YOU above a stern admiral pointing a claw toward the viewer, with a bottom reef-defense slogan panel.
+  summary: A direct recruitment icon where the pointing claw, elder admiral face, coral medallion, and blunt headline turn reef defense into personal summons.
+  description: A Masterpiece Tier candidate within the Reef War II archive, accepted for its stronger face, fuller poster hierarchy, coral civic background, and unusually convincing shrimp-folk translation of the frontal pointing gesture.
+  featured: false
+  published: true
+
+- title: We Can Do It, Reef Worker
+  slug: we-can-do-it-reef-worker
+  artistReference: J. Howard Miller and home-front labor posters
+  sourceWork: We Can Do It! poster
+  yearOrPeriod: 1940s wartime labor poster translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Home Reef Front
+    - Labor & Industry
+  image: /images/artworks/we-can-do-it-reef-worker.png
+  imageAlt: A Rosie the Riveter-like shrimp-folk labor poster with the readable words WE CAN DO IT! above a determined worker flexing a clawed arm.
+  summary: A home-front labor icon where scarf, sleeve, shell, and flexed claw convert wartime industry into shrimp-folk civic resolve.
+  description: A Gallery Tier Reef War II accession, retained after anatomical retuning for centered facial structure, balanced antennae, and readable headline typography. It gives the archive a crucial labor-and-gendered-civic-power archetype.
+  featured: false
+  published: true
+
 - title: Pearl Bonds for the Home Reef
   slug: pearl-bonds-for-the-home-reef
   artistReference: Reef War II home-front poster archive
