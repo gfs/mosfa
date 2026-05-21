@@ -1,5 +1,6 @@
 ---
 import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import GallerySortNav from '../../components/GallerySortNav.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getPublishedArtworks } from '../../lib/artworks';
 
@@ -16,6 +17,7 @@ const artworks = await getPublishedArtworks();
 			Every published work currently in the collection. New pieces and full
 			generation history will be added over time.
 		</p>
+		<GallerySortNav current="collection" />
 		<ArtworkGrid artworks={artworks} />
 	</section>
 </BaseLayout>

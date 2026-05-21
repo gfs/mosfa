@@ -202,6 +202,33 @@ h2 {
 	font-size: 0.9rem;
 }
 
+.gallery-sort {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	margin: 0.35rem 0 1.25rem;
+	padding: 0.25rem;
+	border: 1px solid var(--border);
+	border-radius: 0.5rem;
+	background: var(--surface);
+}
+
+.gallery-sort a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.3rem;
+	padding: 0.45rem 0.7rem;
+	border-radius: 0.35rem;
+	color: var(--ink-soft);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.gallery-sort a[aria-current="page"] {
+	background: var(--ink);
+	color: var(--surface);
+}
+
 .artwork-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -255,6 +282,10 @@ h2 {
 	margin: 0 0 0.5rem;
 	font-size: 0.9rem;
 	color: var(--ink-soft);
+}
+
+.artwork-timestamp {
+	margin-top: -0.2rem;
 }
 
 .artwork-detail {

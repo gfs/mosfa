@@ -6,10 +6,17 @@ import { withBase } from '../lib/paths';
 
 interface Props {
 	artwork: ArtworkEntry;
+	showImageFileTimestamp?: boolean;
 }
 
-const { artwork } = Astro.props;
+const { artwork, showImageFileTimestamp = false } = Astro.props;
 const image = getImageAsset(artwork.image);
+const imageFileDate = artwork.imageFileTimestamp
+	? new Intl.DateTimeFormat('en', {
+			dateStyle: 'medium',
+			timeZone: 'UTC',
+		}).format(new Date(artwork.imageFileTimestamp))
+	: undefined;
 ---
 
 <article class="artwork-card">
@@ -29,6 +36,11 @@ const image = getImageAsset(artwork.image);
 		<p class="artwork-meta">
 			{artwork.artistReference} · {artwork.era}
 		</p>
+		{
+			showImageFileTimestamp && imageFileDate && (
+				<p class="artwork-meta artwork-timestamp">Added {imageFileDate}</p>
+			)
+		}
 		<p>{artwork.summary}</p>
 	</div>
 </article>

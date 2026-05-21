@@ -1,0 +1,27 @@
+---
+import type { ArtworkSort } from '../lib/artworks';
+import { withBase } from '../lib/paths';
+
+interface Props {
+	current: ArtworkSort;
+}
+
+const { current } = Astro.props;
+const sortLinks: { label: string; sort: ArtworkSort; href: string }[] = [
+	{ label: 'Collection order', sort: 'collection', href: '/gallery/' },
+	{ label: 'Newest additions', sort: 'newest', href: '/gallery/newest/' },
+];
+---
+
+<nav class="gallery-sort" aria-label="Gallery sorting">
+	{
+		sortLinks.map((link) => (
+			<a
+				href={withBase(link.href)}
+				aria-current={current === link.sort ? 'page' : undefined}
+			>
+				{link.label}
+			</a>
+		))
+	}
+</nav>
