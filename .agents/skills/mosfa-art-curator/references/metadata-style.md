@@ -1,8 +1,19 @@
-# MOSFA Metadata Style
+# MoSFA Metadata Style
 
 Use this reference when writing or revising website metadata for `src/data/artworks.yaml`.
 
 Always inspect nearby existing records before editing metadata. Preserve established spellings for eras, categories, and image paths.
+
+
+## Museum Name Style
+
+Use **MoSFA** as the canonical short-form styling in curator-facing guidance and editorial copy.
+
+- First mention in formal prose: **Museum of Shrimp-Folk Art (MoSFA)**.
+- Later mentions: **MoSFA**.
+- Keep the full name when legal/institutional clarity is needed.
+
+Avoid legacy all-caps **MOSFA** in new or revised style-guide text unless reproducing historical source material verbatim.
 
 ## Required Fields
 

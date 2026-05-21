@@ -1,10 +1,10 @@
-# MOSFA Curatorial Skill
+# MoSFA Curatorial Skill
 
 The original curatorial instructions have been restructured as a project-local Codex skill package:
 
 `.agents/skills/mosfa-art-curator/`
 
-Use this package when generating, evaluating, curating, accessioning, or writing metadata for Museum of Shrimp-Folk Art artworks.
+Use this package when generating, evaluating, curating, accessioning, or writing metadata for Museum of Shrimp-Folk Art (MoSFA) artworks.
 
 ## Structure
 
