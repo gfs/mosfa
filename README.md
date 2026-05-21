@@ -23,8 +23,25 @@ All routes are generated from artwork metadata.
 ## Local development
 
 ```bash
-npm install
+npm ci
 npm run dev
+```
+
+This project targets Node 22. The package manager is pinned in `package.json`,
+and `.node-version` is provided for local version managers.
+
+## Codex worktrees
+
+Codex local tasks may begin in detached worktrees and create a named branch later
+during the commit or handoff step. Treat each worktree as an isolated task
+workspace, and use the repo-local Codex environment at
+`.codex/environments/environment.toml` for deterministic setup.
+
+For parallel development, run the normal dev server unless another worktree is
+already using the default Astro port:
+
+```bash
+npm run dev -- --port 4322
 ```
 
 ## Add a new artwork
