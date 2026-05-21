@@ -1153,3 +1153,67 @@
   description: A strong Gallery Tier modernist accession, notable for allowing shrimp-folk anatomy to surface through line, rhythm, and directional force rather than literal portraiture.
   featured: false
   published: true
+
+- title: Current Spine, Central Reef
+  slug: current-spine-central-reef
+  artistReference: Modernist public sculpture and civic monumentality
+  sourceWork: Shell-concrete plaza sculpture studies
+  yearOrPeriod: Late 20th Century civic modernism
+  era: Modernist Tank
+  categories:
+    - Public Sculpture
+    - Material Studies
+  image: /images/artworks/current-spine-central-reef.png
+  imageAlt: A monumental shell-concrete public sculpture rises in a wet civic plaza as shrimp-folk visitors gather near its ribbed arches and tension cables.
+  summary: A civic sculpture where shell-concrete mass, coral-alloy tension, and public reef circulation turn the current into architecture.
+  description: A Gallery Tier public-sculpture accession that expands MoSFA's modern holdings into plaza scale, preserving shrimp-folk bodily logic through claw-clear arches, antenna-like cables, and promenade-scale viewing paths.
+  featured: false
+  published: true
+
+- title: Tide Governor No. 3
+  slug: tide-governor-no-3
+  artistReference: Kinetic sculpture and engineered modernism
+  sourceWork: Current-responsive vane and counterweight studies
+  yearOrPeriod: Late 20th Century kinetic sculpture
+  era: Abstract Currents
+  categories:
+    - Kinetic Sculpture
+    - Installation Sculpture
+  image: /images/artworks/tide-governor-no-3.png
+  imageAlt: A suspended kinetic sculpture of coral-alloy rods, pressure-glass vanes, and pearl counterweights turns above a circular tide basin in a museum gallery.
+  summary: A current-responsive machine sculpture balancing pressure glass, pearl weight, and exoskeletal pivots in slow gallery motion.
+  description: "Accepted as a kinetic accession for its credible material engineering, the work treats tide movement as sculpture rather than spectacle: vanes, rods, pearls, and pivots become a precise reef-native instrument."
+  featured: false
+  published: true
+
+- title: Pressure Glass Datum
+  slug: pressure-glass-datum
+  artistReference: Minimal objects and post-minimal material studies
+  sourceWork: Pressure-glass slab and interval studies
+  yearOrPeriod: Late 20th Century minimal sculpture
+  era: Modernist Tank
+  categories:
+    - Minimal Objects
+    - Material Studies
+  image: /images/artworks/pressure-glass-datum.png
+  imageAlt: Three clear pressure-glass slabs stand in a tide-polished stone base with pearl measurement seams beside a shrimp-folk museum visitor.
+  summary: A minimal object group where transparency, interval, and tide-polished mass become the sculptural subject.
+  description: This accession broadens the collection's object program away from ceremonial relics, using pressure glass, coral-alloy spacers, and pearl inlay to make material behavior and shrimp-folk scale visible.
+  featured: false
+  published: true
+
+- title: Molting Scaffold
+  slug: molting-scaffold
+  artistReference: Contemporary installation and process sculpture
+  sourceWork: Exoskeletal scaffold and gallery-path studies
+  yearOrPeriod: Contemporary installation practice
+  era: Abstract Currents
+  categories:
+    - Installation Sculpture
+    - Material Studies
+  image: /images/artworks/molting-scaffold.png
+  imageAlt: Shrimp-folk visitors walk through a contemporary installation of enlarged shell ribs, coral-alloy hinges, and tide-polished stone blocks.
+  summary: An immersive installation where molting becomes architecture, pathway, and material process rather than archaeological display.
+  description: A contemporary installation accession built around enlarged exoskeletal casts, hinge logic, and visitor movement, with antenna-clear gaps and claw-height passages grounding its scale in shrimp-folk bodies.
+  featured: false
+  published: true
