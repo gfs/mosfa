@@ -1,0 +1,5 @@
+version = 1
+name = "mosfa"
+
+[setup]
+script = "npm ci"
