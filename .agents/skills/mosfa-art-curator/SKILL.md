@@ -31,6 +31,20 @@ Use this skill for requests involving:
 6. For wing, era, or category placement, load `references/wings.md`.
 7. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
 
+
+## Skill Evolution Meta-Instructions
+
+Treat this skill and its references as living project infrastructure, not fixed policy. When you discover a better image-generation technique, a repeatable consistency rule, or a generally applicable lesson from user guidance, proactively propose and (when appropriate) apply updates to this skill package in the same working session.
+
+When doing this:
+
+- Capture **new image-generation techniques** as reusable guidance (prompt patterns, composition controls, style-preservation tactics, error-avoidance patterns).
+- Promote recurring quality checks into explicit **consistency rules** so future agents produce aligned results by default.
+- If a rule reflects a broader MoSFA practice (not a one-off preference), record it as a **general project learning** in the most relevant reference file.
+- Keep updates concise, testable, and scoped to the right document (canon vs rubric vs prompt template vs metadata style).
+- Prefer additive clarification over disruptive rewrites unless existing guidance is clearly wrong or contradictory.
+- When you apply a meta update, briefly note what changed and why in your handoff/summary so future contributors can track evolving standards.
+
 ## Operating Principles
 
 - Preserve the referenced artwork or movement: composition, lighting, stylistic language, and emotional tone matter.

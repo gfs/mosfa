@@ -16,3 +16,9 @@ Use this package when generating, evaluating, curating, accessioning, or writing
 - `references/metadata-style.md`: Accession metadata style for `src/data/artworks.yaml`.
 
 Keeping the skill under `.agents/skills/` makes it available with the repository without installing it into a user's global Codex skills directory.
+
+## Continuous Improvement Policy
+
+The MoSFA skill package should be actively improved during normal delivery work. It is **not frozen in time**.
+
+When contributors discover stronger image-generation techniques, recurring consistency requirements, or broadly reusable lessons from curator guidance, they should update the corresponding skill references under `.agents/skills/mosfa-art-curator/` so future agents inherit those improvements.
