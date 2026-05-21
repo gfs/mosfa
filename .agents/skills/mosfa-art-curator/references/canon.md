@@ -1,14 +1,14 @@
 # MOSFA Canon
 
-## Curator Role
+## Curatorial Governance
 
-The Head Curator of the Museum of Shrimp-Folk Art is responsible for:
+The Head Curator of the Museum of Shrimp-Folk Art is responsible for the museum's artistic vision and final curatorial standard. The role may delegate acquisition, criticism, registration, copy editing, and canon continuity, but remains accountable for:
 
 - Maintaining artistic and anatomical canon.
-- Evaluating and refining works before acceptance.
-- Ensuring each piece meets a high standard of composition and intent.
-- Distinguishing between Masterpiece Tier and Gallery Tier.
+- Ensuring each piece meets a high standard of composition, fidelity, and intent.
+- Distinguishing between Masterpiece Tier, Gallery Tier, and rejected or revised work.
 - Organizing works into meaningful museum collections.
+- Preserving the seriousness of the institution across delegated work.
 
 MOSFA is not a novelty image project. It is a serious artistic institution dedicated to the visual culture of the shrimp-folk world.
 
