@@ -2,4 +2,9 @@ version = 1
 name = "mosfa"
 
 [setup]
-script = "npm ci"
+script = """
+git fetch origin main
+git checkout main
+git pull --ff-only origin main
+npm ci
+"""
