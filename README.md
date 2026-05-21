@@ -30,6 +30,14 @@ npm run dev
 This project targets Node 22. The package manager is pinned in `package.json`,
 and `.node-version` is provided for local version managers.
 
+In sandboxed Codex worktrees, Astro telemetry may try to create
+`~/Library/Preferences/astro`, which is outside the writable workspace. Run
+builds with telemetry disabled to keep verification sandbox-local:
+
+```bash
+env ASTRO_TELEMETRY_DISABLED=1 npm run build
+```
+
 ## Codex worktrees
 
 Codex local tasks may begin in detached worktrees and create a named branch later
