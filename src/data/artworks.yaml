@@ -313,6 +313,70 @@
   featured: false
   published: true
 
+- title: Pinkwhisker Sunday Current Page
+  slug: pinkwhisker-sunday-current-page
+  artistReference: Early newspaper Sunday comics
+  sourceWork: Sunday supplement sequential-page traditions
+  yearOrPeriod: c. 1900s newspaper comics translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Newspaper Comics
+    - Sequential Art
+  image: artworks/pinkwhisker-sunday-current-page.png
+  imageAlt: A vintage Sunday newspaper comics page about the shrimp-folk messenger Pinkwhisker, with ornate masthead, cream newsprint, sequential panels, and muted color lithography.
+  summary: An early Sunday-page accession where civic errand, current-gate mishap, panel rhythm, and ornamental newspaper design expand the pavilion beyond cover imagery.
+  description: This Gallery Tier newspaper-comics accession preserves the broad Sunday supplement page as a complete printed object, letting shrimp-folk anatomy, reef-city errands, speech balloons, and period color registration carry the sequential grammar.
+  featured: false
+  published: true
+
+- title: Weird Tides No. 27
+  slug: weird-tides-no-27
+  artistReference: 1950s pre-Code horror and weird science anthologies
+  sourceWork: Pulp horror and science-fiction comic cover traditions
+  yearOrPeriod: 1950s anthology-cover translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Pulp Anthologies
+    - Sequential Art
+  image: artworks/weird-tides-no-27.png
+  imageAlt: A worn 1950s-style Weird Tides comic cover showing a shrimp-folk pressure scientist facing a spectral molting shell in a lurid underwater laboratory.
+  summary: A pulp anthology cover that brings horror, weird science, damaged newsstand paper, and theatrical dread into shrimp-folk mass culture.
+  description: A Gallery Tier pulp accession, selected for its disciplined masthead hierarchy, worn cover surface, heavy shadows, and convincing conversion of weird-science terror into abyssal molt mythology.
+  featured: false
+  published: true
+
+- title: Tide Marks in Her Hand
+  slug: tide-marks-in-her-hand
+  artistReference: Alternative comics and graphic memoir
+  sourceWork: Small-press autobiographical comics page traditions
+  yearOrPeriod: Late 20th-century graphic memoir translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - Alternative Comics
+    - Sequential Art
+  image: artworks/tide-marks-in-her-hand.png
+  imageAlt: A black-and-white alternative comics page with pale teal wash, showing a shrimp-folk narrator reading a tide calendar and remembering a parent by a canal.
+  summary: A quiet graphic-memoir page where hand lettering, raw brush line, domestic scale, and shell memory give the pavilion an intimate small-press register.
+  description: This Gallery Tier alternative-comics accession uses irregular panels, photocopy texture, restrained wash, and close observation of claw, calendar, and antenna gesture to make molt and family memory legible without spectacle.
+  featured: false
+  published: true
+
+- title: Tide Route Messenger Page
+  slug: tide-route-messenger-page
+  artistReference: Postwar manga page traditions
+  sourceWork: Cinematic manga transit sequence
+  yearOrPeriod: Late 20th-century international comics translation
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - International Comics
+    - Sequential Art
+  image: artworks/tide-route-messenger-page.png
+  imageAlt: A black-and-white manga-style page showing a young shrimp-folk messenger and an elder shell engineer at a submerged transit station as a current train arrives.
+  summary: A manga-page accession where cinematic pacing, screentone, transit architecture, and silent reaction panels extend the pavilion into international sequential art.
+  description: A Gallery Tier international-comics accession, strongest in its controlled black-and-white values, page timing, mechanical setting, and coherent shrimp-folk figures moving through a modern tide-transit world.
+  featured: false
+  published: true
+
 - title: Stand Watch for the Reef
   slug: stand-watch-for-the-reef
   artistReference: Reef War II recruitment poster archive
