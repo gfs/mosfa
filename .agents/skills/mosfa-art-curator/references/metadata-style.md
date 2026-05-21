@@ -76,6 +76,7 @@ Avoid:
 - Claims that overstate quality without evidence.
 - Repeating "shrimp-folk" in every sentence.
 - Treating the work as merely cute or funny.
+- Public-facing process language about generation, regeneration, variants, prompt attempts, image fixes, or replacement history. Website copy should treat the displayed work as the canonical accession unless the artwork itself is explicitly meta-commentary.
 
 ## Good Metadata Pattern
 
