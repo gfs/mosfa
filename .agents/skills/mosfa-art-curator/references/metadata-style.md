@@ -38,6 +38,10 @@ Each artwork record should include:
 
 `featuredRank` is optional and should only be used for homepage-featured works.
 
+`generation` is optional and private. Use it to keep artwork-generation provenance
+with the accession record without exposing it on public pages. Public pages should
+only render this field if the prompt history is intentionally part of the artwork.
+
 ## Field Guidance
 
 - `title`: Museum-ready title. It may echo the source work, but should sound like an accession, not a joke.
@@ -53,6 +57,7 @@ Each artwork record should include:
 - `description`: One or two sentences for the detail page. Include tier only when curatorially relevant.
 - `featured`: Use `true` only when intentionally placing on the homepage.
 - `published`: Use `true` for live accessions and `false` for drafts.
+- `generation`: Private prompt provenance and iteration history. Prefer `successfulPrompt`, `variations`, and `lessons` so future contributors can reuse what worked without maintaining a separate source of truth.
 
 ## Style
 
@@ -91,4 +96,15 @@ Avoid:
   featured: true
   featuredRank: 4
   published: true
+  generation:
+    successfulPrompt: |
+      Detailed image-generation prompt that produced the accepted accession.
+    variations:
+      - result: rejected
+        reason: Anatomy became decorative instead of structural.
+        prompt: |
+          Earlier prompt variation retained for future learning.
+    lessons:
+      - Name the source composition before adding shrimp-folk details.
+      - Preserve museum lighting, material realism, and coherent anatomy.
 ```
