@@ -258,10 +258,10 @@
   categories:
     - Comic Covers
     - Coral City
-  image: artworks/shrimp-pool-no-1.png
-  imageAlt: A chaotic underwater comic cover for Shrimp Pool showing an armored red shrimp-folk antihero leaping through neon Coral City.
-  summary: A deliberately abrasive comic-cover parody that turns shell armor, city spectacle, and self-aware excess into its subject.
-  description: A Gallery Tier mass-culture accession, strongest as a study in visual noise, cover typography, and shrimp-folk antihero exaggeration rather than as restrained canon painting.
+  image: artworks/shrimp-pool-no-1-v2.png
+  imageAlt: A vintage underwater comic cover for Shrimp Pool showing a red shrimp-folk antihero leaping through Coral City while holding a drawn comic page.
+  summary: A sharper antihero cover where shell attitude, reef-city grit, and self-aware comic form resolve into one shrimp-folk premise.
+  description: A Gallery Tier mass-culture accession built around one abrasive central figure, one cover gag, and a cleaner comic hierarchy that lets Coral City's antihero mythology stand on its own.
   featured: false
   published: true
 
@@ -358,7 +358,7 @@
   image: artworks/we-can-do-it-reef-worker.png
   imageAlt: A Rosie the Riveter-like shrimp-folk labor poster with the readable words WE CAN DO IT! above a determined worker flexing a clawed arm.
   summary: A home-front labor icon where scarf, sleeve, shell, and flexed claw convert wartime industry into shrimp-folk civic resolve.
-  description: A Gallery Tier Reef War II accession, retained after anatomical retuning for centered facial structure, balanced antennae, and readable headline typography. It gives the archive a crucial labor-and-gendered-civic-power archetype.
+  description: A Gallery Tier Reef War II accession with centered facial structure, balanced antennae, readable headline typography, and a crucial labor-and-gendered-civic-power archetype.
   featured: false
   published: true
 
@@ -450,10 +450,10 @@
   categories:
     - Portraiture
     - Chiaroscuro Ceremonies
-  image: artworks/the-reef-watch.png
-  imageAlt: A Rembrandt-like shrimp-folk civic guard portrait with richly dressed central figures, banners, spears, helmets, and dramatic golden light.
+  image: artworks/the-reef-watch-v2.png
+  imageAlt: A Rembrandt-like shrimp-folk civic guard portrait with two central officers, banners, spears, helmets, a drummer, and dramatic golden light.
   summary: A civic guard scene where Baroque theatrical light turns shrimp-folk armor, rank, and ceremony into public myth.
-  description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, preserving the crowded civic staging and dramatic illumination of the source while giving every figure coherent shell-world anatomy.
+  description: A Masterpiece Tier accession in the Baroque & Dramatic Realism wing, selected for clear central anatomy, disciplined antenna rhythm, and a strong balance between Rembrandt-like civic staging and shrimp-folk shell-world ceremony.
   featured: true
   featuredRank: 6
   published: true

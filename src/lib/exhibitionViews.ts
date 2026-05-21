@@ -11,6 +11,32 @@ export interface ExhibitionViewEntry {
 
 export const exhibitionViews: ExhibitionViewEntry[] = [
 	{
+		title: 'Ancient Shrimp Civilization Wall',
+		slug: 'ancient-shrimp-civilization-wall',
+		era: 'Ancient Shrimp Civilization',
+		categories: ['Ceremonial Relics', 'Dynastic Reliefs'],
+		image: 'exhibition-views/ancient-shrimp-civilization-wall.png',
+		imageAlt:
+			'A museum gallery wall of ancient shrimp-folk relics, including dynastic reliefs, a pearl mask, royal crown, tide calendar, molting ledger, and physician kit.',
+		summary:
+			'A material-culture room where relic, regalia, temple relief, labor, medicine, and domestic memory establish the ancient wing as a civilization.',
+		description:
+			'The wall gathers ceremonial objects and carved records into one archaeological argument: shrimp-folk history begins not with isolated treasures, but with institutions of rule, care, timekeeping, devotion, and work.',
+	},
+	{
+		title: 'Crustacean Renaissance Wing Wall',
+		slug: 'crustacean-renaissance-wing-wall',
+		era: 'Crustacean Renaissance Wing',
+		categories: ['Sacred & Mythic Currents', 'Renaissance Translations'],
+		image: 'exhibition-views/crustacean-renaissance-wing-wall.png',
+		imageAlt:
+			'A museum gallery wall of Renaissance shrimp-folk paintings, including mythic birth, sacred supper, divine touch, portraiture, and a Bosch-like triptych.',
+		summary:
+			'A Renaissance room where origin myth, sacred table, portrait calm, and moral cosmos share one shell-lit historical argument.',
+		description:
+			'This installation makes the wing’s range legible at a glance: Botticellian arrival, Leonardo-like order, Boschian abundance, and quiet portraiture all become forms of shrimp-folk sacred and civic self-understanding.',
+	},
+	{
 		title: 'Tidal Print Archive Wall',
 		slug: 'tidal-print-archive-wall',
 		era: 'Tidal Print Archive',
@@ -19,7 +45,7 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		imageAlt:
 			'A museum gallery wall of Japanese woodblock-style shrimp-folk prints, centered on a large tidal wave print with surrounding harbor, waterfall, moonlight, and rain scenes.',
 		summary:
-			'A print-room installation that gives the new Tidal Print Archive immediate scholarly depth beyond its anchor wave.',
+			'A print-room installation that gives the Tidal Print Archive scholarly depth beyond its anchor wave.',
 		description:
 			'The wall succeeds as an exhibition view because it preserves print culture as a system: boats, bridges, rain, moonlight, pilgrimage, and vitrined books all extend the archive without crowding the central wave.',
 	},
@@ -67,20 +93,20 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'old-masters-current-wall',
 		era: 'Baroque & Dramatic Realism',
 		categories: ['Chiaroscuro Ceremonies', 'Sacred & Mythic Currents'],
-		image: 'exhibition-views/old-masters-current-wall.png',
+		image: 'exhibition-views/old-masters-current-wall-v2.png',
 		imageAlt:
-			'A warm old-master museum wall of shrimp-folk Renaissance and Baroque paintings, centered on a dramatic civic guard portrait with mythic birth, pearl portrait, devotional, and studio scenes nearby.',
+			'A warm old-master museum wall of shrimp-folk Renaissance and Baroque paintings centered on The Reef Watch, with mythic birth, pearl portrait, calling scene, anatomy lesson, Mona Lisa, and Judith paintings nearby.',
 		summary:
 			'A canonical old-master room where sacred myth, civic portraiture, courtly staging, and candlelit devotion share one theatrical current.',
 		description:
-			'The installation view is accepted for its strong central hierarchy and useful acquisition map: it shows that Baroque civic drama can expand through calling scenes, court studios, devotional icons, and mythic shell tableaux.',
+			'The installation view is anchored by civic guard drama and surrounded by quieter forms of devotion, portraiture, study, and myth, giving the old-master rooms a legible ceremonial center.',
 	},
 	{
 		title: 'The Functional Reef',
 		slug: 'functional-reef-installation-wall',
 		era: 'Modernist Tank',
 		categories: ['Functional Design', 'Typographic Systems'],
-		image: 'exhibition-views/functional-reef-installation-wall.png',
+		image: 'exhibition-views/functional-reef-installation-wall-v2.png',
 		imageAlt:
 			'A museum wall of Bauhaus-inspired shrimp-folk posters, alphabet studies, architectural plans, furniture, tools, and industrial design objects.',
 		summary:
@@ -93,22 +119,48 @@ export const exhibitionViews: ExhibitionViewEntry[] = [
 		slug: 'modernist-tank-installation-wall',
 		era: 'Modernist Tank',
 		categories: ['Modernist Survey', 'Abstract Currents'],
-		image: 'exhibition-views/modernist-tank-installation-wall.png',
+		image: 'exhibition-views/modernist-tank-installation-wall-v2.png',
 		imageAlt:
-			'A museum wall grouping shrimp-folk reinterpretations of Kandinsky, Mondrian, Escher, and Rothko with brass labels.',
+			'A museum wall grouping shrimp-folk modernist works after Kandinsky, Mondrian, Escher, and Klee, with signal-tower and migration abstractions below.',
 		summary:
-			'A compact survey wall joining rhythm, grid, recursion, and color-field silence inside the Modernist Tank.',
+			'A compact survey wall joining rhythm, grid, recursion, signal geometry, and lyrical abstraction inside the Modernist Tank.',
 		description:
-			'This view places major modernist currents in conversation: Kandinsky-like motion, Mondrian grid discipline, Escherian civic recursion, and Rothko-like chromatic ritual held together as one gallery sequence.',
+			'This view places major modernist currents in conversation: Kandinsky-like motion, Mondrian grid discipline, Escherian civic recursion, Klee-like symbolic play, and ceremonial signal geometry held together as one gallery sequence.',
+	},
+	{
+		title: 'Abstract Currents Wall',
+		slug: 'abstract-currents-wall',
+		era: 'Abstract Currents',
+		categories: ['Abstract Currents', 'Mass Symbols'],
+		image: 'exhibition-views/abstract-currents-wall.png',
+		imageAlt:
+			'A museum gallery wall of shrimp-folk abstract works, including action painting, current migration, antenna fugue, target icon, shell signal grid, and signal tower composition.',
+		summary:
+			'A formal gallery where gesture, current, antenna, shell curve, and public symbol become independent visual languages.',
+		description:
+			'The Abstract Currents wall separates non-representational experiment from the broader Modernist Tank, allowing action painting, hard-edge symbols, and musical geometry to read as a dedicated field of shrimp-folk thought.',
+	},
+	{
+		title: 'Surrealist Depths Wall',
+		slug: 'surrealist-depths-wall',
+		era: 'Surrealist Depths',
+		categories: ['Surrealist Depths'],
+		image: 'exhibition-views/surrealist-depths-wall.png',
+		imageAlt:
+			'A dark museum gallery wall of surreal shrimp-folk works, including The Molting Room, tall monument carriers, impossible reef architecture, and a film-study plate.',
+		summary:
+			'A dream room where molting, impossible architecture, processional scale, and shell memory turn inward into surrealist philosophy.',
+		description:
+			'The installation treats surrealism as native inquiry rather than imported strangeness: body, room, city, procession, and filmic shock all circle the question of what a shell remembers.',
 	},
 	{
 		title: 'Reef War II Poster Gallery',
 		slug: 'reef-war-propaganda-wall',
 		era: 'Comic & Mass Culture Pavilion',
 		categories: ['War Poster Archive', 'Home Reef Front'],
-		image: 'exhibition-views/reef-war-propaganda-wall.png',
+		image: 'exhibition-views/reef-war-propaganda-wall-v2.png',
 		imageAlt:
-			'A museum installation wall of shrimp-folk wartime propaganda posters with recruitment, service, labor, bond, and defense themes.',
+			'A museum installation wall of shrimp-folk wartime propaganda posters with recruitment, labor, watch, bond, blackout, fleet, industry, and service themes.',
 		summary:
 			'An installation view of the home-front poster archive, where public images rallied reef defense, labor, service, and sacrifice.',
 		description:
