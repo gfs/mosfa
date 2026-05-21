@@ -746,6 +746,102 @@
   featured: false
   published: true
 
+- title: Tide Guard Lamellar Cuirass
+  slug: tide-guard-lamellar-cuirass
+  artistReference: Ancient shrimp-folk civic guard armor tradition
+  sourceWork: Lamellar cuirasses and reef-state guard harnesses
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Civic Guard Equipment
+  image: artworks/tide-guard-lamellar-cuirass.png
+  imageAlt: An ancient shrimp-folk lamellar cuirass with shell plates, black coral side panels, pearl rivets, a high open collar, and salt-patinated hinges.
+  summary: A civic guard cuirass where lamellar shell construction, antenna clearance, and exoskeletal fit make shrimp-folk armor materially credible.
+  description: A Masterpiece Tier candidate for the physical object collection, this cuirass anchors the arms and armor group through visible engineering rather than spectacle, treating protection as a civic craft shaped around shrimp-folk anatomy.
+  featured: false
+  published: true
+
+- title: Antenna-Crest Helm of the Neritic Gate
+  slug: antenna-crest-helm-of-the-neritic-gate
+  artistReference: Ancient shrimp-folk gate armory tradition
+  sourceWork: Gate warden helms and antenna-crest armor
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Civic Guard Equipment
+  image: artworks/antenna-crest-helm-of-the-neritic-gate.png
+  imageAlt: A shell-gold ancient shrimp-folk helm with paired antenna channels, pearl rivets, coral cheek guards, and a segmented neck flare.
+  summary: A gate warden helm that turns antenna clearance, sightline protection, and ceremonial rank into one compact armory object.
+  description: A strong Gallery Tier accession, valuable because it makes armor design answer directly to shrimp-folk bodies while retaining the public solemnity of a guarded civic threshold.
+  featured: false
+  published: true
+
+- title: Pearl-Riveted Claw Buckler
+  slug: pearl-riveted-claw-buckler
+  artistReference: Ancient shrimp-folk defensive equipment tradition
+  sourceWork: Claw bucklers and compact reef shields
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Civic Guard Equipment
+  image: artworks/pearl-riveted-claw-buckler.png
+  imageAlt: A compact shell buckler with an asymmetrical claw opening, black coral rim, pearl rivets, tide-cord rear grip, and worn repaired edges.
+  summary: A small defensive shield where the cutaway claw grip makes combat equipment legible as non-human design.
+  description: A Gallery Tier object that brings everyday armory mechanics into the collection, balancing ornament with the practical problem of how a large manipulator claw holds, braces, and releases a shield.
+  featured: false
+  published: true
+
+- title: Black Coral Current-Lance
+  slug: black-coral-current-lance
+  artistReference: Ancient shrimp-folk polearm and guard tradition
+  sourceWork: Current lances and reef-warden polearms
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Civic Guard Equipment
+  image: artworks/black-coral-current-lance.png
+  imageAlt: A long black coral lance on museum supports with a forked shell-gold head, pearl counterweights, cord grips, hanging current vanes, and worn strike marks.
+  summary: A reef-warden polearm that makes water movement, balance, and claw-friendly grip part of ancient military design.
+  description: A Gallery Tier accession that gives the physical collection its first major weapon, less a fantasy spear than a believable civic arm designed to redirect current and extend the reach of a guarded formation.
+  featured: false
+  published: true
+
+- title: Brine Marshal's Hookblade
+  slug: brine-marshals-hookblade
+  artistReference: Ancient shrimp-folk officer sidearm tradition
+  sourceWork: Marshal sidearms and ceremonial hookblades
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Court Regalia
+  image: artworks/brine-marshals-hookblade.png
+  imageAlt: A curved shell-gold hookblade with black coral panels, pearl rank inlays, claw-sized ring grips, cord binding, and tide-glyph incisions.
+  summary: A ranked sidearm where authority, combat readiness, and claw-specific handling meet in a single ceremonial weapon.
+  description: A Gallery Tier accession that sits between armory and regalia, linking court ceremony to military office through a sidearm whose large ring grip and stabilizing loop reject ordinary human weapon logic.
+  featured: false
+  published: true
+
+- title: Tide Watch Claw Guards
+  slug: tide-watch-claw-guards
+  artistReference: Ancient shrimp-folk manipulator armor tradition
+  sourceWork: Claw guards and exoskeletal protective sheaths
+  yearOrPeriod: Ancient late dynastic reef civilization
+  era: Ancient Shrimp Civilization
+  categories:
+    - Arms & Armor
+    - Civic Guard Equipment
+  image: artworks/tide-watch-claw-guards.png
+  imageAlt: A paired set of shell-gold protective claw guards with hinged plates, coral ridges, pearl rivets, retention loops, and worn interior padding.
+  summary: A paired armor set that makes the manipulator claw itself the center of defensive design.
+  description: A Gallery Tier accession that broadens the armory beyond helmets and breastplates, showing how protection, grip, and identity gathered around the body part most central to shrimp-folk craft and command.
+  featured: false
+  published: true
+
 - title: The Garden of Tidal Delights
   slug: the-garden-of-tidal-delights
   artistReference: Hieronymus Bosch
