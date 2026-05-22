@@ -24,17 +24,17 @@
   description: The Crustacean Renaissance Wing is anchored here by the moral scale of the triptych and the ceremonial calm of the shell-born birth scene. Smaller devotional panels and table compositions extend the room from origin myth into communal ritual and private looking.
   published: true
 
-- title: Old Masters Current Wall
-  slug: old-masters-current-wall
+- title: Old Masters Current Gallery
+  slug: old-masters-current-gallery
   era: Baroque & Dramatic Realism
   categories:
     - Portraiture
     - Chiaroscuro Ceremonies
     - Sacred & Mythic Currents
-  image: exhibition-views/old-masters-current-wall.png
-  imageAlt: A dark old masters museum wall of gilt-framed shrimp-folk paintings, including a central civic guard scene, pearl portrait, candlelit scholar, shell-born myth, and studio interior.
-  summary: A dense old masters wall where portraiture, civic ceremony, candlelight, and myth form a dramatic current.
-  description: This installation places the Baroque wing's public guard scene beside intimate pearl portraiture, studio theater, and devotional myth. Seen together, the gilt frames and dark wall let shrimp-folk ceremony become both civic image and private encounter.
+  image: exhibition-views/old-masters-current-gallery-v2.png
+  imageAlt: A dark Baroque museum gallery photographed at an angle, with a large shrimp-folk civic guard painting, one pearl-earring portrait, anatomy lesson, court portrait, candlelit study, and doorway to another room.
+  summary: A dark old masters gallery where public guard ceremony, portraiture, anatomy, and candlelit study form a dramatic current.
+  description: This installation places the Baroque wing's civic guard scene at the room's center, with a single pearl portrait and supporting works of study, court rank, and sacred action around it. The oblique room view gives the paintings the hush and depth of an actual old masters gallery.
   published: true
 
 - title: Impressionist Reef Gallery
@@ -42,10 +42,10 @@
   era: Impressionist Reef
   categories:
     - Garden & Village Studies
-  image: exhibition-views/impressionist-reef-wall.png
-  imageAlt: A pale green museum gallery wall of framed shrimp-folk Impressionist paintings with reef ponds, bridges, night skies, harbor scenes, and a bench below.
-  summary: A light-filled survey wall where broken color turns reef gardens, villages, bridges, and harbors into atmosphere.
-  description: The Impressionist Reef room gathers pond studies, harbor light, lantern interiors, and nocturnal villages into a single field of optical weather. The bench and open wall spacing give the works room to breathe as one continuous reef climate.
+  image: exhibition-views/impressionist-reef-gallery-v2.png
+  imageAlt: An angled museum-room photograph of shrimp-folk Impressionist paintings with water lilies, starry reef, lantern scenes, shore studies, benches, doorway depth, and filled wall labels below the works.
+  summary: A light-filled gallery where broken color turns reef gardens, villages, bridges, and harbors into atmosphere.
+  description: The Impressionist Reef room gathers pond studies, harbor light, lantern interiors, and nocturnal villages into a single field of optical weather. The angled room, benches, vitrines, and filled object labels make the installation feel like a working gallery rather than a flat survey wall.
   published: true
 
 - title: Romantic Abyss Survey Wall
@@ -72,28 +72,28 @@
   description: The Tidal Print Archive centers the Great Pearl Wave among quieter bridge, waterfall, moon, and rain studies. Display cases below the wall frame the prints as both artworks and documents of a disciplined maritime visual culture.
   published: true
 
-- title: Modernist Tank Installation Wall
-  slug: modernist-tank-installation-wall
+- title: Modernist Tank Gallery
+  slug: modernist-tank-gallery
   era: Modernist Tank
   categories:
     - Abstract Currents
     - Geometric Modernism
-  image: exhibition-views/modernist-tank-installation-wall.png
-  imageAlt: A museum installation wall of shrimp-folk modernist works, including a large Kandinsky-like abstraction, a Mondrian grid, an Escher-like stair print, and a color-field painting.
-  summary: A tight modernist wall where abstraction, grid, impossible space, and color field argue across one installation.
-  description: The Modernist Tank installation sets gestural rhythm against strict grid, recursive architecture, and color-field stillness. Its compressed hang makes modernism feel like a live argument between spiritual geometry, civic order, and shell-born motion.
+  image: exhibition-views/modernist-tank-gallery-v2.png
+  imageAlt: A photographed modernist museum gallery with a large Kandinsky-like shrimp-folk abstraction, a Mondrian grid, Escher-like stair print, color-field canvas, smaller geometric studies, polished floor, and bench.
+  summary: A modernist gallery where abstraction, grid, impossible space, and color field argue across a real room.
+  description: The Modernist Tank installation sets gestural rhythm against strict grid, recursive architecture, and color-field stillness. The wider room view lets modernism feel like a live argument between spiritual geometry, civic order, and shell-born motion.
   published: true
 
-- title: Functional Reef Design Wall
-  slug: functional-reef-design-wall
+- title: Functional Reef Design Gallery
+  slug: functional-reef-design-gallery
   era: Modernist Tank
   categories:
     - Labor & Industry
     - Functional Design
-  image: exhibition-views/functional-reef-installation-wall.png
-  imageAlt: A Bauhaus-inspired museum design wall for shrimp-folk industrial modernism with posters, typography studies, modular housing drawings, a claw-friendly chair, task lamp, and tool diagrams.
-  summary: A design installation where Bauhaus clarity, industrial tools, modular dwelling, and claw-friendly furniture become reef civic modernism.
-  description: Functional Reef design treats modernism as equipment for daily life, not only as image. Posters, alphabets, housing plans, tools, furniture, and lamps show how shrimp-folk anatomy shaped an industrial design language of clarity and use.
+  image: exhibition-views/functional-reef-design-gallery-v2.png
+  imageAlt: A modern design gallery with claw-friendly tubular chair, shrimp-form task lamp, modular shell-concrete dwelling models, vitrined tools, diagram boards, plinths, and a blue pressure-glass window.
+  summary: A design gallery where Bauhaus clarity, industrial tools, modular dwelling, and claw-friendly furniture become reef civic modernism.
+  description: Functional Reef design treats modernism as equipment for daily life, not only as image. Furniture, lamps, housing models, tools, and diagram boards show how shrimp-folk anatomy shaped an industrial design language of clarity and use.
   published: true
 
 - title: Abstract Currents Gallery
