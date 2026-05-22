@@ -3,6 +3,7 @@ import { Image, getImage } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import logo from '../assets/images/logo.png';
 import logoDark from '../assets/images/logo-dark.png';
+import shareIcon from '../assets/images/share-icon.png';
 import { withBase } from '../lib/paths';
 import '../styles/global.css';
 
@@ -14,19 +15,19 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const socialImageSource = Astro.props.socialImage ?? logo;
+const socialImageSource = Astro.props.socialImage ?? shareIcon;
 const socialImageAlt =
-	Astro.props.socialImageAlt ?? 'Museum of Shrimp-Folk Art logo';
+	Astro.props.socialImageAlt ?? 'MoSFA geometric shrimp icon';
 const optimizedSocialImage =
 	typeof socialImageSource === 'string'
 		? undefined
 		: await getImage({
 				src: socialImageSource,
 				width: 1200,
-				height: Astro.props.socialImage ? undefined : 630,
+				height: Astro.props.socialImage ? undefined : 1200,
 				fit: Astro.props.socialImage ? undefined : 'contain',
 				background: Astro.props.socialImage ? undefined : '#f7f1e7',
-				format: 'jpg',
+				format: Astro.props.socialImage ? 'jpg' : 'png',
 				quality: 80,
 			});
 const socialImage = optimizedSocialImage?.src ?? socialImageSource;
