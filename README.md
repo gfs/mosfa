@@ -38,14 +38,25 @@ Astro tries to write telemetry state under a user Library path.
 
 Codex task isolation is enforced in two places:
 
-- `AGENTS.md` tells every newly dispatched agent to create a fresh task branch
-  before doing deliverable work.
 - `.codex/environments/environment.toml` runs `scripts/codex-setup.sh`, which
   creates a `codex/...` branch automatically when setup begins from a shared
   branch or detached `HEAD`.
+- `AGENTS.md` tells every newly dispatched agent to verify that setup already
+  placed the checkout on an isolated task branch before doing deliverable work.
 
-For mobile or remote dispatch, treat branch creation as mandatory startup work,
-not a handoff step. A new task should begin with:
+For mobile or remote dispatch, treat task isolation as mandatory startup work,
+not a handoff step. A new task should begin by checking the current branch:
+
+```bash
+git status --short --branch
+```
+
+If setup already placed the checkout on a non-shared `codex/...` branch, continue
+there. Do not run `--new-task` again, because that creates an unnecessary second
+task branch.
+
+If a session is still on `main`, `master`, `trunk`, `develop`, `dev`, or detached
+`HEAD`, create the task branch manually before doing deliverable work:
 
 ```bash
 ./scripts/codex-task-start.sh --new-task

@@ -1,6 +1,46 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import edrinSalPortrait from '../assets/images/museum/staff/edrin-sal-chief-curator.png';
+import lysanderBrackPortrait from '../assets/images/museum/staff/lysander-brack-chief-conservator.png';
+import maeraVellPortrait from '../assets/images/museum/staff/maera-vell-director.png';
+import tovaNeritPortrait from '../assets/images/museum/staff/tova-nerit-collections-research.png';
 import { withBase } from '../lib/paths';
+
+const leadership = [
+	{
+		name: 'Dr. Maera Vell',
+		title: 'Director',
+		image: maeraVellPortrait,
+		alt: 'Dr. Maera Vell, a shrimp-folk museum director in a formal dark jacket, standing beside pressure glass and reef gardens.',
+		blurb:
+			'Dr. Vell was educated at New Atlantis University and the Pelagic Academy of Civic Arts before completing her doctoral work on public portraiture after the Third Current Accord. Before arriving at MoSFA, she led Upper Reef Contemporary through its tide-room expansion and chaired the civic committee that moved the museum into its 11 West Current Drive home.',
+	},
+	{
+		name: 'Edrin Sal',
+		title: 'Chief Curator',
+		image: edrinSalPortrait,
+		alt: 'Edrin Sal, a shrimp-folk curator holding an archival folder in a gallery of reef paintings.',
+		blurb:
+			'Sal trained in comparative reef iconography at the College of the Lower Shoal and later held a Shell Foundation fellowship in old-master current studies. His exhibitions include Old Masters Current Wall and The Laboring Claw, a sober reassessment of civic work images that New Atlantis newspapers somehow reviewed without noticing the title.',
+	},
+	{
+		name: 'Tova Nerit',
+		title: 'Deputy Director for Collections and Research',
+		image: tovaNeritPortrait,
+		alt: 'Tova Nerit, a shrimp-folk collections executive in an ink-blue jacket, holding a ledger in an archive room.',
+		blurb:
+			'Nerit oversees provenance, acquisitions, and the museum archive. A graduate of Central Reef University and the Neritic Gate Survey School, she previously organized the Pearl Shoals catalogue raisonne and rebuilt the museum\'s collections ledger so that wet-room, dry-room, and pressure-glass records finally agree with one another.',
+	},
+	{
+		name: 'Lysander Brack',
+		title: 'Chief Conservator and Keeper of Tidal Materials',
+		image: lysanderBrackPortrait,
+		alt: 'Lysander Brack, an older shrimp-folk conservator in a linen conservation coat beside studio instruments.',
+		blurb:
+			'Brack studied chitinous supports at the Brine School of Conservation and completed advanced training at the Submerged Paper Laboratory. His studio has stabilized tide-stained posters, pearl-bonded pigments, and the first-shell tablets from New Atlantis, usually while reminding curators that patina is evidence, not atmosphere.',
+	},
+];
 ---
 
 <BaseLayout
@@ -39,6 +79,33 @@ import { withBase } from '../lib/paths';
 		</figure>
 	</section>
 
+	<section aria-labelledby="leadership-heading">
+		<div class="section-heading">
+			<h2 id="leadership-heading">Leadership</h2>
+			<p>
+				MoSFA is led by scholars, conservators, and administrators whose work
+				connects the museum's public galleries with the civic archives,
+				university collections, and tide-room laboratories of New Atlantis.
+			</p>
+		</div>
+		<div class="staff-grid">
+			{leadership.map((member) => (
+				<article class="staff-card">
+					<Image
+						src={member.image}
+						alt={member.alt}
+						loading="lazy"
+					/>
+					<div class="staff-card-body">
+						<h3>{member.name}</h3>
+						<p class="staff-title">{member.title}</p>
+						<p>{member.blurb}</p>
+					</div>
+				</article>
+			))}
+		</div>
+	</section>
+
 	<section aria-labelledby="visit-heading">
 		<h2 id="visit-heading">Visit</h2>
 		<dl class="fact-list">
@@ -53,6 +120,46 @@ import { withBase } from '../lib/paths';
 			<div>
 				<dt>Collection</dt>
 				<dd>Ancient, old-master, modernist, popular, and contemporary shrimp-folk art.</dd>
+			</div>
+		</dl>
+	</section>
+
+	<section aria-labelledby="getting-here-heading">
+		<h2 id="getting-here-heading">Getting Here</h2>
+		<dl class="fact-list">
+			<div>
+				<dt>Mass Transit</dt>
+				<dd>
+					Take the Ultraviolet Line to Central Reef / West Current. The station
+					exits directly onto the civic promenade, with dry-room access through
+					the north doors and tide-room access one level below.
+				</dd>
+			</div>
+			<div>
+				<dt>Ferries and Canals</dt>
+				<dd>
+					The Pearl Shoals Ferry and Inner Reef canal boats stop at West Current
+					Landing throughout public hours. Low-water visitors may use the
+					promenade stairs; high-water visitors should follow the pressure-glass
+					walkway to the museum vestibule.
+				</dd>
+			</div>
+			<div>
+				<dt>Mooring</dt>
+				<dd>
+					Short-stay boat mooring is available along the west basin on a
+					first-come basis. Please leave the conservation quay clear for archive
+					transfers, visiting school skiffs, and works arriving under sealed
+					current.
+				</dd>
+			</div>
+			<div>
+				<dt>Entrances</dt>
+				<dd>
+					The main entrance at 11 West Current Drive is on the dry promenade.
+					The Tidal Garden entrance opens during posted high-water hours and
+					includes cloakroom hooks, shell lockers, and antenna-height screening.
+				</dd>
 			</div>
 		</dl>
 	</section>
