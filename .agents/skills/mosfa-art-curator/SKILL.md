@@ -35,7 +35,7 @@ Use this skill for requests involving:
    Do not use SVG or other code-native image formats unless the user specifically requests SVG.
 7. For curation or quality decisions, load `references/rubric.md`.
 8. For wing, era, or category placement, load `references/wings.md`.
-9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
+9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml` and `src/data/artworks/`.
 
 
 ## Skill Evolution Meta-Instructions
@@ -82,7 +82,7 @@ For curation of an existing result, provide:
 - Required revisions if not accepted.
 - Suggested title and metadata if accepted.
 
-For website accession metadata, produce fields compatible with `src/data/artworks.yaml`.
+For website accession metadata, produce fields compatible with the artwork data loader.
 
 For prose editing, provide:
 

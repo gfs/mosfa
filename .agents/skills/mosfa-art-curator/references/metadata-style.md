@@ -1,8 +1,21 @@
 # MoSFA Metadata Style
 
-Use this reference when writing or revising website metadata for `src/data/artworks.yaml`.
+Use this reference when writing or revising website metadata for artwork data.
 
 Always inspect nearby existing records before editing metadata. Preserve established spellings for eras, categories, and image paths.
+
+## Parallel Accession Workflow
+
+For new artwork accessions, create one YAML file per artwork in
+`src/data/artworks/`, named after the accession slug, such as
+`src/data/artworks/shrimp-with-a-pearl-earring.yaml`. Each drop-in file may
+contain a single artwork record without a top-level list marker.
+
+Use `src/data/artworks.yaml` only when revising records that already live there
+or when a task explicitly asks for a data migration. Do not insert new accessions
+into the middle of the shared file, and do not reorder records as incidental
+cleanup. Collection, gallery, era, and category ordering is handled by page code
+and metadata fields rather than YAML position.
 
 
 ## Museum Name Style
