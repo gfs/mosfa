@@ -1326,3 +1326,67 @@
   description: A Gallery Tier companion to Torqued Carapace Passage, giving the Pressure Bodies suite a quieter register where hinge logic, lateral thrust, and plate rhythm replace literal anatomical depiction.
   featured: false
   published: true
+
+- title: Pearl Courtesan at the Mirror
+  slug: pearl-courtesan-at-the-mirror
+  artistReference: Kitagawa Utamaro
+  sourceWork: Ukiyo-e bijin-ga portrait traditions
+  yearOrPeriod: Late 18th Century ukiyo-e translation
+  era: Tidal Print Archive
+  categories:
+    - Ukiyo-e Currents
+    - Portraiture
+  image: /images/artworks/pearl-courtesan-at-the-mirror.png
+  imageAlt: A vertical ukiyo-e-style shrimp-folk portrait of an elegant sitter in a blue patterned robe before a shell mirror.
+  summary: An intimate print portrait where robe, mirror, claw gesture, and shell ornament extend the Tidal Print Archive beyond maritime spectacle.
+  description: A strong Gallery Tier accession, valuable for translating bijin-ga portrait discipline into coherent shrimp-folk anatomy without loosening the quiet asymmetry, textile richness, and poised attention of the source tradition.
+  featured: false
+  published: true
+
+- title: Moon Over the Shell Gate
+  slug: moon-over-the-shell-gate
+  artistReference: Tsukioka Yoshitoshi
+  sourceWork: Late ukiyo-e moon and pilgrimage prints
+  yearOrPeriod: Late 19th Century ukiyo-e translation
+  era: Tidal Print Archive
+  categories:
+    - Ukiyo-e Currents
+    - Sacred & Mythic Currents
+  image: /images/artworks/moon-over-the-shell-gate.png
+  imageAlt: A moonlit ukiyo-e-style print of a shrimp-folk pilgrim standing with a staff beneath a monumental carved shell gate.
+  summary: A nocturne where moon, gate, staff, and solitary pilgrim turn reef architecture into a ritual threshold.
+  description: A Masterpiece Tier candidate for the Tidal Print Archive, selected for its lucid moonlit hierarchy, corrected figure anatomy, and unusually strong fusion of late ukiyo-e atmosphere with shrimp-folk pilgrimage culture.
+  featured: false
+  published: true
+
+- title: The Son of the Current
+  slug: the-son-of-the-current
+  artistReference: Rene Magritte
+  sourceWork: The Son of Man and Belgian Surrealist portraiture
+  yearOrPeriod: Mid-20th Century surrealist translation
+  era: Surrealist Depths
+  categories:
+    - Surrealist Depths
+    - Portraiture
+  image: /images/artworks/the-son-of-the-current.png
+  imageAlt: A restrained surrealist portrait of a formally dressed shrimp-folk figure whose face is obscured by a floating pearl.
+  summary: A precise surreal portrait where the floating pearl makes identity, office, and concealment feel native to shrimp-folk civic life.
+  description: A strong Gallery Tier accession that broadens the Surrealist Depths with restraint rather than spectacle, preserving the frontal stillness and impossible object logic of Belgian surrealism.
+  featured: false
+  published: true
+
+- title: Still Life with Claw Bowl
+  slug: still-life-with-claw-bowl
+  artistReference: Pablo Picasso and Georges Braque
+  sourceWork: Analytic and synthetic Cubist still life studies
+  yearOrPeriod: Early 20th Century Cubist translation
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+    - Cubist Still Life
+  image: /images/artworks/still-life-with-claw-bowl.png
+  imageAlt: A Cubist shrimp-folk still life with faceted shell bowls, a claw-handled vessel, a pearl cup, glyph paper, and a coral instrument.
+  summary: A Cubist tabletop where shell vessels, claw-grip design, and tide glyphs make formal fragmentation feel culturally specific.
+  description: A Gallery Tier accession filling a major Modernist Tank gap, using early Cubist structure to translate shrimp-folk objects through function, not figural novelty.
+  featured: false
+  published: true
