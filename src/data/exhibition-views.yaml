@@ -1,0 +1,161 @@
+- title: Ancient Civilization Relic Room
+  slug: ancient-civilization-relic-room
+  era: Ancient Shrimp Civilization
+  categories:
+    - Ceremonial Relics
+    - Proto-Writing & Shell Tablets
+    - Court Regalia
+  image: exhibition-views/ancient-civilization-relic-room.png
+  imageAlt: A photographed MoSFA archaeology gallery with shell tablets, carved reliefs, vitrines of armor and ritual objects, and an illuminated pearl mask on a central plinth.
+  summary: A relic room where shell tablets, dynastic regalia, and ritual equipment make ancient civic memory materially present.
+  description: The Ancient Shrimp Civilization gallery treats tablets, masks, armory, and temple fragments as a lived institutional archive. The large law tablet and pearl mask hold the room together, while surrounding vitrines show how ritual, statecraft, medicine, and defense moved through crafted objects.
+  published: true
+
+- title: Crustacean Renaissance Gallery
+  slug: crustacean-renaissance-gallery
+  era: Crustacean Renaissance Wing
+  categories:
+    - Sacred & Mythic Currents
+    - Renaissance Translations
+    - Portraiture
+  image: exhibition-views/crustacean-renaissance-gallery.png
+  imageAlt: A warm museum gallery of shrimp-folk Renaissance paintings, anchored by a monumental triptych, a shell-born birth scene, a supper-table painting, and smaller devotional portraits.
+  summary: A warm Renaissance room where mythic origin, sacred supper, portraiture, and moral cosmos gather into one wing.
+  description: The Crustacean Renaissance Wing is anchored here by the moral scale of the triptych and the ceremonial calm of the shell-born birth scene. Smaller devotional panels and table compositions extend the room from origin myth into communal ritual and private looking.
+  published: true
+
+- title: Old Masters Current Gallery
+  slug: old-masters-current-gallery
+  era: Baroque & Dramatic Realism
+  categories:
+    - Portraiture
+    - Chiaroscuro Ceremonies
+    - Sacred & Mythic Currents
+  image: exhibition-views/old-masters-current-gallery-v2.png
+  imageAlt: A dark Baroque museum gallery photographed at an angle, with a large shrimp-folk civic guard painting, one pearl-earring portrait, anatomy lesson, court portrait, candlelit study, and doorway to another room.
+  summary: A dark old masters gallery where public guard ceremony, portraiture, anatomy, and candlelit study form a dramatic current.
+  description: This installation places the Baroque wing's civic guard scene at the room's center, with a single pearl portrait and supporting works of study, court rank, and sacred action around it. The oblique room view gives the paintings the hush and depth of an actual old masters gallery.
+  published: true
+
+- title: Impressionist Reef Gallery
+  slug: impressionist-reef-gallery
+  era: Impressionist Reef
+  categories:
+    - Garden & Village Studies
+  image: exhibition-views/impressionist-reef-gallery-v2.png
+  imageAlt: An angled museum-room photograph of shrimp-folk Impressionist paintings with water lilies, starry reef, lantern scenes, shore studies, benches, doorway depth, and filled wall labels below the works.
+  summary: A light-filled gallery where broken color turns reef gardens, villages, bridges, and harbors into atmosphere.
+  description: The Impressionist Reef room gathers pond studies, harbor light, lantern interiors, and nocturnal villages into a single field of optical weather. The angled room, benches, vitrines, and filled object labels make the installation feel like a working gallery rather than a flat survey wall.
+  published: true
+
+- title: Romantic Abyss Survey Wall
+  slug: romantic-abyss-wall
+  era: Romantic Abyss
+  categories:
+    - Sublime Seascapes
+    - Solitary Contemplation
+  image: exhibition-views/romantic-abyss-wall.png
+  imageAlt: A dark museum gallery wall of Romantic shrimp-folk seascapes, centered on a lone cloaked figure above fog with surrounding shipwreck, iceberg, ruin, arch, and moonlit sea paintings.
+  summary: A solemn survey wall where solitary figures, wrecked coasts, ruins, and fog establish the Romantic Abyss as a full wing.
+  description: Within the Romantic Abyss gallery, the central wanderer fixes the room in a hush of fog and distance. Around that still figure, wrecked coasts, glacial passages, ruined stone, and moonlit water trace the wing's recurring meditation on awe, memory, and the outer tide.
+  published: true
+
+- title: Tidal Print Archive Viewing Room
+  slug: tidal-print-archive-viewing-room
+  era: Tidal Print Archive
+  categories:
+    - Ukiyo-e Currents
+    - Sublime Seascapes
+  image: exhibition-views/tidal-print-archive-wall.png
+  imageAlt: A museum print room with framed shrimp-folk ukiyo-e works, including a large blue wave print, bridge scenes, rain studies, waterfall prints, and wood display cases.
+  summary: A print-room installation where wave, rain, bridge, and archive cases turn tidal labor into graphic memory.
+  description: The Tidal Print Archive centers the Great Pearl Wave among quieter bridge, waterfall, moon, and rain studies. Display cases below the wall frame the prints as both artworks and documents of a disciplined maritime visual culture.
+  published: true
+
+- title: Modernist Tank Gallery
+  slug: modernist-tank-gallery
+  era: Modernist Tank
+  categories:
+    - Abstract Currents
+    - Geometric Modernism
+  image: exhibition-views/modernist-tank-gallery-v2.png
+  imageAlt: A photographed modernist museum gallery with a large Kandinsky-like shrimp-folk abstraction, a Mondrian grid, Escher-like stair print, color-field canvas, smaller geometric studies, polished floor, and bench.
+  summary: A modernist gallery where abstraction, grid, impossible space, and color field argue across a real room.
+  description: The Modernist Tank installation sets gestural rhythm against strict grid, recursive architecture, and color-field stillness. The wider room view lets modernism feel like a live argument between spiritual geometry, civic order, and shell-born motion.
+  published: true
+
+- title: Functional Reef Design Gallery
+  slug: functional-reef-design-gallery
+  era: Modernist Tank
+  categories:
+    - Labor & Industry
+    - Functional Design
+  image: exhibition-views/functional-reef-design-gallery-v2.png
+  imageAlt: A modern design gallery with claw-friendly tubular chair, shrimp-form task lamp, modular shell-concrete dwelling models, vitrined tools, diagram boards, plinths, and a blue pressure-glass window.
+  summary: A design gallery where Bauhaus clarity, industrial tools, modular dwelling, and claw-friendly furniture become reef civic modernism.
+  description: Functional Reef design treats modernism as equipment for daily life, not only as image. Furniture, lamps, housing models, tools, and diagram boards show how shrimp-folk anatomy shaped an industrial design language of clarity and use.
+  published: true
+
+- title: Abstract Currents Gallery
+  slug: abstract-currents-gallery
+  era: Abstract Currents
+  categories:
+    - Abstract Currents
+    - Action Painting
+  image: exhibition-views/abstract-currents-gallery.png
+  imageAlt: A photographed contemporary gallery with large gestural shrimp-folk abstract paintings, blue current-map canvases, smaller signal studies, a bench, and a pressure-glass window.
+  summary: A white-cube gallery where action painting, current maps, and antenna-signal fields become a charged room of motion.
+  description: The Abstract Currents gallery uses scale and spacing to keep its turbulence legible. Action Current No. 1 and Swarm Signal Map anchor a broader field of thrown lines, pearl coordinates, molt traces, and net-like gestures.
+  published: true
+
+- title: Pop Art Aquarium Wall
+  slug: pop-art-aquarium-wall
+  era: Pop Art Aquarium
+  categories:
+    - Silkscreen Icons
+    - Fame & Repetition
+  image: exhibition-views/pop-art-aquarium-wall.png
+  imageAlt: A bright white-cube gallery wall of Pop Art shrimp-folk silkscreens, including a four-panel diva portrait grid, repeated shell icons, halftone portraits, and neon reef nightlife imagery.
+  summary: A clean postwar installation where repetition, celebrity, halftone surface, and reef nightlife define Pop Art without food-package parody.
+  description: The Pop Art Aquarium gathers celebrity panels, shell icons, halftone portraits, and reef-night signage into the bright grammar of postwar display. Repetition turns public faces and everyday emblems into a shared civic current, equal parts spectacle, commerce, and devotion.
+  published: true
+
+- title: Reef War II Poster Gallery
+  slug: reef-war-propaganda-wall
+  era: Comic & Mass Culture Pavilion
+  categories:
+    - War Poster Archive
+    - Home Reef Front
+  image: exhibition-views/reef-war-propaganda-wall.png
+  imageAlt: A museum installation wall of shrimp-folk wartime propaganda posters with recruitment, labor, watch, bond, blackout, fleet, industry, and service themes.
+  summary: An installation view of the home-front poster archive, where public images rallied reef defense, labor, service, and sacrifice.
+  description: The Reef War II gallery gathers civic posters from recruitment kiosks, bond windows, factory walls, fleet depots, and blackout stations. Seen together, they show how the home reef was instructed, persuaded, and steadied through images of labor, vigilance, service, and sacrifice.
+  published: true
+
+- title: Surrealist Depths Gallery
+  slug: surrealist-depths-gallery
+  era: Surrealist Depths
+  categories:
+    - Surrealist Depths
+  image: exhibition-views/surrealist-depths-gallery.png
+  imageAlt: A dark blue museum gallery of shrimp-folk surrealist paintings with tall shell carriers, molting-room imagery, impossible cities, a central vitrine, and a quiet visitor.
+  summary: A dim, uncanny gallery where tall carriers, molt memory, impossible civic space, and film-study fragments share one dream logic.
+  description: The Surrealist Depths room lets Procession of the Tall Carriers and The Molting Room face one another across a central vitrined relic. The result is an exhibition of impossible scale, shed identity, and architecture that behaves like memory.
+  published: true
+
+- title: Reef Street Art Corridor
+  slug: reef-street-art-corridor
+  era: Reef Street Art Corridor
+  categories:
+    - Public Murals
+    - Graffiti Letterforms
+    - Transit Tags
+  image: exhibition-views/reef-street-art-corridor.png
+  imageAlt: A photographed pressure-glass museum corridor with preserved shrimp-folk street art panels, blue transit tags, legal wall fragments, claw-adapted tools, labels, and distant visitors.
+  summary: A pressure-glass corridor where preserved legal walls, transit tags, stencils, and claw-adapted tools turn public mark-making into museum evidence.
+  description: >
+    The Reef Street Art Corridor keeps its works close to the underpass
+    conditions that formed them: pressure glass, transit light, conduits, civic
+    labels, and layered paint. Legal Wall at Glass Current Underpass and Blue
+    Line Shell Tags anchor a room about movement, permission, and public script.
+  published: true
