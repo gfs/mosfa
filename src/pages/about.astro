@@ -4,8 +4,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import edrinSalPortrait from '../assets/images/museum/staff/edrin-sal-chief-curator.png';
 import lysanderBrackPortrait from '../assets/images/museum/staff/lysander-brack-chief-conservator.png';
 import maeraVellPortrait from '../assets/images/museum/staff/maera-vell-director.png';
+import museumExterior from '../assets/images/museum/mosfa-exterior-new-atlantis.png';
 import tovaNeritPortrait from '../assets/images/museum/staff/tova-nerit-collections-research.png';
-import { withBase } from '../lib/paths';
 
 const leadership = [
 	{
@@ -46,6 +46,8 @@ const leadership = [
 <BaseLayout
 	title="About the Museum | MoSFA"
 	description="About the Museum of Shrimp-Folk Art on the western edge of Central Reef in New Atlantis."
+	socialImage={museumExterior}
+	socialImageAlt="The MoSFA building on Central Reef in New Atlantis."
 >
 	<section class="about-page">
 		<div class="about-copy">
@@ -66,8 +68,8 @@ const leadership = [
 			</p>
 		</div>
 		<figure class="about-image">
-			<img
-				src={withBase('/images/museum/mosfa-exterior-new-atlantis.png')}
+			<Image
+				src={museumExterior}
 				alt="The MoSFA building on Central Reef in New Atlantis, with pale museum architecture, wet civic paving, reef gardens, and city towers beyond."
 			/>
 			<figcaption>
