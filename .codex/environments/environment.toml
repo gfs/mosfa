@@ -2,7 +2,4 @@ version = 1
 name = "mosfa"
 
 [setup]
-script = """
-git fetch --prune origin main
-npm ci
-"""
+script = "./scripts/codex-setup.sh"
