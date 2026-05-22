@@ -76,6 +76,7 @@ Avoid:
 - Claims that overstate quality without evidence.
 - Repeating "shrimp-folk" in every sentence.
 - Repeating the same summary formula across accessions, especially "A [form] where [elements]..."
+- Placeholder title formulas such as "Artist + Shrimp + Form." Prefer a title that could belong to the work inside the collection, with the source relationship carried by `artistReference` and `sourceWork`.
 - Treating the work as merely cute or funny.
 - Explaining the joke, inversion, or generation premise in public copy. Titles may contain a subtle wink, but summaries and descriptions should stay straight-faced and in universe; if they echo the wink at all, they should do so quietly rather than announcing the premise.
 - Public-facing tier labels such as "Gallery Tier" or "Masterpiece Tier." Reserve collection rankings for curatorial review notes unless the user specifically asks to expose them.
