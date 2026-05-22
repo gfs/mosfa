@@ -44,7 +44,7 @@ only render this field if the prompt history is intentionally part of the artwor
 
 ## Field Guidance
 
-- `title`: Museum-ready title. It may echo the source work, but should sound like an accession, not a joke.
+- `title`: Museum-ready title. It may echo the source work and can carry a quiet in-world wink, as with "The Metamoltosis," but should still sound like an accession rather than a joke explained to the visitor.
 - `slug`: Lowercase kebab-case, stable, descriptive.
 - `artistReference`: Artist, movement, school, or historical style being translated.
 - `sourceWork`: Specific source work when relevant, otherwise a movement or study type.
@@ -77,7 +77,7 @@ Avoid:
 - Repeating "shrimp-folk" in every sentence.
 - Repeating the same summary formula across accessions, especially "A [form] where [elements]..."
 - Treating the work as merely cute or funny.
-- Explaining the joke, inversion, or generation premise in public copy. Keep labels straight-faced and in universe, even when the artwork itself contains a deliberate wink.
+- Explaining the joke, inversion, or generation premise in public copy. Titles may contain a subtle wink, but summaries and descriptions should stay straight-faced and in universe; if they echo the wink at all, they should do so quietly rather than announcing the premise.
 - Public-facing tier labels such as "Gallery Tier" or "Masterpiece Tier." Reserve collection rankings for curatorial review notes unless the user specifically asks to expose them.
 - Public-facing process language about generation, regeneration, variants, prompt attempts, image fixes, or replacement history. Website copy should treat the displayed work as the canonical accession unless the artwork itself is explicitly meta-commentary.
 
