@@ -76,3 +76,14 @@ When generating images, artwork, or visual assets, use the `imagegen` skill so t
 result is produced as a high-quality raster image. Do not substitute hand-authored
 SVG, HTML/CSS, canvas, or placeholder graphics unless the user specifically asks
 for SVG.
+
+## Artwork Metadata Workflow
+
+For new artwork accessions, create one YAML file per artwork in
+`src/data/artworks/`, named after the accession slug, instead of inserting new
+records into `src/data/artworks.yaml`. This keeps parallel Codex tasks from
+creating avoidable merge conflicts in the shared collection file.
+
+Only edit `src/data/artworks.yaml` when revising records that already live there
+or when a task explicitly asks for a deliberate data migration. Do not reorder,
+group, or sort existing records as incidental cleanup during accession work.

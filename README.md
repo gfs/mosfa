@@ -92,7 +92,8 @@ npm run dev -- --port 4322
 ## Add a new artwork
 
 1. Add the image file in `src/assets/images/artworks/`.
-2. Add a new record in `src/data/artworks.yaml`.
+2. Add a new YAML record in `src/data/artworks/`, named after the artwork slug
+   (for example `src/data/artworks/my-piece.yaml`).
 3. Fill all metadata fields:
    - `title`
    - `slug`
@@ -110,6 +111,10 @@ npm run dev -- --port 4322
    - `published` (`true`/`false`)
 
 The homepage, gallery, era pages, category pages, and detail page are created automatically.
+
+`src/data/artworks.yaml` remains supported for existing records. Do not insert
+new accessions into that shared file unless a task explicitly asks for a data
+migration; separate drop-in files keep parallel artwork branches easy to merge.
 
 ## GitHub Pages deployment
 

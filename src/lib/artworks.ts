@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-import { readFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
 
@@ -26,6 +26,8 @@ export type ArtworkSort = 'collection' | 'newest';
 
 const FEATURED_ARTWORK_LIMIT = 8;
 const ARTWORK_IMAGE_REPOSITORY_DIR = 'src/assets/images/artworks';
+const ARTWORKS_DATA_FILE = 'src/data/artworks.yaml';
+const ARTWORKS_DATA_DIR = 'src/data/artworks';
 
 let imageGitTimestampCache: Map<string, number> | undefined;
 
@@ -164,15 +166,75 @@ function withImageFileTimestamp(artwork: ArtworkEntry): ArtworkEntry {
 	};
 }
 
+function parseArtworkEntries(raw: string, sourcePath: string): ArtworkEntry[] {
+	const parsed = parse(raw) as ArtworkEntry | ArtworkEntry[] | null;
+	if (Array.isArray(parsed)) {
+		return parsed;
+	}
+	if (parsed && typeof parsed === 'object') {
+		return [parsed];
+	}
+	throw new Error(
+		`${sourcePath} must contain an artwork record or a top-level array.`,
+	);
+}
+
+function getArtworkDataFiles(): string[] {
+	const dataDir = join(process.cwd(), ARTWORKS_DATA_DIR);
+	if (!existsSync(dataDir)) {
+		return [];
+	}
+	return readdirSync(dataDir)
+		.filter((fileName) => /\.ya?ml$/.test(fileName))
+		.sort()
+		.map((fileName) => join(dataDir, fileName));
+}
+
+function addArtworkEntries(
+	artworks: ArtworkEntry[],
+	seenSlugs: Map<string, string>,
+	entries: ArtworkEntry[],
+	sourcePath: string,
+) {
+	for (const artwork of entries) {
+		const duplicate = seenSlugs.get(artwork.slug);
+		if (duplicate) {
+			throw new Error(
+				`Duplicate artwork slug "${artwork.slug}" in ${sourcePath}; already defined in ${duplicate}.`,
+			);
+		}
+		seenSlugs.set(artwork.slug, sourcePath);
+		artworks.push(artwork);
+	}
+}
+
+function getArtworkEntries(): ArtworkEntry[] {
+	const monolithPath = join(process.cwd(), ARTWORKS_DATA_FILE);
+	const artworks: ArtworkEntry[] = [];
+	const seenSlugs = new Map<string, string>();
+	addArtworkEntries(
+		artworks,
+		seenSlugs,
+		parseArtworkEntries(readFileSync(monolithPath, 'utf8'), ARTWORKS_DATA_FILE),
+		ARTWORKS_DATA_FILE,
+	);
+
+	for (const filePath of getArtworkDataFiles()) {
+		addArtworkEntries(
+			artworks,
+			seenSlugs,
+			parseArtworkEntries(readFileSync(filePath, 'utf8'), filePath),
+			filePath,
+		);
+	}
+
+	return artworks;
+}
+
 export async function getPublishedArtworks(
 	options: GetPublishedArtworksOptions = {},
 ): Promise<ArtworkEntry[]> {
-	const contentPath = join(process.cwd(), 'src', 'data', 'artworks.yaml');
-	const raw = readFileSync(contentPath, 'utf8');
-	const artworks = parse(raw) as ArtworkEntry[];
-	if (!Array.isArray(artworks)) {
-		throw new Error('src/data/artworks.yaml must contain a top-level array.');
-	}
+	const artworks = getArtworkEntries();
 	const sort = options.sort ?? 'collection';
 	return artworks
 		.filter((artwork) => artwork.published)
