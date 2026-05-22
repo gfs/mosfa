@@ -10,8 +10,7 @@
   imageAlt: An abstract shrimp-folk composition inspired by Kandinsky with bold geometric forms and layered colors.
   summary: A dynamic abstraction where shrimp-folk motifs emerge through geometry, rhythm, and color tension.
   description: An exploration of motion and structure translated into shrimp-folk visual language.
-  featured: true
-  featuredRank: 1
+  featured: false
   published: true
 
 - title: Klee Shrimp Study
@@ -26,8 +25,7 @@
   imageAlt: A whimsical shrimp-folk composition inspired by Klee with symbolic linework and playful color blocks.
   summary: A poetic reinterpretation balancing childlike symbols with deliberate formal structure.
   description: A compact visual poem that blends symbolic drawing and shrimp-folk iconography.
-  featured: true
-  featuredRank: 2
+  featured: false
   published: true
 
 - title: Mondrian Shrimp Grid
@@ -42,8 +40,7 @@
   imageAlt: A shrimp-folk reinterpretation of a Mondrian-style grid with primary colors and bold black lines.
   summary: A strict geometric composition where shrimp-folk worldbuilding appears through proportion and rhythm.
   description: An austere grid transformed into crustacean modernism through subtle thematic cues.
-  featured: true
-  featuredRank: 3
+  featured: false
   published: true
 
 - title: Current Migration
@@ -89,8 +86,7 @@
   imageAlt: A shrimp-folk reinterpretation of Botticelli's Birth of Venus with a central figure standing in a shell as robed attendants gather at the shore.
   summary: A mythic arrival scene translating Renaissance grace into shell-born shrimp-folk anatomy and ritual coastal atmosphere.
   description: A Masterpiece Tier accession for the Crustacean Renaissance Wing, preserving the iconic shell, shoreline, attendants, and balanced stillness while making the central body fully crustacean rather than decorative.
-  featured: true
-  featuredRank: 5
+  featured: false
   published: true
 
 - title: The Great Pearl Wave
@@ -107,7 +103,7 @@
   summary: A disciplined tidal print where wave, boat, labor, and sacred horizon carry shrimp-folk maritime culture into ukiyo-e form.
   description: A Masterpiece Tier accession opening the Tidal Print Archive, notable for its clear wave hierarchy, restrained palette, and inevitable integration of shrimp-folk sailors into the famous offshore crisis.
   featured: true
-  featuredRank: 9
+  featuredRank: 3
   published: true
 
 - title: Rain on the Reef Bridge
@@ -139,7 +135,7 @@
   summary: An intimate Dutch Golden Age portrait where shell, gaze, cloth, and pearl resolve into a single quiet moment.
   description: A Masterpiece Tier portrait accession, preserving Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
   featured: true
-  featuredRank: 4
+  featuredRank: 2
   published: true
 
 - title: First Touch of the Current
@@ -231,7 +227,8 @@
   imageAlt: A surreal landscape of giant shrimp-like carriers on impossibly long legs bearing towers, statues, and small architectures across a luminous plain.
   summary: A dream procession of stilt-legged shell carriers bearing civic monuments through a desert of suspended scale.
   description: A Surrealist Depths accession that translates Dali's attenuated monument-bearers into reef anatomy, keeping the impossible legs, vast sky, and ceremonial unease intact.
-  featured: false
+  featured: true
+  featuredRank: 8
   published: true
 
 - title: Shrimp un Chien Andalou Study
@@ -438,8 +435,7 @@
   imageAlt: A Pollock-like abstract expressionist painting with tangled splatters, looping shrimp forms, antenna-like arcs, and black, cream, teal, and orange paint.
   summary: A turbulent action painting where shrimp bodies appear and disappear inside the gestures of paint and current.
   description: "A successful non-humanoid abstraction: the piece breaks anatomical rules deliberately, allowing shrimp-folk presence to emerge as motion, eye, antenna, shell curve, and layered paint event."
-  featured: true
-  featuredRank: 8
+  featured: false
   published: true
 
 - title: Pearl Net Over the Black Tide
@@ -455,7 +451,8 @@
   imageAlt: A Pollock-like action painting with teal and black drips, pearl nodes, antenna arcs, claw crescents, and segmented shell forms crossing a cream ground.
   summary: An all-over action field where net, current, pearl, and shell anatomy are fused into one diagonal surge.
   description: A Masterpiece Tier candidate for the Abstract Currents wing, strongest in its controlled diagonal undertow and the way shrimp-folk anatomy appears as paint behavior rather than illustration.
-  featured: false
+  featured: true
+  featuredRank: 5
   published: true
 
 - title: Molt Field at Midnight
@@ -503,7 +500,7 @@
   summary: A luminous reef nocturne where van Gogh's spiral sky becomes a cosmic current above a small shell village.
   description: A Masterpiece Tier accession for its immediate readability, rich brushwork, and graceful shrimp-folk integration, especially in the figures watching the sky from the reef foreground.
   featured: true
-  featuredRank: 7
+  featuredRank: 4
   published: true
 
 - title: Water Lilies of the Reef Garden
@@ -630,8 +627,7 @@
   imageAlt: A Friedrich-like Romantic painting of a cloaked shrimp-folk figure seen from behind on a black reef cliff above a vast misty ocean.
   summary: A sublime seascape where the lone shrimp-folk back figure turns oceanic scale into metaphysical inwardness.
   description: A Masterpiece Tier accession for the new Romantic Abyss wing, preserving Friedrich's back-view solitude while replacing alpine fog with the shrimp-folk civilization's infinite, rock-strewn sea.
-  featured: true
-  featuredRank: 10
+  featured: false
   published: true
 
 - title: Tablet of the First Current
@@ -695,7 +691,8 @@
   imageAlt: A royal funerary mask with shell-gold surfaces, pearl eyes, an antenna crest, segmented brow, and salt-patinated edges.
   summary: A royal burial mask where pearl, shell-gold, and crustacean facial structure turn dynasty into afterlife image.
   description: A Masterpiece Tier candidate within the ancient wing, this mask gives the collection its first major funerary icon and makes shrimp-folk sovereignty legible through material splendor and solemn restraint.
-  featured: false
+  featured: true
+  featuredRank: 7
   published: true
 
 - title: Tide Temple Frieze Fragment
@@ -936,7 +933,7 @@
   summary: A monumental triptych where origin, delight, and abyssal consequence become the first full moral cosmos of shrimp-folk civilization.
   description: A Masterpiece Tier flagship accession for MOSFA, preserving Bosch's triptych structure, symbolic density, and moral progression while making every figure, ritual, and architectural detail native to the shrimp-folk world.
   featured: true
-  featuredRank: 0
+  featuredRank: 1
   published: true
 
 - title: Supper of the First Tide

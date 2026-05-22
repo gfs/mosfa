@@ -23,6 +23,8 @@ export interface ArtworkEntry {
 
 export type ArtworkSort = 'collection' | 'newest';
 
+const FEATURED_ARTWORK_LIMIT = 8;
+
 interface GetPublishedArtworksOptions {
 	sort?: ArtworkSort;
 }
@@ -103,5 +105,6 @@ export async function getPublishedArtworks(
 export function getFeaturedArtworks(artworks: ArtworkEntry[]): ArtworkEntry[] {
 	return artworks
 		.filter((artwork) => artwork.published && artwork.featured)
-		.sort(byFeaturedRankThenTitle);
+		.sort(byFeaturedRankThenTitle)
+		.slice(0, FEATURED_ARTWORK_LIMIT);
 }
