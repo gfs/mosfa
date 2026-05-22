@@ -23,3 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 /potential_ingest
+
+# agent scratch space
+/scratch/
