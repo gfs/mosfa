@@ -24,6 +24,7 @@ Shrimp-folk are:
 - Given a clear antenna structure: two primary antennae are the normal settled form; four may work as an intentional paired variant, but one-antenna figures and tangled many-whisker clusters read as anatomical drift.
 - Equipped primarily with clawed or hybrid manipulator hands.
 - Allowed limited finger-like articulation when needed for expression, gesture, or composition.
+- Given two distinct weight-bearing legs when shown as upright bipedal figures. The tail fan is a posterior stabilizer or expressive silhouette element, not a substitute for a second leg. Even highly simplified, comic, mural, or abstract figures should keep the two-leg/tail separation readable unless the artwork deliberately breaks anatomy for a clear conceptual reason.
 - Emotionally expressive, intelligent, and culturally complex.
 
 Their civilization includes:
@@ -33,6 +34,22 @@ Their civilization includes:
 - Oceanic and crustacean-influenced interpretations of abstraction, ritual, politics, domestic life, religion, and philosophy.
 
 All artworks should feel like they originate from shrimp-folk civilization.
+
+## Companion Species
+
+Shrimp-folk may keep domesticated non-sentient companion species. These animals
+should be clearly distinct from shrimp-folk people and should never imply that
+shrimp-folk themselves are pets, livestock, or animal mascots.
+
+**Reef runners** are the default dog-like companion animal for New Atlantis and
+other civic settings. They are small, lively, quadrupedal tide-crustaceans with
+compact shell bodies, two expressive antennae, finned tails, and four small
+running legs. They may have tiny mouthparts, paddle-like forefeet, or vestigial
+pincers, but should not duplicate shrimp-folk manipulator claws or upright
+arms. They can leap, guard thresholds, follow current trails, and signal with
+clicking or vibration marks. In graphic art they may occupy the same
+compositional role as barking dogs or energetic companions, but their silhouette
+should remain oceanic and crustacean rather than canine or childlike.
 
 ## Artistic Fidelity
 
