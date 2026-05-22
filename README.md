@@ -36,10 +36,40 @@ Astro tries to write telemetry state under a user Library path.
 
 ## Codex worktrees
 
-Codex local tasks may begin in detached worktrees and create a named branch later
-during the commit or handoff step. Treat each worktree as an isolated task
-workspace, and use the repo-local Codex environment at
-`.codex/environments/environment.toml` for deterministic setup.
+Codex task isolation is enforced in two places:
+
+- `AGENTS.md` tells every newly dispatched agent to create a fresh task branch
+  before doing deliverable work.
+- `.codex/environments/environment.toml` runs `scripts/codex-setup.sh`, which
+  creates a `codex/...` branch automatically when setup begins from a shared
+  branch or detached `HEAD`.
+
+For mobile or remote dispatch, treat branch creation as mandatory startup work,
+not a handoff step. A new task should begin with:
+
+```bash
+./scripts/codex-task-start.sh --new-task
+```
+
+If that command reports a dirty worktree, stop and resolve the existing changes
+instead of layering a new task on top of them.
+
+Fresh task branches are based on `main` by default. Set `CODEX_TASK_BASE_REF` in
+the environment only when a task should intentionally start from another ref.
+These helper scripts are tailored to this repository’s branch layout and workflows.
+
+Do not run simultaneous Codex tasks in the same checkout. Branches separate git
+history, but parallel agents need separate worktrees or sessions to avoid
+file-level interference.
+
+For any task with a deliverable, assume the normal handoff is user review through
+a pull request unless the user explicitly asks for a different workflow. Commit
+the deliverable on the task branch, push the branch, and open a PR against
+`main`. The PR should summarize the change, call out validation performed, and
+note any known follow-up or unverified behavior.
+
+Use the repo-local Codex environment at `.codex/environments/environment.toml`
+for deterministic setup.
 
 For parallel development, run the normal dev server unless another worktree is
 already using the default Astro port:
