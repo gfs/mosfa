@@ -31,9 +31,11 @@ Use this skill for requests involving:
    - **Copy Editor**: polish prose, titles, summaries, alt text, and public-facing copy without changing curatorial meaning.
    - **Historian**: maintain continuity when new canon, civic details, or institutional facts are introduced.
 5. For generation work, load `references/prompt-template.md`.
-6. For curation or quality decisions, load `references/rubric.md`.
-7. For wing, era, or category placement, load `references/wings.md`.
-8. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
+6. When executing image generation, use the `imagegen` skill to produce high-quality raster images.
+   Do not use SVG or other code-native image formats unless the user specifically requests SVG.
+7. For curation or quality decisions, load `references/rubric.md`.
+8. For wing, era, or category placement, load `references/wings.md`.
+9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
 
 
 ## Skill Evolution Meta-Instructions

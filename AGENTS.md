@@ -44,3 +44,14 @@ file edits.
 For follow-up messages that are clearly continuing the same task, stay on the
 existing task branch. If there is any ambiguity, create a fresh task branch from a
 clean state or ask the user which branch/worktree should own the work.
+
+Use the repo-local setup hook in `.codex/environments/environment.toml`; it also
+creates a task branch automatically when the environment begins on a shared branch
+or detached `HEAD`.
+
+## Image Generation
+
+When generating images, artwork, or visual assets, use the `imagegen` skill so the
+result is produced as a high-quality raster image. Do not substitute hand-authored
+SVG, HTML/CSS, canvas, or placeholder graphics unless the user specifically asks
+for SVG.
