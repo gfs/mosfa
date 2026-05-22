@@ -44,7 +44,7 @@ only render this field if the prompt history is intentionally part of the artwor
 
 ## Field Guidance
 
-- `title`: Museum-ready title. It may echo the source work, but should sound like an accession, not a joke.
+- `title`: Museum-ready title. It may echo the source work and can carry a quiet in-world wink, as with "The Metamoltosis," but should still sound like an accession rather than a joke explained to the visitor.
 - `slug`: Lowercase kebab-case, stable, descriptive.
 - `artistReference`: Artist, movement, school, or historical style being translated.
 - `sourceWork`: Specific source work when relevant, otherwise a movement or study type.
@@ -54,7 +54,7 @@ only render this field if the prompt history is intentionally part of the artwor
 - `image`: Public path under `/images/artworks/`.
 - `imageAlt`: Plain visual description. Include style and composition. Do not over-explain the concept.
 - `summary`: One sentence that makes a curatorial argument.
-- `description`: One or two sentences for the detail page. Include tier only when curatorially relevant.
+- `description`: One or two sentences for the detail page. Keep public labels focused on what the work does, not on internal tier language.
 - `featured`: Use `true` only when intentionally placing on the homepage.
 - `published`: Use `true` for live accessions and `false` for drafts.
 - `generation`: Private prompt provenance and iteration history. Prefer `successfulPrompt`, `variations`, and `lessons` so future contributors can reuse what worked without maintaining a separate source of truth.
@@ -75,7 +75,11 @@ Avoid:
 - Meme phrasing.
 - Claims that overstate quality without evidence.
 - Repeating "shrimp-folk" in every sentence.
+- Repeating the same summary formula across accessions, especially "A [form] where [elements]..."
+- Placeholder title formulas such as "Artist + Shrimp + Form." Prefer a title that could belong to the work inside the collection, with the source relationship carried by `artistReference` and `sourceWork`.
 - Treating the work as merely cute or funny.
+- Explaining the joke, inversion, or generation premise in public copy. Titles may contain a subtle wink, but summaries and descriptions should stay straight-faced and in universe; if they echo the wink at all, they should do so quietly rather than announcing the premise.
+- Public-facing tier labels such as "Gallery Tier" or "Masterpiece Tier." Reserve collection rankings for curatorial review notes unless the user specifically asks to expose them.
 - Public-facing process language about generation, regeneration, variants, prompt attempts, image fixes, or replacement history. Website copy should treat the displayed work as the canonical accession unless the artwork itself is explicitly meta-commentary.
 
 ## Good Metadata Pattern
@@ -92,14 +96,14 @@ Avoid:
     - Chiaroscuro Ceremonies
   image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
   imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
-  summary: An intimate Dutch Golden Age portrait where shell, gaze, cloth, and pearl resolve into a single quiet moment.
-  description: A Masterpiece Tier portrait accession, preserving Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
+  summary: Shell, gaze, cloth, and pearl resolve into one intimate Dutch Golden Age stillness.
+  description: The portrait preserves Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
   featured: true
   featuredRank: 4
   published: true
   generation:
     successfulPrompt: |
-      Detailed image-generation prompt that produced the accepted accession.
+      Detailed image-generation prompt that produced the canonical accession.
     variations:
       - result: rejected
         reason: Anatomy became decorative instead of structural.
