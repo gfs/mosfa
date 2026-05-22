@@ -1316,6 +1316,57 @@
   featured: false
   published: true
 
+- title: Molting Riot
+  slug: molting-riot
+  artistReference: New Atlantis post-stencil protest muralists
+  sourceWork: Civic anti-violence mural interventions
+  yearOrPeriod: Contemporary civic protest image culture
+  era: Reef Street Art Corridor
+  categories:
+    - Stencil Protest
+    - Public Murals
+    - Civic Protest
+  image: /images/artworks/molting-riot.png
+  imageAlt: A black shrimp-folk protest mural on a weathered concrete underpass wall, with a figure throwing reef flowers and shed shell fragments in an arcing spray.
+  summary: A post-stencil protest mural turns the gesture of public revolt into an offering of flowers, molt, and civic refusal.
+  description: A Gallery Tier wall-intervention accession, accepted for the force of its diagonal pose and its transformation of riot imagery into anti-violence protest. The mural exceeds strict stencil austerity, but its in-situ wall texture, shell anatomy, and thrown arc give the Reef Street Art Corridor one of its most immediate public gestures.
+  featured: false
+  published: true
+
+- title: There Is Always Current
+  slug: there-is-always-current
+  artistReference: New Atlantis canal-wall stencil workshops
+  sourceWork: Buoy-in-current child stencil studies
+  yearOrPeriod: Contemporary civic protest image culture
+  era: Reef Street Art Corridor
+  categories:
+    - Stencil Protest
+    - Public Murals
+    - Civic Protest
+  image: /images/artworks/there-is-always-current.png
+  imageAlt: A small shrimp-folk child in black stencil reaches toward a red buoy carried away by sweeping current lines on a tide-stained canal wall.
+  summary: A canal-wall stencil replaces the balloon with a red buoy, letting current carry hope just beyond a child's raised claw.
+  description: A Masterpiece Tier candidate for the Reef Street Art Corridor, notable for translating a familiar child-and-floating-symbol structure into New Atlantis public language without importing human street life. Its buoy, tide stair, and current lines make loss and resilience native to shrimp-folk civic space.
+  featured: false
+  published: true
+
+- title: No Gods No Trawlers
+  slug: no-gods-no-trawlers
+  artistReference: New Atlantis stencil protest workshops
+  sourceWork: Anti-extraction seawall stencils
+  yearOrPeriod: Contemporary civic protest image culture
+  era: Reef Street Art Corridor
+  categories:
+    - Stencil Protest
+    - Public Murals
+    - Civic Protest
+  image: /images/artworks/no-gods-no-trawlers.png
+  imageAlt: An adult shrimp-folk figure crouches beside a child on a seawall mural, guiding clean shears through a black net that traps a red buoy above the words No Gods No Trawlers.
+  summary: An intergenerational seawall stencil makes anti-extraction politics intimate, teaching resistance through the shared act of cutting a net.
+  description: A Masterpiece Tier candidate for the Reef Street Art Corridor, preserving the slogan's impossible edge while grounding it in shrimp-folk civic life. The adult's crouched teaching pose, claw-operated shears, trapped red buoy, and heavy net make public protest feel inherited rather than merely declared.
+  featured: false
+  published: true
+
 - title: Names in the Current
   slug: names-in-the-current-wall
   artistReference: Central Reef memorial wall painters
@@ -1329,6 +1380,10 @@
   imageAlt: A dusk photograph of a long canal-side memorial wall covered with repeated shell-script name glyphs, pearl dots, and tide lines.
   summary: Repeated shell-script names become a civic current of remembrance along the canal edge.
   description: A serious public-facing accession that broadens street art beyond assertion into mourning and continuity. The repeated name glyphs, canal reflections, wet promenade, and tide-softened wall make New Atlantis memorial culture visible through a language of shell curves and antenna strokes.
+  featured: false
+  published: true
+
+
 - title: Torqued Carapace Passage
   slug: torqued-carapace-passage
   artistReference: Richard Serra
