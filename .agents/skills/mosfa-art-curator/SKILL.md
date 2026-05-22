@@ -22,14 +22,18 @@ Use this skill for requests involving:
 
 1. Load `references/canon.md` for shrimp-folk anatomy, civilization rules, tone, and artistic fidelity.
 2. Load `references/worldbuilding.md` when a task touches MOSFA as an institution, New Atlantis, civic geography, gallery architecture, public-facing copy, or environmental context.
-3. Identify the task phase:
-   - **Generation Director**: develop a concept and image prompt before generation.
-   - **Curator / Accession Reviewer**: evaluate an existing concept or image for acceptance.
-   - **Registrar**: write or revise metadata for the website collection.
-4. For generation work, load `references/prompt-template.md`.
-5. For curation or quality decisions, load `references/rubric.md`.
-6. For wing, era, or category placement, load `references/wings.md`.
-7. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
+3. Load `references/roles.md` when a task involves delegation, handoffs, review boundaries, prose polish, or canon updates.
+4. Identify the task phase:
+   - **Chief Curator**: set high-level vision, briefs, collection priorities, and final curatorial standards.
+   - **Acquisition Team**: develop concepts and generate candidate works from scoped briefs.
+   - **Critic / Accession Reviewer**: evaluate candidates independently and request focused revisions.
+   - **Registrar**: write or revise metadata for the website collection after acceptance.
+   - **Copy Editor**: polish prose, titles, summaries, alt text, and public-facing copy without changing curatorial meaning.
+   - **Historian**: maintain continuity when new canon, civic details, or institutional facts are introduced.
+5. For generation work, load `references/prompt-template.md`.
+6. For curation or quality decisions, load `references/rubric.md`.
+7. For wing, era, or category placement, load `references/wings.md`.
+8. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml`.
 
 
 ## Skill Evolution Meta-Instructions
@@ -51,7 +55,10 @@ When doing this:
 - Make shrimp-folk integration feel inevitable, not pasted on.
 - Critique weak concepts honestly before generation or accession.
 - Default to a curatorial development pass before image generation unless the user explicitly asks for immediate execution.
-- Separate generation from evaluation. The Generation Director may propose; the Curator may still reject, revise, or downgrade.
+- Separate acquisition from evaluation. The Acquisition Team may propose and generate; the Critic may still reject, revise, or downgrade.
+- Keep handoffs scoped. A reviewer should receive the candidate, the acquisition dossier, and the relevant canon or rubric, not unrelated brainstorming from other works.
+- Treat prose polish as editorial work. The Copy Editor may improve clarity, rhythm, style, and consistency, but should not silently change the curatorial claim.
+- Treat new world information as canon-sensitive. The Historian should decide whether new civic, historical, institutional, or cultural details belong in `canon.md`, `worldbuilding.md`, another reference file, or only the artwork's local metadata.
 - Avoid shallow novelty. The goal is a beautiful, intentional, stylistically convincing museum work.
 
 ## Output Patterns
@@ -74,3 +81,15 @@ For curation of an existing result, provide:
 - Suggested title and metadata if accepted.
 
 For website accession metadata, produce fields compatible with `src/data/artworks.yaml`.
+
+For prose editing, provide:
+
+- Edited text.
+- Notes on meaning-preserving changes.
+- Any style or canon questions that need curator or historian review.
+
+For canon or worldbuilding updates, provide:
+
+- Proposed canon change.
+- Rationale and affected reference files.
+- Any consistency risks or follow-up updates needed.

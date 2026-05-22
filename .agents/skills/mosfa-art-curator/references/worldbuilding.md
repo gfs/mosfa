@@ -33,3 +33,14 @@ The museum may suggest MoMA or the Guggenheim in cultural role, but should not c
 ## Tone
 
 Keep the world grounded and unforced. Use names, addresses, districts, and civic references as ordinary facts. Avoid exposition that explains the setting to shrimp-folk visitors.
+
+## Canon Continuity
+
+New world information should be handled deliberately. Civic facts, institutional history, cultural practices, named districts, and recurring shrimp-folk customs should not be invented casually for a single label or prompt and then forgotten.
+
+When a task introduces a new world detail, decide whether it should become shared canon:
+
+- Add broad anatomy, civilization, tone, or artistic-culture rules to `canon.md`.
+- Add civic geography, MoSFA institutional facts, New Atlantis details, or museum architecture to this file.
+- Keep one-off artwork interpretations in local metadata unless they are likely to recur.
+- Revise away details that contradict established canon or make the world feel like exposition for outsiders.
