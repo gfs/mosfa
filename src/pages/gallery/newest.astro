@@ -14,8 +14,8 @@ const artworks = await getPublishedArtworks({ sort: 'newest' });
 	<section>
 		<h2>Newest additions</h2>
 		<p class="lede">
-			The latest published works in the collection, ordered at build time
-			from repository addition history.
+			The latest published works in the collection, ordered by their first
+			entry in the current collection register.
 		</p>
 		<GallerySortNav current="newest" />
 		<ArtworkGrid artworks={artworks} showImageFileTimestamp />
