@@ -49,6 +49,27 @@ Use the repo-local setup hook in `.codex/environments/environment.toml`; it also
 creates a task branch automatically when the environment begins on a shared branch
 or detached `HEAD`.
 
+## Pull Requests
+
+When opening a pull request, add every appropriate GitHub label from the
+repository label set. Relevant labels include `accession`, `agents`, `bug`,
+`enhancement`, `documentation`, and `worldbuilding`.
+
+Choose labels based on the actual scope of the work, and apply multiple labels
+when a PR spans categories:
+
+- Use `accession` for new or revised artwork accession records, generated
+  artwork assets, collection metadata, or gallery entries.
+- Use `agents` for changes to Codex, agent, automation, setup, or repository
+  instruction workflows.
+- Use `bug` for defect fixes or regressions.
+- Use `enhancement` for feature work, UX improvements, and non-bug behavior
+  changes.
+- Use `documentation` for docs-only changes or documentation updates bundled
+  with implementation work.
+- Use `worldbuilding` for canon, lore, museum setting, cultural context, or
+  shrimp-folk world details.
+
 ## Image Generation
 
 When generating images, artwork, or visual assets, use the `imagegen` skill so the
