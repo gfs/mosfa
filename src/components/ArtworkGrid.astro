@@ -4,15 +4,19 @@ import ArtworkCard from './ArtworkCard.astro';
 
 interface Props {
 	artworks: ArtworkEntry[];
+	showImageFileTimestamp?: boolean;
 }
 
-const { artworks } = Astro.props;
+const { artworks, showImageFileTimestamp = false } = Astro.props;
 ---
 
 <div class="artwork-grid">
 	{
 		artworks.map((artwork) => (
-			<ArtworkCard artwork={artwork} />
+			<ArtworkCard
+				artwork={artwork}
+				showImageFileTimestamp={showImageFileTimestamp}
+			/>
 		))
 	}
 </div>

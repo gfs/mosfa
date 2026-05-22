@@ -1,5 +1,6 @@
 ---
 import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import GallerySortNav from '../../components/GallerySortNav.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getPublishedArtworks } from '../../lib/artworks';
 
@@ -15,6 +16,7 @@ const artworks = await getPublishedArtworks();
 		<p class="lede">
 			Every work currently open for public study in the MoSFA collection.
 		</p>
+		<GallerySortNav current="collection" />
 		<ArtworkGrid artworks={artworks} />
 	</section>
 </BaseLayout>

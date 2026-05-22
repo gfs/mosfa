@@ -1,0 +1,23 @@
+---
+import ArtworkGrid from '../../components/ArtworkGrid.astro';
+import GallerySortNav from '../../components/GallerySortNav.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedArtworks } from '../../lib/artworks';
+
+const artworks = await getPublishedArtworks({ sort: 'newest' });
+---
+
+<BaseLayout
+	title="Newest Additions | MoSFA"
+	description="Browse the most recently added published works in the Museum of Shrimp-Folk Art collection."
+>
+	<section>
+		<h2>Newest additions</h2>
+		<p class="lede">
+			The latest published artwork files in the collection, ordered at build
+			time from their image timestamps.
+		</p>
+		<GallerySortNav current="newest" />
+		<ArtworkGrid artworks={artworks} showImageFileTimestamp />
+	</section>
+</BaseLayout>
