@@ -1,4 +1,4 @@
-# MOSFA — Museum of Shrimp-Folk Art
+# MoSFA — Museum of Shrimp-Folk Art
 
 This repository contains the website for **mosfa.net**, built with Astro and deployed
 to GitHub Pages.
