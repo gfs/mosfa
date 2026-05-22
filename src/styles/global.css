@@ -20,7 +20,7 @@
 	--bg: #111513;
 	--surface: #1b211e;
 	--surface-raised: #222923;
-	--brand-bg: #f7f1e7;
+	--brand-bg: #111513;
 	--image-bg: #2c3028;
 	--ink: #f6efe6;
 	--ink-soft: #cabfb3;
@@ -113,11 +113,23 @@ a:focus-visible {
 	overflow: hidden;
 }
 
-.brand-lockup img {
+.brand-logo {
 	display: block;
 	width: 100%;
 	height: auto;
 	border-radius: 0.35rem;
+}
+
+.brand-logo-dark {
+	display: none;
+}
+
+:root[data-theme="dark"] .brand-logo-light {
+	display: none;
+}
+
+:root[data-theme="dark"] .brand-logo-dark {
+	display: block;
 }
 
 .theme-toggle {
