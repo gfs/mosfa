@@ -2,16 +2,30 @@
 
 ## Mandatory Task Isolation
 
-At the start of every newly dispatched Codex task in this repository, run:
+Task isolation is mandatory, but branch creation is normally handled by the
+repo-local setup hook in `.codex/environments/environment.toml`. The hook runs
+`scripts/codex-setup.sh`, which calls `scripts/codex-task-start.sh --setup` and
+creates a task branch automatically when the environment begins on a shared
+branch or detached `HEAD`.
+
+At the start of every newly dispatched Codex task in this repository, first
+confirm that the current checkout is already isolated:
+
+```sh
+git status --short --branch
+```
+
+If the checkout is already on a non-shared task branch, usually `codex/...`,
+continue on that branch. Do not run `--new-task` again, because doing so creates
+an unnecessary second task branch.
+
+If the checkout is on `main`, `master`, `trunk`, `develop`, `dev`, or detached
+`HEAD`, create the task branch before reading broadly, editing files, generating
+assets, running formatters, or starting a dev server:
 
 ```sh
 ./scripts/codex-task-start.sh --new-task
 ```
-
-Do this before reading broadly, editing files, generating assets, running formatters,
-or starting a dev server. This is especially important for remote and mobile
-dispatch, where the task may start on `main`, a detached `HEAD`, or a reused
-checkout without an already-created branch.
 
 The task branch is the workspace boundary. Do not perform deliverable work on
 `main`, `master`, `trunk`, `develop`, `dev`, or detached `HEAD`.
@@ -30,7 +44,3 @@ file edits.
 For follow-up messages that are clearly continuing the same task, stay on the
 existing task branch. If there is any ambiguity, create a fresh task branch from a
 clean state or ask the user which branch/worktree should own the work.
-
-Use the repo-local setup hook in `.codex/environments/environment.toml`; it also
-creates a task branch automatically when the environment begins on a shared branch
-or detached `HEAD`.
