@@ -71,6 +71,13 @@ For physical cultural objects and archaeological accessions:
 - Guard against human-object defaults by naming the construction logic that makes the object non-human: antenna clearance, claw-friendly grips, shell hinges, current-resistant textiles, exoskeleton care, or water-current acoustics.
 - Avoid fantasy treasure, magical glow, souvenir styling, and generic human ceremonial forms.
 
+For meta-modernist or process-embedded works:
+
+- Treat visible prompt fragments, revision marks, accession language, or studio instructions as in-world formal material rather than external AI disclosure.
+- Make commentary answer visible evidence in the image. If a label says "antenna drift," "borrowed hand," "blocked clearance," or "grid breach," the depicted work should visibly contain that exact problem.
+- For audit labels over dark or detailed image areas, separate the mark language from the readable language: use red arrows, crop lines, or borders for curator presence, and pale callout boxes with dark type for the words.
+- For dossier-style process plates, use a two-panel layout with a large artwork on one side and a formal museum text panel on the other. Keep the full prompt short enough to fit, typeset it as a numbered curatorial document, and make the artwork visibly execute or resist that prompt.
+
 ## Prompt Output Template
 
 ```markdown
