@@ -249,6 +249,37 @@
   featured: false
   published: true
 
+- title: The Metamoltosis
+  slug: the-metamoltosis
+  artistReference: Franz Kafka
+  sourceWork: The Metamorphosis
+  yearOrPeriod: 1915 literary modernism translated through Surrealist Depths
+  era: Surrealist Depths
+  categories:
+    - Surrealist Depths
+    - Literary Modernism
+  image: artworks/the-metamoltosis.png
+  imageAlt: A Kafkaesque shrimp-folk bedroom scene where a shell-less human-like figure sits ashamed in bed as crustacean relatives recoil in the doorway.
+  summary: A reverse metamorphosis image in which humanity becomes the grotesque condition, turning Kafka's bodily shame into a crisis of shell, antenna, and social legibility.
+  description: A Surrealist Depths literary accession that preserves Kafka's cramped bedroom dread while making the human body an impossible failed molt within shrimp-folk civilization.
+  featured: false
+  published: true
+  generation:
+    successfulPrompt: |
+      Use case: illustration-story
+      Asset type: preview artwork for the Museum of Shrimp-Folk Art
+      Primary request: Create a Kafka-inspired shrimp-folk parody of The Metamorphosis in which the horrifying transformation is into a human-like body.
+      Scene/backdrop: A cramped shrimp-folk reef-apartment bedroom at early morning, claustrophobic and domestic, with shell-laminate walls, a tide-clock, narrow doorway, bureaucratic work satchel, and scattered fragments of a failed molt on the floor.
+      Subject: At the center, a once-respectable shrimp-folk clerk has awakened in bed as an uncanny soft human-like anomaly: shell-less, antenna-less, pale, fragile, upright, with delicate useless fingers replacing claws. The figure is ashamed and half-covered by a blanket, posed with Kafkaesque bodily alienation rather than comedy.
+      Supporting figures: In the doorway, two or three fully coherent shrimp-folk family members recoil with restrained horror and social embarrassment. They are upright crustacean people with segmented exoskeletons, two clear antennae each, expressive eyes, clawed or hybrid manipulator hands, and serious domestic clothing.
+      Composition: Preserve the emotional structure of Kafka's bedroom scene: bed as primary focal point, doorway as secondary focal point, tight diagonal room geometry, anxious visual hierarchy, trapped interior space, no exterior view.
+      Style: Painterly literary surrealism with early twentieth-century expressionist tension, muted gray-green and bruised rose palette, soft underwater domestic light, visible brushwork, serious museum-quality composition, emotionally resonant and unsettling.
+      Curatorial constraint: This is a shrimp-folk civilization where humanity is the grotesque transformation. The central human-like figure is an intentional surreal anomaly; do not include any other ordinary humans.
+      Avoid: food humor, meme tone, caricature, cartoon exaggeration, pasted shrimp on human bodies, gore, text, labels, book-cover typography, author portrait, watermark.
+    lessons:
+      - Frame the human form as an impossible failed molt, not as an ordinary person in a shrimp setting.
+      - Keep the family shrimp-folk anatomically coherent so the surreal break belongs only to the transformed clerk.
+
 - title: "Shrimp Pool No. 1: My Shell, My Problem"
   slug: shrimp-pool-no-1
   artistReference: Late 20th-century antihero comics
