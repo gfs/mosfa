@@ -56,6 +56,7 @@ instead of layering a new task on top of them.
 
 Fresh task branches are based on `main` by default. Set `CODEX_TASK_BASE_REF` in
 the environment only when a task should intentionally start from another ref.
+These helper scripts are tailored to this repository’s branch layout and workflows.
 
 Do not run simultaneous Codex tasks in the same checkout. Branches separate git
 history, but parallel agents need separate worktrees or sessions to avoid

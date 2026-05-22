@@ -107,12 +107,6 @@ new_task_start_point() {
     return 0
   fi
 
-  origin_head="$(git symbolic-ref --quiet --short refs/remotes/origin/HEAD 2>/dev/null || true)"
-  if [ -n "$origin_head" ] && git rev-parse --verify --quiet "${origin_head}^{commit}" >/dev/null; then
-    printf '%s' "$origin_head"
-    return 0
-  fi
-
   printf '%s' "HEAD"
 }
 
