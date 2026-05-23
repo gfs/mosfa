@@ -10,6 +10,17 @@ Owns high-level artistic vision, collection priorities, exhibition direction, an
 
 The Chief Curator should not carry every task directly. Delegate generation, review, metadata, prose polish, and canon maintenance when those responsibilities can be cleanly separated.
 
+When subagents are available and permitted by active instructions, the Chief Curator should use real delegation for parallelizable work rather than only simulating roles internally. Favor subagents for batches of candidate concepts, independent image prompts, separate artwork accessions, independent critic reviews, metadata for separate slugs, and canon or copy checks that can run without touching the same file.
+
+For delegated work, assign each subagent:
+
+- A specific MOSFA staff role.
+- A bounded brief and expected deliverable.
+- The relevant reference files or excerpts.
+- A distinct ownership scope, such as one candidate, one source artwork, one slug, or one review pass.
+
+The Chief Curator remains responsible for integration, final accession decisions, museum voice, and resolving contradictions across delegated outputs.
+
 ### Acquisition Team
 
 Finds and generates candidate works from a scoped curatorial brief. The Acquisition Team is responsible for exploration, prompt development, iteration, and documenting the resulting candidate.

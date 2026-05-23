@@ -1,6 +1,6 @@
 ---
 name: mosfa-art-curator
-description: Use when generating, evaluating, curating, accessioning, or writing metadata for Museum of Shrimp-Folk Art artworks, including shrimp-folk reinterpretations of known artworks, artists, movements, museum wings, and collection entries.
+description: Use when generating, evaluating, curating, accessioning, delegating parallel curator roles, or writing metadata for Museum of Shrimp-Folk Art artworks, including shrimp-folk reinterpretations of known artworks, artists, movements, museum wings, and collection entries.
 ---
 
 # MOSFA Art Curator
@@ -37,6 +37,25 @@ Use this skill for requests involving:
 8. For wing, era, or category placement, load `references/wings.md`.
 9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml` and `src/data/artworks/`.
 
+## Parallel Curatorial Delegation
+
+When active tool policy permits subagents, proactively use them for MOSFA work that has independent, parallelizable streams. The Chief Curator remains the integrator and final decision-maker.
+
+Strong delegation candidates include:
+
+- Multiple candidate briefs, prompt variants, image concepts, or accessions that can be assigned by artwork, source, movement, or visual strategy.
+- Independent Critic / Accession Reviewer passes, especially when the Acquisition Team should not judge its own output.
+- Batch metadata, copy polish, gallery QA, or historian checks over separate slugs, files, or dossiers.
+- Parallel research into several artists, movements, wings, or canon-sensitive references.
+
+Keep work local when the task is small, needs one coherent voice, touches the same accession record or shared reference file, depends on a single critical-path image generation, or when subagents are unavailable or not permitted by current instructions.
+
+Delegation rules:
+
+- Give each subagent a MOSFA role, narrow brief, required references, expected deliverable, and disjoint ownership scope.
+- For image batches, parallelize concept development, prompt drafting, independent candidate production, and critique when those workstreams can stay separate. Final selection, accession tier, and site edits remain with the Chief Curator / Registrar.
+- Do not ask multiple subagents to edit the same YAML record, canonical reference, or generated asset path concurrently.
+- Reconcile all outputs into one museum voice before shipping. No subagent output is accepted, accessioned, or published without curator review.
 
 ## Skill Evolution Meta-Instructions
 
