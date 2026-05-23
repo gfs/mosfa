@@ -1,24 +1,38 @@
 # MoSFA — Museum of Shrimp-Folk Art
 
-This repository contains the website for **mosfa.net**, built with Astro and deployed
-to GitHub Pages.
+This repository contains the website for the **Museum of Shrimp-Folk Art**
+at **https://mosfa.art**.
+
+MoSFA is also a surrealist worldbuilding and experimental art project. The site
+presents the museum as if it exists inside a coherent shrimp-folk civilization,
+with its own civic geography, collection history, curatorial standards, and
+institutional voice. This README can break that frame, but the project itself
+takes the premise seriously: the humor works best when the museum feels real.
+
+The public site is driven mostly by YAML metadata, with artwork images stored in
+the repository and processed by Astro during the build.
 
 ## Stack
 
-- Astro static site
-- Metadata-driven content model for artworks in YAML
+- Astro static site, built as static HTML
+- Metadata-driven artwork and exhibition content in YAML
+- Astro image handling for local collection assets
 - Auto-generated sitemap via `@astrojs/sitemap`
 - GitHub Actions deployment to GitHub Pages
 
 ## Routes
 
 - `/` homepage with featured works
+- `/about/` museum setting and identity
 - `/gallery/` full gallery
+- `/gallery/newest/` gallery sorted by newest artwork image timestamp
 - `/artworks/[slug]/` per-piece detail pages
 - `/eras/` and `/eras/[era]/` era listings
 - `/categories/` and `/categories/[category]/` category listings
+- `/exhibitions/` and `/exhibitions/[slug]/` exhibition view pages
 
-All routes are generated from artwork metadata.
+Artwork detail, gallery, era, and category pages are generated from artwork
+metadata. Exhibition pages are generated from `src/data/exhibition-views.yaml`.
 
 ## Local development
 
@@ -89,6 +103,36 @@ already using the default Astro port:
 npm run dev -- --port 4322
 ```
 
+## Agents and skills
+
+MoSFA keeps project-specific Codex guidance in two places:
+
+- `AGENTS.md` defines repository workflow rules, including mandatory task branch
+  isolation, PR labeling, image generation expectations, and the rule that new
+  artwork accessions should be added as separate files in `src/data/artworks/`.
+- `.agents/skills/mosfa-art-curator/` is the local curator skill package. It
+  carries the museum canon, worldbuilding references, artwork rubric, wing and
+  category guidance, generation prompt structure, metadata style, and staff-role
+  workflow.
+
+Use the curator skill for artwork concepts, image generation briefs, accession
+review, artwork metadata, exhibition copy, institutional copy, and canon-sensitive
+worldbuilding. The skill treats MoSFA as a serious museum inside New Atlantis,
+while still allowing repository docs and implementation work to describe how the
+fiction is constructed.
+
+The intended accession workflow is:
+
+1. Chief Curator sets the brief and collection intent.
+2. Acquisition Team develops candidate artwork and production notes.
+3. Critic / Accession Reviewer evaluates the result against the rubric.
+4. Registrar writes compatible YAML metadata after acceptance.
+5. Copy Editor polishes public-facing prose.
+6. Historian reviews any new civic, institutional, or canon facts.
+
+Small tasks can compress those roles, but keep the responsibilities distinct
+when quality judgment, metadata compatibility, or world continuity matter.
+
 ## Add a new artwork
 
 1. Add the image file in `src/assets/images/artworks/`.
@@ -116,17 +160,20 @@ The homepage, gallery, era pages, category pages, and detail page are created au
 new accessions into that shared file unless a task explicitly asks for a data
 migration; separate drop-in files keep parallel artwork branches easy to merge.
 
-## GitHub Pages deployment
+## Deployment
 
 The workflow lives at `.github/workflows/deploy.yml` and runs on pushes to `main`.
+It installs dependencies with `npm ci`, builds with `npm run build`, and deploys
+the generated `dist` directory through GitHub Pages.
 
 Default repository variables:
 
 - `SITE_URL` defaults to `https://mosfa.art`
 - `BASE_PATH` defaults to `/`
 
-If you move back to a repo subpath deployment:
+If you move to another custom domain or back to a repo subpath deployment:
 
-1. Set `SITE_URL` to your domain (for example `https://mosfa.net`).
+1. Set `SITE_URL` to the canonical domain (for example `https://mosfa.art`).
 2. Set `BASE_PATH` to the repo path (for example `/mosfa`).
-3. Add `public/CNAME` with your domain value (for example `mosfa.net`).
+3. Add or update `public/CNAME` when GitHub Pages should publish a custom
+   domain from the built site.
