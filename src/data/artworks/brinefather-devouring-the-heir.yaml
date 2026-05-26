@@ -1,0 +1,32 @@
+title: Brinefather Devouring the Heir
+slug: brinefather-devouring-the-heir
+artistReference: Francisco Goya
+sourceWork: Saturn Devouring his Son
+yearOrPeriod: c. 1819-1823 Spanish Romantic Black Painting translation
+era: Romantic Abyss
+categories:
+  - Sacred & Mythic Currents
+  - Chiaroscuro Ceremonies
+image: artworks/brinefather-devouring-the-heir.png
+imageAlt: A dark Goya-like Black Painting of a crouched aged shrimp-folk titan with staring eyes gripping a broken smaller shell figure against a black void.
+summary: Goya's nightmare of succession becomes an ancient reef myth of power clutching its own future.
+description: The image preserves the Black Painting's void, crouched body, frantic stare, and crushing vertical grip while translating the victim into a broken heir-shell and the tyrant into coherent shrimp-folk anatomy. Its violence remains symbolic rather than graphic, turning carapace fracture and antenna tension into the scene's ritual dread.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Use case: stylized-concept.
+    Asset type: fresh MoSFA artwork candidate, full vertical painting.
+    Primary request: Generate a new shrimp-folk reinterpretation of Francisco Goya's Saturn Devouring his Son, titled Brinefather Devouring the Heir. Start from scratch; do not preserve any prior generated face.
+    Composition: a crouched aged shrimp-folk titan in a black void, frontal three-quarter pose, gripping a broken smaller heir-shell figure vertically, preserving the major silhouette, darkness, dread, and visual hierarchy of Goya's Black Painting. Symbolic violence only, carapace fracture instead of gore.
+    Critical anatomy constraint: the Brinefather has exactly TWO long upper antennae. Both upper antennae emerge from clearly visible matching round shell sockets on the upper front carapace, placed symmetrically above the eyes, left and right of the central face, on the same horizontal level. The two socket bases are identical in size and height, equidistant from the central rostrum. The central nose/rostrum is clean and uninterrupted, with no antenna attached to it. The eyes and eyelids are clean, with no antenna growing from an eyelid, lash line, eye rim, or eye socket. The mouth area may have small lower feelers, but those must be visually separate from the two upper antennae.
+    Style: Spanish Romantic Black Painting, thick dark oil paint, ocher and umber shell highlights, severe chiaroscuro, rough fresco-like texture, anguished stare, museum-grade serious tone.
+    Avoid: no humans, no food joke, no meme humor, no shrimp pasted onto a human body, no eyelash antenna, no nose antenna, no antenna rooted on the bridge or tip of the rostrum, no extra long upper antennae, no tangled whisker cluster, no labels, no watermark.
+  selectionNotes:
+    - Candidate A from the scratch restart was selected for the accession.
+    - The accepted face uses two matched upper antenna sockets on the brow carapace, cleanly separated from the eyes and central rostrum.
+  lessons:
+    - Preserving the original's black void and vertical clutching structure keeps the Goya source legible even after the figure becomes fully crustacean.
+    - Treating the victim as a fractured heir-shell lets the image retain mythic violence without graphic gore or food framing.
+    - For this accession, scratch generation outperformed face edits because the original candidate encoded an eyelid-versus-nose antenna error.
+    - The accepted antenna convention uses exactly two long upper antennae from matched brow-carapace sockets, with clean eyelids and a clean central rostrum.
