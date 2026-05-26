@@ -485,3 +485,49 @@ h2 {
 		align-items: start;
 	}
 }
+
+
+.shop-notice {
+	padding: 0.85rem 1rem;
+	border: 1px solid var(--border);
+	background: var(--surface-raised);
+	max-width: 85ch;
+}
+
+.shop-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 1rem;
+}
+
+.shop-item-card {
+	border: 1px solid var(--border);
+	background: var(--surface);
+	padding: 1rem;
+	box-shadow: var(--shadow);
+	border-radius: 0.4rem;
+}
+
+.shop-item-card h3 {
+	margin: 0.2rem 0 0.6rem;
+}
+
+.shop-item-price {
+	font-weight: 600;
+}
+
+.shop-item-note {
+	color: var(--ink-soft);
+	font-size: 0.95rem;
+}
+
+.shop-item-button {
+	margin-top: 0.6rem;
+	width: 100%;
+	padding: 0.55rem 0.7rem;
+	border: 1px solid var(--border);
+	background: var(--surface-raised);
+	color: var(--ink-soft);
+	cursor: not-allowed;
+	font-weight: 600;
+}
