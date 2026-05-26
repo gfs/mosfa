@@ -1,21 +1,33 @@
 ---
+import { Image } from 'astro:assets';
 import type { ShopItem } from '../lib/shop';
+import { getImageAsset } from '../lib/images';
 
 interface Props {
-  item: ShopItem;
+	item: ShopItem;
 }
 
 const { item } = Astro.props;
+const image = getImageAsset(item.image);
 ---
 
 <article class="shop-item-card">
-  <div class="shop-item-head">
-    <p class="artwork-meta">{item.wing} · {item.category}</p>
-    <h3>{item.name}</h3>
-  </div>
-  <p class="shop-item-price">{item.priceLabel}</p>
-  <p><strong>OUT OF STOCK — {item.unavailableLabel}</strong></p>
-  <p>{item.description}</p>
-  <p class="shop-item-note">Inventory note: {item.inventoryNote}</p>
-  <button type="button" class="shop-item-button" disabled aria-disabled="true">Unavailable</button>
+	<div class="shop-item-image">
+		<Image
+			src={image}
+			alt={item.imageAlt}
+			loading="lazy"
+		/>
+	</div>
+	<div class="shop-item-body">
+		<div class="shop-item-head">
+			<p class="artwork-meta">{item.wing} · {item.category}</p>
+			<h3>{item.name}</h3>
+		</div>
+		<p class="shop-item-price">{item.priceLabel}</p>
+		<p><strong>OUT OF STOCK — {item.unavailableLabel}</strong></p>
+		<p>{item.description}</p>
+		<p class="shop-item-note">Inventory note: {item.inventoryNote}</p>
+		<button type="button" class="shop-item-button" disabled aria-disabled="true">Unavailable</button>
+	</div>
 </article>
