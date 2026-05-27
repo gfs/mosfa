@@ -538,11 +538,6 @@ h2 {
 	font-weight: 600;
 }
 
-.shop-item-note {
-	color: var(--ink-soft);
-	font-size: 0.95rem;
-}
-
 .shop-item-button {
 	align-self: stretch;
 	margin-top: auto;

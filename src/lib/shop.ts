@@ -9,8 +9,6 @@ export interface ShopItem {
 	wing: string;
 	priceLabel: string;
 	stockStatus: 'out_of_stock';
-	unavailableLabel: string;
-	inventoryNote: string;
 	description: string;
 	image: string;
 	imageAlt: string;
@@ -27,5 +25,5 @@ function readShopItems(): ShopItem[] {
 }
 
 export function getShopItems() {
-  return readShopItems();
+	return readShopItems();
 }

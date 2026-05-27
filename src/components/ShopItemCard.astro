@@ -25,9 +25,7 @@ const image = getImageAsset(item.image);
 			<h3>{item.name}</h3>
 		</div>
 		<p class="shop-item-price">{item.priceLabel}</p>
-		<p><strong>OUT OF STOCK — {item.unavailableLabel}</strong></p>
 		<p>{item.description}</p>
-		<p class="shop-item-note">Inventory note: {item.inventoryNote}</p>
-		<button type="button" class="shop-item-button" disabled aria-disabled="true">Unavailable</button>
+		<button type="button" class="shop-item-button" disabled aria-disabled="true">Out of stock</button>
 	</div>
 </article>
