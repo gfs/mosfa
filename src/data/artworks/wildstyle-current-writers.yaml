@@ -1,0 +1,22 @@
+title: Wildstyle Current Writers
+slug: wildstyle-current-writers
+artistReference: 1980s pop-graffiti and wildstyle wall culture
+sourceWork: Legal-wall aerosol letterform studies
+yearOrPeriod: 1980s pop-graffiti translation
+era: Reef Street Art Corridor
+categories:
+  - Public Murals
+  - Graffiti Letterforms
+  - Pop Art Icons
+image: /images/artworks/wildstyle-current-writers.png
+imageAlt: A damp canal-wall mural with red and yellow shrimp-folk painters, spray cans, canal reflections, and a bright turquoise, magenta, yellow, and blue shell-script wildstyle piece.
+summary: Aerosol color, canal reflection, and flanking painter bodies turn public wall writing into reef-city civic craft.
+description: The mural treats wildstyle lettering as a collaborative current rather than a signature alone. Spray shell, paint vessel, wet concrete, and reflected color anchor its Pop energy in the labor of reef-city wall painting.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Create a shrimp-folk street-pop aerosol mural that expands a Keith Haring-adjacent collection into broader 1980s pop-graffiti and wildstyle wall culture. Set it on a legal canal wall in New Atlantis with damp concrete, pressure-glass seams, spray cans, paint vessels, and water reflections below. Show two shrimp-folk street painters flanking a large abstract shell-script wildstyle current-letter mural: one at left raises a claw-held spray shell, and one at right crouches with a paint vessel while facing the central mural. Mandatory anatomy: each figure must have two visible weight-bearing legs, a separate posterior tail fan that is not a leg, two clean primary antennae, a segmented shell torso, and two clawed manipulator hands. Use bright 1980s street-pop aerosol language, thick black outlines, spray-paint gradients, bubble forms, motion ticks, electric turquoise, magenta, lemon yellow, red-orange, cobalt, black, and white highlights. No readable English words, humans, human hands, extra arms, missing legs, tangled antennae, tail fans replacing legs, food joke, mascot design, brand logos, or watermark.
+  lessons:
+    - The approved image keeps the highest wall energy by letting one writer crouch at the paint vessel, but this pose needs a careful anatomy review before accession.
+    - The strongest wildstyle prompt keeps the letter mass central and lets tools, cans, wet concrete, and canal reflection make the street setting tangible.

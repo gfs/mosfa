@@ -71,6 +71,12 @@ For physical cultural objects and archaeological accessions:
 - Guard against human-object defaults by naming the construction logic that makes the object non-human: antenna clearance, claw-friendly grips, shell hinges, current-resistant textiles, exoskeleton care, or water-current acoustics.
 - Avoid fantasy treasure, magical glow, souvenir styling, and generic human ceremonial forms.
 
+For simplified graphic, mural, comic, or street-pop figures:
+
+- State the anatomy even when the style is flat or iconic: two visible weight-bearing legs, a separate posterior tail fan, two primary antennae, segmented shell torso, and clawed manipulator arms.
+- Keep lower limbs separated from lettering, motion marks, props, or decorative swirls so the tail fan does not read as a missing leg or third leg.
+- If full-body anatomy is not essential to the source structure, crop deliberately as a bust or head instead of letting the lower body become ambiguous.
+
 For meta-modernist or process-embedded works:
 
 - Treat visible prompt fragments, revision marks, accession language, or studio instructions as in-world formal material rather than external AI disclosure.
