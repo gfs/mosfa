@@ -1,0 +1,39 @@
+title: Beyond the Ninth Current
+slug: beyond-the-ninth-current
+artistReference: Late-1970s space-opera adventure posters
+sourceWork: Painted ensemble adventure one-sheet posters
+yearOrPeriod: Late-1970s to early-1980s blockbuster translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Movie Posters
+  - Space Opera
+  - New Atlantis Cinema
+image: artworks/beyond-the-ninth-current.png
+imageAlt: A painted shrimp-folk space-opera poster with a heroic adventuring ensemble, masked rival, pearl astrolabe, coral orbital gate, star skiffs, moons, and glyph title lettering.
+summary: Pearl navigation, star skiffs, and ensemble spectacle recast blockbuster adventure as a shrimp-folk myth of the outer currents.
+description: The poster adopts the theatrical pyramid of late-century adventure one-sheets while routing heroic iconography through shell armor, antenna-safe tools, clawed gestures, and reef-born cosmic machinery. Its lower glyph field preserves the rhythm of cinema billing without inviting false-readable copy.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Use case: ads-marketing
+    Asset type: high-quality museum accession image, vertical cinematic one-sheet movie poster
+    Primary request: Create an original shrimp-folk movie poster for an in-universe space-opera adventure titled in metadata "Beyond the Ninth Current". The poster itself should use only elegant invented shrimp-folk glyph typography, not English letters.
+    Scene/backdrop: A cosmic reef frontier where New Atlantis launches pressure-glass star skiffs from a coral orbital gate; two moons, nebula currents, pearl-like planets, and luminous tide lanes arc across the sky.
+    Subject: A heroic ensemble of shrimp-folk adventurers arranged in a classic pyramid: central young pilot holding a glowing pearl astrolabe, elder navigator with shell charts, armored claw-duelist, mechanic with antenna-safe tools, and a shadowed masked rival above them. All figures are fully coherent shrimp-folk: segmented exoskeletons, two primary antennae each, expressive eyes, clawed or hybrid manipulator hands, two clear legs where visible, tail fans integrated into costumes and silhouettes. No humans.
+    Composition: Late-1970s / early-1980s painted adventure one-sheet, vertical 2:3 poster layout, pyramid of faces and figures rising from lower action scene, star skiffs sweeping diagonally through nebula currents, bright glyph title band across lower third, tiny glyph billing strip at bottom, no readable human alphabet. Strong cinematic hierarchy and theatrical polish.
+    Style: Premium airbrushed theatrical poster painting, warm coral, teal, pearl white, midnight violet, heroic rim lighting, detailed shell armor, print grain, sharp focal structure, gallery-quality finish.
+    Mood: Awe, adventure, mythic optimism, serious in-universe blockbuster artifact.
+    Avoid: humans, real actors, recognizable real movie logos or direct replicas, readable English or Latin letters, food framing, meme tone, shrimp pasted onto human bodies, extra limbs, tangled antennae, watermark, modern digital UI overlays.
+  correctionPrompt: |
+    Edit the supplied vertical shrimp-folk space-opera movie poster image as a targeted anatomy correction pass. Preserve the existing poster composition, cinematic style, colors, glyph title block, billing glyphs, star skiffs, orbital gate, moons, nebula currents, costume design, and overall crop as closely as possible.
+
+    Only make these corrections:
+    1. The large masked character in black at the top must have exactly two balanced primary antennae, emerging symmetrically from the front/top crown of the helmet/head. Remove the antenna that appears to come from the back of the head. No extra antennae, no tangled antennae, no one-sided antennae.
+    2. The right-side main shrimp-folk character among the three central heroes, the orange armored figure holding the blade, must have exactly two balanced primary antennae emerging naturally from the head, with a clear left/right pair. Correct the asymmetry without changing the pose, blade, armor, or expression.
+
+    Keep the other figures anatomically coherent as bipedal shrimp-folk with segmented exoskeletons, expressive eyes, clawed or hybrid manipulator hands, clear legs where visible, and integrated tail fans. Do not add humans. Do not change the in-universe glyph writing into English or readable Latin text. Do not introduce food humor, parody tone, extra limbs, or new characters. The result should look like the same premium painted superhero / space-opera theatrical poster, just with corrected antenna anatomy.
+  lessons:
+    - Ensemble cinema posters need a simple pyramid and one luminous object so the shrimp-folk details do not dissolve into clutter.
+    - Space-opera translation works best when reef technology, shell armor, and tide-navigation props replace off-world genre defaults.
+    - For ensemble posters, inspect each named figure for a clean two-antenna pair; heroic silhouettes can hide rear-origin or one-sided antenna drift.

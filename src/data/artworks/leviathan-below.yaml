@@ -1,0 +1,34 @@
+title: Leviathan Below
+slug: leviathan-below
+artistReference: 1970s suspense-thriller poster tradition
+sourceWork: Abyssal creature-feature one-sheet posters
+yearOrPeriod: 1970s suspense cinema translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Movie Posters
+  - Abyssal Thrillers
+  - New Atlantis Cinema
+image: artworks/leviathan-below.png
+imageAlt: A dark shrimp-folk suspense poster showing a tiny moonlit skiff and signal diver above the enormous shadow of an abyssal leviathan, with large glyph title forms.
+summary: A single lantern above the trench turns scale, silence, and dread into an iconic reef-world thriller poster.
+description: >
+  The poster uses creature-feature geometry without reducing the scene to
+  spectacle: the skiff remains fragile, the abyss remains vast, and the diver's
+  shell body is readable against the moonlit surface. The glyph title block
+  anchors it as an artifact from shrimp-folk cinema culture.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Use case: ads-marketing
+    Asset type: high-quality museum accession image, vertical cinematic one-sheet movie poster
+    Primary request: Create an original shrimp-folk movie poster for an in-universe reef thriller titled in metadata "Leviathan Below". The poster itself should use only elegant invented shrimp-folk glyph typography, not English letters.
+    Scene/backdrop: Vast dark blue open water above an abyssal trench, a small luminous reef skiff and a lone shrimp-folk signal diver at the surface, faint city lights far away, moonlit plankton haze.
+    Subject: Beneath the small skiff, the enormous shadow of an ancient non-sentient abyssal leviathan rises from below, suggested by silhouette, ridged fins, and one cold eye; it is a sea creature, not a shrimp-folk person. The shrimp-folk diver is upright and coherent where visible, with two primary antennae, segmented shell, clawed hands gripping a signal lantern, two legs tucked against the skiff, tail fan behind.
+    Composition: 1970s suspense-thriller one-sheet, vertical 2:3 poster layout, huge negative space, strong triangular threat geometry from tiny bright skiff at top to massive dark form below, invented shrimp-folk glyph title block in stark white and coral red at bottom, tiny glyph billing strip, no readable human alphabet. Make the poster iconic and restrained.
+    Style: Premium painted theatrical poster, dramatic airbrush and gouache finish, crisp silhouettes, cinematic grain, deep navy water, coral-red accent line, moon-white highlights, gallery-quality print texture.
+    Mood: Sublime, ominous, quiet terror, serious mass-culture artifact.
+    Avoid: humans, real movie titles or direct famous-poster replication, readable English or Latin letters, food framing, joke tone, shrimp pasted onto human bodies, extra limbs, tangled antennae, gore, blood, watermark, logo.
+  lessons:
+    - Negative space and one clear threat geometry make genre posters feel iconic without needing a direct famous-poster copy.
+    - Keep dangerous creatures clearly non-sentient when they share the frame with shrimp-folk people.
