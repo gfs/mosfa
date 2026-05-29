@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ShopItemCard from '../../components/ShopItemCard.astro';
+import { getShopItems } from '../../lib/shop';
+
+const items = getShopItems();
+---
+
+<BaseLayout
+  title="Museum Shop | MoSFA"
+  description="Fine reproductions, civic adornments, and educational materials from the Museum of Shrimp-Folk Art shop."
+>
+  <section>
+    <h2>The MoSFA Gift Shop</h2>
+    <p class="lede">Fine reproductions, civic adornments, educational materials, and visitor tools from shrimp-folk public culture.</p>
+    <p class="shop-notice"><strong>Notice:</strong> The shop is currently sold out. MoSFA appreciates your patience while the shelves regain their composure.</p>
+  </section>
+
+  <section>
+    <h3>Catalog</h3>
+    <div class="shop-grid">
+      {items.map((item) => <ShopItemCard item={item} />)}
+    </div>
+  </section>
+</BaseLayout>
