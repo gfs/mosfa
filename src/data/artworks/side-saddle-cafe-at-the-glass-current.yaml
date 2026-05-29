@@ -1,0 +1,29 @@
+title: Side-Saddle Cafe at the Glass Current
+slug: side-saddle-cafe-at-the-glass-current
+artistReference: Synthetic Cubism and Cubist cafe interiors
+sourceWork: Cubist urban interior and cafe-table studies
+yearOrPeriod: c. 1910s-1920s Cubist translation
+era: Modernist Tank
+categories:
+  - Abstract Currents
+  - Cubist Interiors
+image: artworks/side-saddle-cafe-at-the-glass-current.png
+imageAlt: A Synthetic Cubist cafe interior with shrimp-folk patrons seated side-saddle on open stools beside a round table, pressure-glass windows, reef-city silhouettes, and fish outside.
+summary: Open stools, side-saddle patrons, and pressure-glass reflections hold cafe conversation inside a readable Cubist interior.
+description: Seated around a small round table, the patrons keep legs, tails, cups, and stools in clear relation while the window panes break reef-city light into Cubist facets. Passing fish and a standing server extend the scene beyond the table, making the cafe feel civic rather than anecdotal.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Use case: stylized-concept
+    Asset type: unaccessioned candidate artwork for the Museum of Shrimp-Folk Art
+    Primary request: Create an original Cubist cafe candidate titled Side-Saddle Cafe at the Glass Current, solving the tail-chair intersection by using side-saddle seating and open stools.
+    Scene/backdrop: A New Atlantis cafe in compressed Cubist space, with large pressure-glass windows, visible fish outside, angular blue reef-city reflections, shell-tile floor, a small round table, cups, and tide papers.
+    Subject: Two seated shrimp-folk patrons and one standing server. ANATOMY LOCK: each shrimp-folk figure has exactly two primary antennae, expressive compound eyes, segmented exoskeleton torso, two separate legs, and a posterior tail fan. For seated patrons, both legs angle forward or to one side from the seat; the tail fan rests completely outside the stool on the opposite side in open air.
+    Furniture logic: Use low open stools with no solid backs and minimal legs. Seat the patrons in a side-saddle posture so the chair does not occupy the tail space. The entire tail fan must be visible outside the stool silhouette with a visible strip of background between tail and stool. No tail can pass through a chair back, seat, table leg, or body.
+    Composition: Intimate two-person cafe table near the pressure window; fish outside are a graceful secondary field; the standing server provides vertical balance. Keep lower anatomy legible despite cubist faceting.
+    Style: Synthetic Cubist cafe interior, crisp contour lines, muted teal glass, cream, charcoal, ochre, shell orange, small coral accents, oil-and-painted-paper texture, serious museum-quality painting.
+    Avoid: humans, food jokes, cartoon tone, tail phasing through furniture, tail replacing a leg, one-legged figures, hidden lower limbs, pasted shrimp parts, oxygen tanks, scuba gear, hoses, strange instruments, readable text, watermark, frame.
+  lessons:
+    - Side-saddle seating and low open stools give seated shrimp-folk figures readable leg and tail separation.
+    - Fish outside pressure-glass windows add civic atmosphere without competing with the cafe-table structure.
