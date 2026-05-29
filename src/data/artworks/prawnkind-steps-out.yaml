@@ -1,0 +1,23 @@
+title: Prawnkind Steps Out
+slug: prawnkind-steps-out
+artistReference: New Atlantis Times press archive
+sourceWork: Moon landing front-page newspaper tradition
+yearOrPeriod: 1960s lunar exploration newspaper translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - New Atlantis Press
+  - Civic Headlines
+  - Space-Tide Dispatches
+image: artworks/prawnkind-steps-out.png
+imageAlt: A dated New Atlantis Times front page for Monday, July 21, 1969, photographed on aged newsprint with the headline Prawnkind Steps Out above a halftone image of suited shrimp-folk explorers on a lunar tide flat.
+summary: A lunar-tide headline places exploration, pressure-shell engineering, and newspaper awe into one mass-media image.
+description: "Readability carries the accession: the masthead and headline make the event public at first glance, while the shell-script columns imply the wider technical and civic record surrounding the first claw marks."
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Imagegen produced a photographed physical newspaper artifact on aged newsprint with a dated folio line, the standing motto "All the News That's Fit to Brine," pearlmark price, an ornate engraved masthead, a bold period serif display headline, shell-script body columns, and a halftone press image of shrimp-folk pressure-shell explorers on a lunar tide flat.
+  lessons:
+    - Include an event date in the folio line so the object reads as a real newspaper.
+    - A fixed masthead motto reads more convincingly than event-specific curatorial subtitles.
+    - The New Atlantis Times masthead should feel custom, engraved, and civic; headlines and subheads should use period newspaper serif or slab-serif type rather than modern computer fonts.

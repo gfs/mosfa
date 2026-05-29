@@ -71,6 +71,14 @@ For physical cultural objects and archaeological accessions:
 - Guard against human-object defaults by naming the construction logic that makes the object non-human: antenna clearance, claw-friendly grips, shell hinges, current-resistant textiles, exoskeleton care, or water-current acoustics.
 - Avoid fantasy treasure, magical glow, souvenir styling, and generic human ceremonial forms.
 
+For New Atlantis Times or other civic newspaper accessions:
+
+- Prompt the page as a photographed physical newsprint artifact, not a flat layout mockup.
+- Specify an ornate engraved civic masthead for The New Atlantis Times, with custom high-contrast serif lettering, swashes, hairlines, ink spread, and imperfect letterpress texture.
+- Use period newspaper serif or slab-serif display type for headlines and classic newspaper serif type for subheads; avoid modern UI fonts, geometric sans-serif defaults, clean vector edges, and computer-perfect alignment.
+- Keep stable newspaper conventions visible: dated folio line, low-tide edition, pearlmark price line, standing motto, halftone press photograph, shell-script body columns, narrow column rules, and aged paper.
+- If a newspaper appears inside a press photograph, style that nested paper as its own miniature newspaper with masthead, folio, motto, headline hierarchy, columns, and physical folds rather than as a plain sign.
+
 For meta-modernist or process-embedded works:
 
 - Treat visible prompt fragments, revision marks, accession language, or studio instructions as in-world formal material rather than external AI disclosure.

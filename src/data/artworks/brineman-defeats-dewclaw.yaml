@@ -1,0 +1,25 @@
+title: Brineman Defeats Dewclaw
+slug: brineman-defeats-dewclaw
+artistReference: New Atlantis Times press archive
+sourceWork: Premature election-extra headline and press-photo tradition
+yearOrPeriod: 1948 mid-century civic newspaper translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - New Atlantis Press
+  - Civic Headlines
+  - Election Extras
+image: artworks/brineman-defeats-dewclaw.png
+imageAlt: A dated New Atlantis Times front page for Wednesday, November 3, 1948, photographed on aged newsprint with the corrected headline Brineman Defeats Dewclaw above a halftone image of a shrimp-folk candidate holding a miniature New Atlantis Times extra that reads Dewclaw Defeats Brineman.
+summary: The corrected front page frames a famous miscalled election extra as a layered press image.
+description: The outer headline records Brineman's victory, while the photograph preserves the earlier paper that wrongly named Dewclaw. That double-page structure gives the accession its civic comedy and keeps the homage tied to the mechanics of newspaper correction.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Imagegen produced a photographed physical newspaper artifact on aged newsprint with a dated folio line, the standing motto "All the News That's Fit to Brine," pearlmark price, an ornate engraved masthead, and the corrected outer headline "BRINEMAN DEFEATS DEWCLAW" in period serif display type. The halftone press photo inside the page shows Brineman holding a styled miniature New Atlantis Times extra, complete with its own masthead, folio, motto, shell-script columns, and the incorrect headline "DEWCLAW DEFEATS BRINEMAN."
+  lessons:
+    - In a Dewey Defeats Truman-style homage, the outer page should carry the corrected result when it frames the famous photograph.
+    - The incorrect headline must remain visible on the newspaper held inside the press photo.
+    - Include an event date in the folio line so the object reads as a real newspaper.
+    - The New Atlantis Times masthead should feel custom, engraved, and civic; headlines and subheads should use period newspaper serif or slab-serif type rather than modern computer fonts.
+    - When a newspaper appears inside a newspaper photograph, give the nested object the same press conventions instead of rendering it as a plain headline sign.
