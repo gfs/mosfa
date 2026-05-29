@@ -18,6 +18,10 @@ New Atlantis is a major shrimp-folk metropolis with the civic weight and cultura
 
 The city is not wholly underwater. It is intertidal and amphibious: dry rooms, wet rooms, tide rooms, pressure-glass galleries, canals, submerged service levels, exposed stone promenades, and reef-rooted civic infrastructure coexist as ordinary urban fabric.
 
+## Civic Press
+
+The New Atlantis Times is a major civic daily of New Atlantis. Newspaper accessions may treat its ornate engraved masthead, standing motto ("All the News That's Fit to Brine"), dated folio lines, low-tide editions, election extras, shell-script body copy, pearlmark price lines, period serif or slab-serif headline typography, and historic front pages as ordinary press conventions rather than explaining them to visitors.
+
 ## Central Reef
 
 Central Reef is New Atlantis's preserved civic interior: part public garden, part living reef, part memorial landscape, part ancient sacred ground. It is the city's equivalent of a central public park, but it remains materially and ritually tied to living reef systems.
