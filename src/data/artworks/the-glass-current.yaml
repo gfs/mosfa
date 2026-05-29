@@ -1,0 +1,30 @@
+title: The Glass Current
+slug: the-glass-current
+artistReference: Mid-century film noir poster tradition
+sourceWork: Noir thriller one-sheet posters
+yearOrPeriod: 1940s-1950s film noir translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Movie Posters
+  - Reef Noir
+  - New Atlantis Cinema
+image: artworks/the-glass-current.png
+imageAlt: A noir shrimp-folk movie poster with a trench-coated detective, rainlit New Atlantis canals, diagonal window shadows, a reflected watcher, and glyph title lettering.
+summary: Canal rain, pressure glass, and a private detective silhouette translate noir suspicion into a New Atlantis cinema artifact.
+description: The poster preserves film noir's severe diagonal lighting, divided reflection, and solitary investigator while making the detective's shell, antennae, claws, and tail fan integral to the silhouette. Its glyph title band reads as local cinema typography rather than as false-readable display copy.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Use case: ads-marketing
+    Asset type: high-quality museum accession image, vertical cinematic one-sheet movie poster
+    Primary request: Create an original shrimp-folk movie poster for an in-universe noir thriller titled in metadata "The Glass Current". The poster itself should use only elegant invented shrimp-folk glyph typography, not English letters.
+    Scene/backdrop: Rain-slick New Atlantis canal district at night, pressure-glass windows, reflected neon, wet shell-concrete streets, distant reef transit lights.
+    Subject: A bipedal shrimp-folk detective in a dark reef-noir coat and shell-brim hat stands in three-quarter view, anatomically coherent with segmented exoskeleton, two primary antennae, expressive compound eyes, clawed manipulator hands, two clear weight-bearing legs, and a tail fan visible behind the coat. In a diagonal pressure-glass reflection behind the detective, a second shrimp-folk silhouette watches from a window.
+    Composition: 1940s noir theatrical one-sheet, vertical 2:3 poster layout, strong diagonal shadows from venetian-blind-like reef screens, close foreground detective occupying lower center, luminous title band in invented shrimp-folk glyphs at the bottom, small glyph billing strip underneath, no readable human alphabet. Clear visual hierarchy, cinematic lighting, high contrast.
+    Style: Premium painted movie poster art, noir chiaroscuro, deep blacks, sea-green neon, small amber highlights, crisp inked silhouettes, subtle paper grain, gallery-quality finish.
+    Mood: Suspenseful, elegant, adult, serious museum-worthy mass-culture artifact.
+    Avoid: humans, real-world actors, real movie titles, readable English or Latin letters, food framing, joke tone, shrimp pasted onto human bodies, messy antenna clusters, extra limbs, watermark, logo, low-resolution typography.
+  lessons:
+    - Use invented glyph title blocks for cinema posters when readable Latin-letter copy would create distracting generated text artifacts.
+    - Let genre lighting and poster hierarchy carry the pop-culture reference before adding shrimp-folk anatomical detail.
